@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📔 일기장 앱</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #FBF8F3;
+            background-image:
+                repeating-linear-gradient(
+                    90deg,
+                    transparent,
+                    transparent 2px,
+                    rgba(212, 197, 176, 0.03) 2px,
+                    rgba(212, 197, 176, 0.03) 4px
+                ),
+                repeating-linear-gradient(
+                    0deg,
+                    transparent,
+                    transparent 2px,
+                    rgba(212, 197, 176, 0.03) 2px,
+                    rgba(212, 197, 176, 0.03) 4px
+                );
+            font-family: 'Georgia', 'Segoe UI', sans-serif;
+            color: #8B7355;
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background-color: #FBF8F3;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #D4C5B0;
+        }
+
+        .header h1 {
+            font-size: 28px;
+            font-weight: 500;
+            color: #8B7355;
+        }
+
+        .header-controls {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .month-nav {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .month-nav button {
+            background: none;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+            color: #8B7355;
+            padding: 5px 10px;
+            border-radius: 4px;
+            transition: all 0.2s ease;
+        }
+
+        .month-nav button:hover {
+            background-color: #F5F0E8;
+            transform: translateY(-2px);
+        }
+
+        .current-month {
+            font-size: 16px;
+            font-weight: 500;
+            min-width: 140px;
+            text-align: center;
+            color: #8B7355;
+        }
+
+        .today-btn {
+            background-color: #D4C5B0;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            font-family: 'Segoe UI', sans-serif;
+            transition: all 0.2s ease;
+        }
+
+        .today-btn:hover {
+            background-color: #C4B5A0;
+            transform: translateY(-2px);
+        }
+
+        /* Stats Bar */
+        .stats-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #F5F0E8;
+            border-radius: 6px;
+            border: 1px solid #D4C5B0;
+        }
+
+        .stat-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .stat-label {
+            font-size: 12px;
+            color: #A0917F;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .stat-value {
+            font-size: 24px;
+            font-weight: 500;
+            color: #8B7355;
+        }
+
+        .mood-distribution {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+        }
+
+        .mood-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 4px;
+        }
+
+        .mood-emoji {
+            font-size: 20px;
+        }
+
+        .mood-count {
+            font-size: 12px;
+            color: #A0917F;
+        }
+
+        /* Calendar */
+        .calendar-section {
+            margin-bottom: 30px;
+        }
+
+        .calendar {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 8px;
+            margin-bottom: 20px;
+        }
+
+        .calendar-header {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 8px;
+            margin-bottom: 12px;
+        }
+
+        .calendar-day-name {
+            text-align: center;
+            font-size: 13px;
+            font-weight: 600;
+            color: #A0917F;
+            padding: 10px 0;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .calendar-cell {
+            aspect-ratio: 1;
+            background-color: #F5F0E8;
+            border: 1px solid #D4C5B0;
+            border-radius: 4px;
+            padding: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            min-height: 100px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .calendar-cell:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            background-color: #FFF5E6;
+        }
+
+        .calendar-cell.other-month {
+            opacity: 0.4;
+            pointer-events: none;
+        }
+
+        .calendar-cell.has-entry {
+            background-color: #FFF5E6;
+            border-color: #C4B5A0;
+        }
+
+        .calendar-cell.today {
+            background-color: #E8D5C4;
+            border-color: #8B7355;
+            font-weight: bold;
+        }
+
+        .cell-date {
+            font-size: 14px;
+            font-weight: 600;
+            color: #8B7355;
+            margin-bottom: 4px;
+        }
+
+        .cell-mood {
+            font-size: 16px;
+            margin-bottom: 4px;
+        }
+
+        .cell-preview {
+            font-size: 11px;
+            color: #A0917F;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            line-height: 1.3;
+        }
+
+        /* New Entry Button */
+        .new-entry-section {
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .new-entry-btn {
+            background-color: #8B7355;
+            color: white;
+            border: none;
+            padding: 14px 32px;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            font-family: 'Segoe UI', sans-serif;
+            transition: all 0.2s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .new-entry-btn:hover {
+            background-color: #7A6347;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        .new-entry-btn:active {
+            transform: translateY(0);
+        }
+
+        /* Search and Filter Bar */
+        .search-filter-bar {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 30px;
+            padding: 15px;
+            background-color: #F5F0E8;
+            border-radius: 6px;
+            border: 1px solid #D4C5B0;
+            flex-wrap: wrap;
+        }
+
+        .search-input-wrapper {
+            flex: 1;
+            min-width: 200px;
+            display: flex;
+            align-items: center;
+            background-color: white;
+            border: 1px solid #D4C5B0;
+            border-radius: 4px;
+            padding: 0 12px;
+        }
+
+        .search-input-wrapper input {
+            flex: 1;
+            border: none;
+            outline: none;
+            padding: 10px 0;
+            font-family: 'Segoe UI', sans-serif;
+            font-size: 14px;
+            color: #8B7355;
+            background: transparent;
+        }
+
+        .search-input-wrapper input::placeholder {
+            color: #A0917F;
+        }
+
+        .search-icon {
+            font-size: 16px;
+            color: #A0917F;
+            cursor: pointer;
+        }
+
+        .filter-dropdown {
+            padding: 10px 16px;
+            border: 1px solid #D4C5B0;
+            border-radius: 4px;
+            background-color: white;
+            color: #8B7355;
+            cursor: pointer;
+            font-family: 'Segoe UI', sans-serif;
+            font-size: 14px;
+            transition: all 0.2s ease;
+        }
+
+        .filter-dropdown:hover {
+            background-color: #FFF5E6;
+            border-color: #C4B5A0;
+        }
+
+        /* Entries List */
+        .entries-section {
+            margin-bottom: 30px;
+        }
+
+        .entries-list {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .entry-card {
+            background-color: #F5F0E8;
+            border: 1px solid #D4C5B0;
+            border-radius: 6px;
+            padding: 16px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .entry-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+            background-color: #FFF5E6;
+        }
+
+        .entry-date {
+            font-size: 12px;
+            color: #A0917F;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .entry-mood-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 8px;
+        }
+
+        .entry-mood {
+            font-size: 20px;
+        }
+
+        .entry-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: #8B7355;
+        }
+
+        .entry-content {
+            font-size: 14px;
+            color: #A0917F;
+            margin-top: 8px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+        }
+
+        .entry-tags {
+            display: flex;
+            gap: 6px;
+            margin-top: 10px;
+            flex-wrap: wrap;
+        }
+
+        .entry-tag {
+            font-size: 11px;
+            background-color: #D4C5B0;
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+        }
+
+        /* Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4);
+            animation: fadeIn 0.2s ease;
+        }
+
+        .modal.active {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        .modal-content {
+            background-color: #FBF8F3;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            width: 90%;
+            max-height: 90vh;
+            overflow-y: auto;
+            animation: slideUp 0.3s ease;
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #D4C5B0;
+        }
+
+        .modal-header h2 {
+            font-size: 22px;
+            font-weight: 500;
+            color: #8B7355;
+        }
+
+        .modal-close-btn {
+            background: none;
+            border: none;
+            font-size: 24px;
+            cursor: pointer;
+            color: #8B7355;
+            padding: 0;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 4px;
+            transition: all 0.2s ease;
+        }
+
+        .modal-close-btn:hover {
+            background-color: #F5F0E8;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-size: 14px;
+            font-weight: 600;
+            color: #8B7355;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="date"],
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 12px;
+            border: 1px solid #D4C5B0;
+            border-radius: 4px;
+            font-family: 'Segoe UI', sans-serif;
+            font-size: 14px;
+            color: #8B7355;
+            background-color: white;
+            transition: all 0.2s ease;
+        }
+
+        .form-group input[type="text"]:focus,
+        .form-group input[type="date"]:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #8B7355;
+            box-shadow: 0 0 0 3px rgba(139, 115, 85, 0.1);
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 150px;
+            font-family: 'Georgia', 'Segoe UI', sans-serif;
+        }
+
+        .mood-selector {
+            display: flex;
+            gap: 12px;
+            justify-content: center;
+        }
+
+        .mood-option {
+            font-size: 32px;
+            cursor: pointer;
+            padding: 8px;
+            border-radius: 6px;
+            border: 2px solid transparent;
+            transition: all 0.2s ease;
+        }
+
+        .mood-option:hover {
+            transform: scale(1.2);
+            background-color: #F5F0E8;
+        }
+
+        .mood-option.selected {
+            border-color: #8B7355;
+            background-color: #F5F0E8;
+            transform: scale(1.3);
+        }
+
+        .tag-input-wrapper {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            padding: 8px;
+            border: 1px solid #D4C5B0;
+            border-radius: 4px;
+            background-color: white;
+            min-height: 44px;
+            align-items: flex-start;
+        }
+
+        .tag-input-wrapper input {
+            border: none;
+            outline: none;
+            flex: 1;
+            min-width: 100px;
+            padding: 8px 0;
+            font-family: 'Segoe UI', sans-serif;
+            font-size: 14px;
+            color: #8B7355;
+            background: transparent;
+        }
+
+        .tag-input-wrapper input::placeholder {
+            color: #A0917F;
+        }
+
+        .tag-item {
+            background-color: #D4C5B0;
+            color: white;
+            padding: 6px 12px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 13px;
+        }
+
+        .tag-remove {
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 16px;
+        }
+
+        .modal-buttons {
+            display: flex;
+            gap: 12px;
+            justify-content: flex-end;
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid #D4C5B0;
+        }
+
+        .modal-btn {
+            padding: 12px 24px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 600;
+            font-family: 'Segoe UI', sans-serif;
+            transition: all 0.2s ease;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .modal-btn-primary {
+            background-color: #8B7355;
+            color: white;
+        }
+
+        .modal-btn-primary:hover {
+            background-color: #7A6347;
+            transform: translateY(-2px);
+        }
+
+        .modal-btn-secondary {
+            background-color: #F5F0E8;
+            color: #8B7355;
+            border: 1px solid #D4C5B0;
+        }
+
+        .modal-btn-secondary:hover {
+            background-color: #E8D5C4;
+        }
+
+        .modal-btn-danger {
+            background-color: #C74C3C;
+            color: white;
+        }
+
+        .modal-btn-danger:hover {
+            background-color: #B63C2C;
+            transform: translateY(-2px);
+        }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 40px 20px;
+            color: #A0917F;
+        }
+
+        .empty-state-icon {
+            font-size: 48px;
+            margin-bottom: 16px;
+            opacity: 0.6;
+        }
+
+        .empty-state-text {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+
+            .header {
+                flex-direction: column;
+                gap: 20px;
+                align-items: flex-start;
+            }
+
+            .header h1 {
+                font-size: 24px;
+            }
+
+            .header-controls {
+                width: 100%;
+                justify-content: space-between;
+            }
+
+            .stats-bar {
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .search-filter-bar {
+                flex-direction: column;
+            }
+
+            .search-input-wrapper {
+                width: 100%;
+            }
+
+            .modal-content {
+                width: 95%;
+                padding: 30px 20px;
+            }
+
+            .calendar-cell {
+                min-height: 80px;
+            }
+
+            .calendar {
+                gap: 6px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 10px;
+            }
+
+            .container {
+                padding: 15px;
+            }
+
+            .header h1 {
+                font-size: 20px;
+            }
+
+            .current-month {
+                font-size: 14px;
+            }
+
+            .calendar-cell {
+                min-height: 60px;
+                font-size: 12px;
+            }
+
+            .cell-date {
+                font-size: 12px;
+            }
+
+            .cell-mood {
+                font-size: 14px;
+            }
+
+            .mood-distribution {
+                gap: 8px;
+            }
+
+            .mood-emoji {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <div class="header">
+            <h1>📔 일기장 앱</h1>
+            <div class="header-controls">
+                <div class="month-nav">
+                    <button id="prevMonth">◀</button>
+                    <div class="current-month" id="currentMonth">2024년 12월</div>
+                    <button id="nextMonth">▶</button>
+                </div>
+                <button class="today-btn" id="todayBtn">오늘</button>
+            </div>
+        </div>
+
+        <!-- Stats Bar -->
+        <div class="stats-bar">
+            <div class="stat-item">
+                <div class="stat-label">이번 달</div>
+                <div class="stat-value" id="monthEntryCount">0개</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-label">분위기 분포</div>
+                <div class="mood-distribution" id="moodDistribution">
+                    <div class="mood-item">
+                        <div class="mood-emoji">😄</div>
+                        <div class="mood-count" id="moodCount-happy">0</div>
+                    </div>
+                    <div class="mood-item">
+                        <div class="mood-emoji">😐</div>
+                        <div class="mood-count" id="moodCount-neutral">0</div>
+                    </div>
+                    <div class="mood-item">
+                        <div class="mood-emoji">😢</div>
+                        <div class="mood-count" id="moodCount-sad">0</div>
+                    </div>
+                    <div class="mood-item">
+                        <div class="mood-emoji">😴</div>
+                        <div class="mood-count" id="moodCount-tired">0</div>
+                    </div>
+                    <div class="mood-item">
+                        <div class="mood-emoji">😡</div>
+                        <div class="mood-count" id="moodCount-angry">0</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Calendar Section -->
+        <div class="calendar-section">
+            <div class="calendar-header">
+                <div class="calendar-day-name">일</div>
+                <div class="calendar-day-name">월</div>
+                <div class="calendar-day-name">화</div>
+                <div class="calendar-day-name">수</div>
+                <div class="calendar-day-name">목</div>
+                <div class="calendar-day-name">금</div>
+                <div class="calendar-day-name">토</div>
+            </div>
+            <div id="calendar" class="calendar"></div>
+        </div>
+
+        <!-- New Entry Button -->
+        <div class="new-entry-section">
+            <button class="new-entry-btn" id="newEntryBtn">+ 새 일기</button>
+        </div>
+
+        <!-- Search and Filter Bar -->
+        <div class="search-filter-bar">
+            <div class="search-input-wrapper">
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="일기 검색..."
+                    autocomplete="off"
+                >
+                <span class="search-icon">🔍</span>
+            </div>
+            <select class="filter-dropdown" id="moodFilter">
+                <option value="">모든 분위기</option>
+                <option value="😄">행복 😄</option>
+                <option value="😐">중립 😐</option>
+                <option value="😢">슬픔 😢</option>
+                <option value="😴">피로 😴</option>
+                <option value="😡">분노 😡</option>
+            </select>
+        </div>
+
+        <!-- Entries List -->
+        <div class="entries-section">
+            <div id="entriesList" class="entries-list">
+                <div class="empty-state">
+                    <div class="empty-state-icon">📝</div>
+                    <div class="empty-state-text">작성된 일기가 없습니다.</div>
+                    <div class="empty-state-text" style="font-size: 12px;">새 일기를 작성해보세요!</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Diary CRUD -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">새 일기 작성</h2>
+                <button class="modal-close-btn" id="closeModalBtn">&times;</button>
+            </div>
+
+            <form id="diaryForm">
+                <!-- Date -->
+                <div class="form-group">
+                    <label for="diaryDate">날짜</label>
+                    <input type="date" id="diaryDate" required>
+                </div>
+
+                <!-- Mood Selector -->
+                <div class="form-group">
+                    <label>분위기</label>
+                    <div class="mood-selector" id="moodSelector">
+                        <div class="mood-option" data-mood="😄" title="행복">😄</div>
+                        <div class="mood-option" data-mood="😐" title="중립">😐</div>
+                        <div class="mood-option" data-mood="😢" title="슬픔">😢</div>
+                        <div class="mood-option" data-mood="😴" title="피로">😴</div>
+                        <div class="mood-option" data-mood="😡" title="분노">😡</div>
+                    </div>
+                </div>
+
+                <!-- Title -->
+                <div class="form-group">
+                    <label for="diaryTitle">제목</label>
+                    <input type="text" id="diaryTitle" placeholder="일기 제목을 입력하세요" required>
+                </div>
+
+                <!-- Content -->
+                <div class="form-group">
+                    <label for="diaryContent">내용</label>
+                    <textarea id="diaryContent" placeholder="일기를 작성하세요..." required></textarea>
+                </div>
+
+                <!-- Tags -->
+                <div class="form-group">
+                    <label>태그</label>
+                    <div class="tag-input-wrapper" id="tagInputWrapper">
+                        <input
+                            type="text"
+                            id="tagInput"
+                            placeholder="태그 입력 후 Enter"
+                            autocomplete="off"
+                        >
+                    </div>
+                </div>
+
+                <!-- Buttons -->
+                <div class="modal-buttons">
+                    <button type="button" class="modal-btn modal-btn-secondary" id="cancelBtn">취소</button>
+                    <button type="button" class="modal-btn modal-btn-danger" id="deleteBtn" style="display: none;">삭제</button>
+                    <button type="submit" class="modal-btn modal-btn-primary">저장</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // XSS Prevention - HTML escape function
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Placeholder for JavaScript logic to be added in Task 2
+        console.log('Diary app structure loaded. JavaScript logic to be added in Task 2.');
+    </script>
+</body>
+</html>
