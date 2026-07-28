@@ -791,7 +791,7 @@
             <div class="header-controls">
                 <div class="month-nav">
                     <button id="prevMonth">◀</button>
-                    <div class="current-month" id="currentMonth">2024년 12월</div>
+                    <div class="current-month" id="monthDisplay">2024년 12월</div>
                     <button id="nextMonth">▶</button>
                 </div>
                 <button class="today-btn" id="todayBtn">오늘</button>
@@ -1048,7 +1048,7 @@
         // Render the calendar for the current month
         function renderCalendar() {
             const calendarContainer = document.getElementById('calendar');
-            const monthDisplay = document.getElementById('currentMonth');
+            const monthDisplay = document.getElementById('monthDisplay');
 
             // Get calendar data
             const firstDay = getCurrentMonth();
@@ -1091,10 +1091,10 @@
                 }
 
                 calendarHTML += `<div class="${cellClass}" data-date="${dateString}">`;
-                calendarHTML += `<div class="cell-date">${day}</div>`;
+                calendarHTML += `<div class="calendar-cell-date">${day}</div>`;
 
                 if (diary) {
-                    calendarHTML += `<div class="cell-mood">${diary.mood}</div>`;
+                    calendarHTML += `<div class="calendar-cell-mood">${diary.mood}</div>`;
                 }
 
                 calendarHTML += '</div>';
@@ -1285,7 +1285,7 @@
 
             // Test 6: escapeHtml() escapes HTML tags to entities
             try {
-                const htmlString = '<script>alert("xss")</script>';
+                const htmlString = '<' + 'script>alert("xss")' + '<' + '/script>';
                 const escaped = escapeHtml(htmlString);
                 const shouldNotContain = escaped.includes('<script>');
                 console.assert(!shouldNotContain && escaped.includes('&lt;'),
