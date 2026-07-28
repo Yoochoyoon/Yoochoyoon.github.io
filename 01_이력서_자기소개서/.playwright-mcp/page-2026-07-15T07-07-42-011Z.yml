@@ -1,0 +1,54 @@
+- generic [ref=f27e2]:
+  - generic:
+    - list:
+      - listitem:
+        - link "본문바로가기" [ref=f27e3] [cursor=pointer]:
+          - /url: "#container"
+      - listitem:
+        - link "주메뉴 바로가기" [ref=f27e4] [cursor=pointer]:
+          - /url: "#gnb"
+      - listitem:
+        - link "하단바로가기" [ref=f27e5] [cursor=pointer]:
+          - /url: "#footer"
+  - banner [ref=f27e6]:
+    - generic [ref=f27e7]:
+      - heading [level=1] [ref=f27e8]:
+        - link "World Job Plus, International Integrated Information Network" [ref=f27e9] [cursor=pointer]:
+          - /url: /new_index.do
+      - generic [ref=f27e10]:
+        - navigation [ref=f27e11]:
+          - list [ref=f27e12]:
+            - listitem [ref=f27e13]:
+              - link "채용·모집" [ref=f27e14] [cursor=pointer]:
+                - /url: /advnc/cnttListSub.do?menuId=1000006327
+            - listitem [ref=f27e15]:
+              - link "상담·설명회" [ref=f27e16] [cursor=pointer]:
+                - /url: /visitcounsel/visitcounselCalendarList.do?menuId=1000006328
+            - listitem [ref=f27e17]:
+              - link "취업준비·교육" [ref=f27e18] [cursor=pointer]:
+                - /url: /careerplan/capacity/careerCapacityMain.do?menuId=1000006329
+            - listitem [ref=f27e19]:
+              - link "취업자 지원" [ref=f27e20] [cursor=pointer]:
+                - /url: /ovseaWork/myOvseaWorkList.do?menuId=1000006330
+            - listitem [ref=f27e21]:
+              - link "국내 재취업" [ref=f27e22] [cursor=pointer]:
+                - /url: /stepup/list.do?menuId=1000006331
+            - listitem [ref=f27e23]:
+              - link "자료실" [ref=f27e24] [cursor=pointer]:
+                - /url: /compReview/compReviewMain.do?menuId=1000006332
+            - listitem [ref=f27e25]:
+              - link "공지·문의" [ref=f27e26] [cursor=pointer]:
+                - /url: /info/bbs/notice/list.do?menuId=1000006333
+            - listitem [ref=f27e27]:
+              - button "마이페이지" [ref=f27e28] [cursor=pointer]
+        - button [ref=f27e29] [cursor=pointer]:
+          - img "알림" [ref=f27e30]
+        - button "검색" [ref=f27e34] [cursor=pointer]
+  - list [ref=f27e38]:
+    - listitem [ref=f27e39]:
+      - link "홈" [ref=f27e40] [cursor=pointer]:
+        - /url: /index.do
+    - listitem [ref=f27e41]: 채용·모집
+    - listitem [ref=f27e42]:
+      - link "해외채용공고" [ref=f27e43] [cursor=pointer]:
+        - /url: "#none"

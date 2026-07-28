@@ -1,0 +1,243 @@
+- generic [ref=f25e2]:
+  - generic:
+    - list:
+      - listitem:
+        - link "본문바로가기" [ref=f25e3] [cursor=pointer]:
+          - /url: "#container"
+      - listitem:
+        - link "주메뉴 바로가기" [ref=f25e4] [cursor=pointer]:
+          - /url: "#gnb"
+      - listitem:
+        - link "하단바로가기" [ref=f25e5] [cursor=pointer]:
+          - /url: "#footer"
+  - banner [ref=f25e6]:
+    - generic [ref=f25e7]:
+      - heading [level=1] [ref=f25e8]:
+        - link "World Job Plus, International Integrated Information Network" [ref=f25e9] [cursor=pointer]:
+          - /url: /new_index.do
+      - generic [ref=f25e10]:
+        - navigation [ref=f25e11]:
+          - list [ref=f25e12]:
+            - listitem [ref=f25e13]:
+              - link "채용·모집" [ref=f25e14] [cursor=pointer]:
+                - /url: /advnc/cnttListSub.do?menuId=1000006327
+            - listitem [ref=f25e15]:
+              - link "상담·설명회" [ref=f25e16] [cursor=pointer]:
+                - /url: /visitcounsel/visitcounselCalendarList.do?menuId=1000006328
+            - listitem [ref=f25e17]:
+              - link "취업준비·교육" [ref=f25e18] [cursor=pointer]:
+                - /url: /careerplan/capacity/careerCapacityMain.do?menuId=1000006329
+            - listitem [ref=f25e19]:
+              - link "취업자 지원" [ref=f25e20] [cursor=pointer]:
+                - /url: /ovseaWork/myOvseaWorkList.do?menuId=1000006330
+            - listitem [ref=f25e21]:
+              - link "국내 재취업" [ref=f25e22] [cursor=pointer]:
+                - /url: /stepup/list.do?menuId=1000006331
+            - listitem [ref=f25e23]:
+              - link "자료실" [ref=f25e24] [cursor=pointer]:
+                - /url: /compReview/compReviewMain.do?menuId=1000006332
+            - listitem [ref=f25e25]:
+              - link "공지·문의" [ref=f25e26] [cursor=pointer]:
+                - /url: /info/bbs/notice/list.do?menuId=1000006333
+            - listitem [ref=f25e27]:
+              - button "마이페이지" [ref=f25e28] [cursor=pointer]
+        - button "검색" [ref=f25e29] [cursor=pointer]
+  - generic [ref=f25e30]:
+    - list [ref=f25e33]:
+      - listitem [ref=f25e34]:
+        - link "홈" [ref=f25e35] [cursor=pointer]:
+          - /url: /index.do
+      - listitem [ref=f25e36]: 채용·모집
+      - listitem [ref=f25e37]:
+        - link "해외인턴" [ref=f25e38] [cursor=pointer]:
+          - /url: "#none"
+    - generic [ref=f25e45]:
+      - heading "해외인턴" [level=2] [ref=f25e46]
+      - list [ref=f25e47]:
+        - listitem [ref=f25e48]:
+          - text: 인턴사업 참가신청은
+          - strong [ref=f25e49]: ① 온라인 지원서 제출 > ② 소속대학에 관련 서류 제출 > ③ 한국장학재단 소득분위 확인 신청 과정
+          - text: 을 모두 충족하여야 신청완료됩니다.
+        - listitem [ref=f25e50]: "시스템 오류 발생 시 전화 연결 : 1644-8000 (한국산업인력공단)"
+      - definition [ref=f25e54]:
+        - text: 총
+        - generic [ref=f25e55]: "2"
+        - text: 개의 공고가 있습니다.
+      - list [ref=f25e57]:
+        - listitem [ref=f25e58]:
+          - link "미국 국기 단기(6개월)한미 대학생 연수(WEST) 2026년 하반기 한미 대학생 연수(WEST) 참가자 모집 공고  16 기  71 명 모집 07/01 ~ 08/05" [ref=f25e59] [cursor=pointer]:
+            - /url: javascript:goView2('CW016', 'I20260617002','3')
+            - paragraph [ref=f25e61]:
+              - img "미국 국기" [ref=f25e62]
+            - generic [ref=f25e63]:
+              - generic [ref=f25e64]: 단기(6개월)한미 대학생 연수(WEST)
+              - heading "2026년 하반기 한미 대학생 연수(WEST) 참가자 모집 공고" [level=3] [ref=f25e65]
+            - list [ref=f25e67]:
+              - listitem [ref=f25e68]:
+                - generic [ref=f25e69]: 
+                - strong [ref=f25e70]: "16"
+                - text: 기
+              - listitem [ref=f25e71]:
+                - generic [ref=f25e72]: 
+                - strong [ref=f25e73]: "71"
+                - text: 명 모집
+            - generic [ref=f25e74]: 07/01 ~ 08/05
+        - listitem [ref=f25e75]:
+          - link "미국 국기 중기(12개월)한미 대학생 연수(WEST) 2026년 하반기 한미 대학생 연수(WEST) 참가자 모집 공고  16 기  31 명 모집 07/01 ~ 08/05" [ref=f25e76] [cursor=pointer]:
+            - /url: javascript:goView2('MW016', 'I20260617001','3')
+            - paragraph [ref=f25e78]:
+              - img "미국 국기" [ref=f25e79]
+            - generic [ref=f25e80]:
+              - generic [ref=f25e81]: 중기(12개월)한미 대학생 연수(WEST)
+              - heading "2026년 하반기 한미 대학생 연수(WEST) 참가자 모집 공고" [level=3] [ref=f25e82]
+            - list [ref=f25e84]:
+              - listitem [ref=f25e85]:
+                - generic [ref=f25e86]: 
+                - strong [ref=f25e87]: "16"
+                - text: 기
+              - listitem [ref=f25e88]:
+                - generic [ref=f25e89]: 
+                - strong [ref=f25e90]: "31"
+                - text: 명 모집
+            - generic [ref=f25e91]: 07/01 ~ 08/05
+    - generic [ref=f25e93]:
+      - generic [ref=f25e94]:
+        - button "일시정지" [ref=f25e95] [cursor=pointer]
+        - button "Previous slide" [disabled]: prev
+        - button "Next slide" [ref=f25e96] [cursor=pointer]: next
+      - list [ref=f25e98]:
+        - group "1 / 15" [ref=f25e99]:
+          - link [ref=f25e100] [cursor=pointer]:
+            - /url: http://www.moel.go.kr
+            - generic: 1번
+            - img "고용노동부" [ref=f25e101]
+        - group "2 / 15" [ref=f25e102]:
+          - link [ref=f25e103] [cursor=pointer]:
+            - /url: https://bank.ncs.go.kr
+            - generic: 2번
+            - img "직무능력은행제" [ref=f25e104]
+        - group "3 / 15" [ref=f25e105]:
+          - link "3번 교육부":
+            - /url: http://www.moe.go.kr/main.do
+            - generic: 3번
+            - img "교육부"
+        - group "4 / 15" [ref=f25e106]:
+          - link "4번 국립국제교육원":
+            - /url: http://www.niied.go.kr
+            - generic: 4번
+            - img "국립국제교육원"
+        - group "5 / 15" [ref=f25e107]:
+          - link "5번 외교부":
+            - /url: http://www.mofa.go.kr
+            - generic: 5번
+            - img "외교부"
+        - group "6 / 15" [ref=f25e108]:
+          - link "6번 KOICA 한국국제협력단":
+            - /url: http://www.koica.go.kr/
+            - generic: 6번
+            - img "KOICA 한국국제협력단"
+        - group "7 / 15" [ref=f25e109]:
+          - link "7번 산업통상자원부":
+            - /url: http://www.motir.go.kr
+            - generic: 7번
+            - img "산업통상자원부"
+        - group [ref=f25e110]
+        - group [ref=f25e111]
+        - group [ref=f25e112]
+        - group [ref=f25e113]
+        - group [ref=f25e114]
+        - group [ref=f25e115]
+        - group [ref=f25e116]
+        - group [ref=f25e117]
+  - generic [ref=f25e118]:
+    - generic [ref=f25e119]:
+      - generic [ref=f25e120]:
+        - heading "QUICK MENU" [level=2] [ref=f25e121]
+        - button "빠른 메뉴 펼쳐짐" [ref=f25e122] [cursor=pointer]
+      - list [ref=f25e124]:
+        - listitem [ref=f25e125]:
+          - link "기업회원 서비스" [ref=f25e126] [cursor=pointer]:
+            - /url: /com_index.do
+        - listitem [ref=f25e127]:
+          - link "사업소개" [ref=f25e128] [cursor=pointer]:
+            - /url: /ovsea/intro.do?menuId=1000000051
+        - listitem [ref=f25e129]:
+          - link "취업사실확인 신청" [ref=f25e130] [cursor=pointer]:
+            - /url: /ovseaWork/myOvseaWorkList.do?menuId=1000006387
+        - listitem [ref=f25e131]:
+          - link "정착지원금 신청" [ref=f25e132] [cursor=pointer]:
+            - /url: /indvdl/sbsdSprt/sprtRqst.do?menuId=1000006378
+        - listitem [ref=f25e133]:
+          - link "해외취업 아카데미" [ref=f25e134] [cursor=pointer]:
+            - /url: /academy/academyList.do?menuId=1000006359
+        - listitem [ref=f25e135]:
+          - link "해외취업 설명회" [ref=f25e136] [cursor=pointer]:
+            - /url: /brief/list.do?menuId=1000006366
+        - listitem [ref=f25e137]:
+          - link "완전정복 가이드북" [ref=f25e138] [cursor=pointer]:
+            - /url: /abGuide/ebookPage.do?menuId=1000006392
+        - listitem [ref=f25e139]:
+          - link "해외진출의 모든 것" [ref=f25e140] [cursor=pointer]:
+            - /url: /downFile/findJobInfo.pdf?1683610471393
+    - list [ref=f25e142]:
+      - listitem [ref=f25e143]:
+        - link "페이스북" [ref=f25e144] [cursor=pointer]:
+          - /url: http://www.facebook.com/worldjob1
+      - listitem [ref=f25e145]:
+        - link "유투브" [ref=f25e146] [cursor=pointer]:
+          - /url: https://www.youtube.com/channel/UCvzofAUgs4C0I2J8VgWho5A
+      - listitem [ref=f25e147]:
+        - link "네이버 블로그" [ref=f25e148] [cursor=pointer]:
+          - /url: http://blog.naver.com/hrdkorea2020
+      - listitem [ref=f25e149]:
+        - link "인스타그램" [ref=f25e150] [cursor=pointer]:
+          - /url: https://www.instagram.com/worldjob
+    - generic [ref=f25e151]:
+      - link [ref=f25e152] [cursor=pointer]:
+        - /url: /halo/main.do
+        - paragraph [ref=f25e153]: 해외취업이 처음이라면?
+        - generic [ref=f25e154]: 해일로 바로가기
+      - link [ref=f25e155] [cursor=pointer]:
+        - /url: http://pf.kakao.com/_Cpqnl
+        - paragraph [ref=f25e156]:
+          - text: 월드잡플러스
+          - strong [ref=f25e157]: 카카오톡 챗봇
+  - contentinfo [ref=f25e158]:
+    - generic [ref=f25e159]:
+      - generic [ref=f25e163]:
+        - list [ref=f25e164]:
+          - listitem [ref=f25e165]:
+            - link "이용약관" [ref=f25e166] [cursor=pointer]:
+              - /url: /guide/terms.do?menuId=1000006493
+          - listitem [ref=f25e167]:
+            - link "개인정보 처리방침" [ref=f25e168] [cursor=pointer]:
+              - /url: /guide/policyIndivisualInfo.do?menuId=1000006495
+          - listitem [ref=f25e169]:
+            - link "이메일무단수집거부" [ref=f25e170] [cursor=pointer]:
+              - /url: /guide/emailWithoutCollect.do?menuId=1000006496
+          - listitem [ref=f25e171]:
+            - button "원격지원서비스" [ref=f25e172] [cursor=pointer]
+          - listitem [ref=f25e173]:
+            - link "배너가져가기" [ref=f25e174] [cursor=pointer]:
+              - /url: /guide/outBanner.do?menuId=1000006497
+          - listitem [ref=f25e175]:
+            - link "사이트맵" [ref=f25e176] [cursor=pointer]:
+              - /url: /guide/siteMap.do?menuId=1000005311
+          - listitem [ref=f25e177]:
+            - link "OpenAPI" [ref=f25e178] [cursor=pointer]:
+              - /url: /info/openApi.do?menuId=1000006491
+          - listitem [ref=f25e179]:
+            - button "Languages" [ref=f25e180] [cursor=pointer]
+        - generic [ref=f25e181]:
+          - paragraph [ref=f25e182]: 울산광역시 중구 종가로 345
+          - paragraph [ref=f25e183]: 고객센터 1644-8000
+          - paragraph [ref=f25e184]: 이메일 job1@hrdkorea.or.kr
+        - generic [ref=f25e185]: ⓒ WORLDJOB PLUS.
+        - generic:
+          - link "과학기술정보통신부 WEB ACCESSIBILITY 마크(웹 접근성 품질인증 마크)" [ref=f25e186] [cursor=pointer]:
+            - /url: http://www.webwatch.or.kr/Situation/WA_Situation.html?MenuCD=110
+          - button "한국산업인력공단 반부패 청렴기반" [ref=f25e187] [cursor=pointer]
+      - generic [ref=f25e188]:
+        - button "재외공관" [ref=f25e190] [cursor=pointer]
+        - button "유관기관" [ref=f25e192] [cursor=pointer]
+        - button "대학교" [ref=f25e194] [cursor=pointer]

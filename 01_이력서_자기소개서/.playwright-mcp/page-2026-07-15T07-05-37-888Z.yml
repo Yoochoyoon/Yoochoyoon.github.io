@@ -1,0 +1,310 @@
+- generic [active] [ref=f16e1]:
+  - link "Skip to main content" [ref=f16e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f16e3]:
+    - banner [ref=f16e4]:
+      - generic [ref=f16e7]:
+        - generic [ref=f16e8]:
+          - generic [ref=f16e9]:
+            - heading [level=1] [ref=f16e10]:
+              - link [ref=f16e11] [cursor=pointer]:
+                - /url: https://www.jobkorea.co.kr
+                - img "JOBKOREA" [ref=f16e12]
+            - generic [ref=f16e16]:
+              - combobox "JOB 검색" [ref=f16e18]: 일본 게임 인턴십
+              - button [ref=f16e20] [cursor=pointer]
+            - generic [ref=f16e23]:
+              - generic [ref=f16e25]:
+                - button "1 사무" [ref=f16e27] [cursor=pointer]:
+                  - generic [ref=f16e28]: "1"
+                  - generic [ref=f16e30]: 사무
+                - button "2 영업관리" [ref=f16e32] [cursor=pointer]:
+                  - generic [ref=f16e33]: "2"
+                  - generic [ref=f16e35]: 영업관리
+                - button "3 회계" [ref=f16e37] [cursor=pointer]:
+                  - generic [ref=f16e38]: "3"
+                  - generic [ref=f16e40]: 회계
+                - button "4 디자인" [ref=f16e42] [cursor=pointer]:
+                  - generic [ref=f16e43]: "4"
+                  - generic [ref=f16e45]: 디자인
+                - button "5 마케팅" [ref=f16e47] [cursor=pointer]:
+                  - generic [ref=f16e48]: "5"
+                  - generic [ref=f16e50]: 마케팅
+                - button "6 java" [ref=f16e52] [cursor=pointer]:
+                  - generic [ref=f16e53]: "6"
+                  - generic [ref=f16e55]: java
+                - button "7 영업지원" [ref=f16e57] [cursor=pointer]:
+                  - generic [ref=f16e58]: "7"
+                  - generic [ref=f16e60]: 영업지원
+                - button "8 안전관리자" [ref=f16e62] [cursor=pointer]:
+                  - generic [ref=f16e63]: "8"
+                  - generic [ref=f16e65]: 안전관리자
+                - button "9 총무" [ref=f16e67] [cursor=pointer]:
+                  - generic [ref=f16e68]: "9"
+                  - generic [ref=f16e70]: 총무
+                - button "10 전기기사" [ref=f16e72] [cursor=pointer]:
+                  - generic [ref=f16e73]: "10"
+                  - generic [ref=f16e75]: 전기기사
+              - generic:
+                - generic: 인기검색어
+                - generic:
+                  - button "1 사무":
+                    - generic: "1"
+                    - generic: 사무
+                  - button "2 영업관리":
+                    - generic: "2"
+                    - generic: 영업관리
+                  - button "3 회계":
+                    - generic: "3"
+                    - generic: 회계
+                  - button "4 디자인":
+                    - generic: "4"
+                    - generic: 디자인
+                  - button "5 마케팅":
+                    - generic: "5"
+                    - generic: 마케팅
+                  - button "6 java":
+                    - generic: "6"
+                    - generic: java
+                  - button "7 영업지원":
+                    - generic: "7"
+                    - generic: 영업지원
+                  - button "8 안전관리자":
+                    - generic: "8"
+                    - generic: 안전관리자
+                  - button "9 총무":
+                    - generic: "9"
+                    - generic: 총무
+                  - button "10 전기기사":
+                    - generic: "10"
+                    - generic: 전기기사
+          - generic [ref=f16e76]:
+            - button "전체 메뉴" [ref=f16e77] [cursor=pointer]
+            - generic [ref=f16e80]:
+              - link "회원가입/로그인" [ref=f16e81] [cursor=pointer]:
+                - /url: https://www.jobkorea.co.kr/Login/Login_Tot.asp?rDBName=GG&re_url=%2FSearch%2F%3Fstext%3D%25EC%259D%25BC%25EB%25B3%25B8%2520%25EA%25B2%258C%25EC%259E%2584%2520%25EC%259D%25B8%25ED%2584%25B4%25EC%258B%25AD
+              - button "기업 서비스" [ref=f16e84] [cursor=pointer]
+        - tablist [ref=f16e92]:
+          - tab "채용정보" [selected] [ref=f16e93] [cursor=pointer]
+          - tab "기업정보" [ref=f16e94] [cursor=pointer]
+      - separator [ref=f16e95]
+    - generic [ref=f16e98]:
+      - generic [ref=f16e99]:
+        - button "직무 " [ref=f16e100] [cursor=pointer]:
+          - paragraph [ref=f16e101]: 직무
+          - generic [ref=f16e102]: 
+        - button "지역 " [ref=f16e103] [cursor=pointer]:
+          - paragraph [ref=f16e104]: 지역
+          - generic [ref=f16e105]: 
+        - button "경력 " [ref=f16e106] [cursor=pointer]:
+          - paragraph [ref=f16e107]: 경력
+          - generic [ref=f16e108]: 
+        - button "기업형태 " [ref=f16e109] [cursor=pointer]:
+          - paragraph [ref=f16e110]: 기업형태
+          - generic [ref=f16e111]: 
+        - button "학력 " [ref=f16e112] [cursor=pointer]:
+          - paragraph [ref=f16e113]: 학력
+          - generic [ref=f16e114]: 
+        - button "고용형태 " [ref=f16e115] [cursor=pointer]:
+          - paragraph [ref=f16e116]: 고용형태
+          - generic [ref=f16e117]: 
+        - button " 조건추가" [ref=f16e118] [cursor=pointer]:
+          - generic [ref=f16e119]:
+            - generic [ref=f16e120]: 
+            - paragraph [ref=f16e121]: 조건추가
+      - button " My 검색" [ref=f16e122] [cursor=pointer]:
+        - generic [ref=f16e123]:
+          - generic [ref=f16e124]: 
+          - generic [ref=f16e125]: My 검색
+  - generic [ref=f16e126]:
+    - generic [ref=f16e127]:
+      - main [ref=f16e128]:
+        - generic [ref=f16e129]:
+          - tabpanel [ref=f16e132]:
+            - generic [ref=f16e134]:
+              - generic [ref=f16e136]:
+                - generic [ref=f16e137]: 지금 주목할 만한 공고
+                - button "AD " [ref=f16e139] [cursor=pointer]:
+                  - generic [ref=f16e140]:
+                    - generic [ref=f16e141]: AD
+                    - generic [ref=f16e142]: 
+              - generic [ref=f16e143]:
+                - generic [ref=f16e147] [cursor=pointer]:
+                  - link [ref=f16e148]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49585086?Oem_Code=C1&logpath=1&stext=%EC%9D%BC%EB%B3%B8+%EA%B2%8C%EC%9E%84+%EC%9D%B8%ED%84%B4%EC%8B%AD&listno=1&sc=552
+                    - img "㈜스피링크 로고" [ref=f16e150]
+                  - generic [ref=f16e151]:
+                    - generic [ref=f16e152]:
+                      - generic [ref=f16e153]: 오늘 뜬 따끈한 공고
+                      - button " 스크랩" [ref=f16e156]:
+                        - generic [ref=f16e157]: 
+                        - generic [ref=f16e158]: 스크랩
+                    - link "AICC 프론트엔드 개발자(JAVA 경험자 우대)" [ref=f16e160]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49585086?Oem_Code=C1&logpath=1&stext=%EC%9D%BC%EB%B3%B8+%EA%B2%8C%EC%9E%84+%EC%9D%B8%ED%84%B4%EC%8B%AD&listno=1&sc=552
+                    - link "㈜스피링크" [ref=f16e163]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49585086?Oem_Code=C1&logpath=1&stext=%EC%9D%BC%EB%B3%B8+%EA%B2%8C%EC%9E%84+%EC%9D%B8%ED%84%B4%EC%8B%AD&listno=1&sc=552
+                    - generic [ref=f16e164]:
+                      - generic [ref=f16e165]:
+                        - generic [ref=f16e166]:
+                          - generic [ref=f16e167]: 서울 영등포구
+                          - generic [ref=f16e171]: IT컨설팅, 프론트엔드개발자
+                        - button "즉시 지원" [ref=f16e176]
+                      - generic [ref=f16e177]:
+                        - generic [ref=f16e178]: 경력5년↑
+                        - generic [ref=f16e180]:
+                          - generic [ref=f16e181]: 6시간 전 등록
+                          - generic [ref=f16e182]: •
+                          - generic [ref=f16e183]: 08/14(금) 마감
+                - generic [ref=f16e187] [cursor=pointer]:
+                  - link [ref=f16e188]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49572243?Oem_Code=C1&logpath=1&stext=%EC%9D%BC%EB%B3%B8+%EA%B2%8C%EC%9E%84+%EC%9D%B8%ED%84%B4%EC%8B%AD&listno=2&sc=552
+                    - img "㈜휴먼교육센터 로고" [ref=f16e190]
+                  - generic [ref=f16e191]:
+                    - generic [ref=f16e192]:
+                      - generic [ref=f16e193]: 신입 지원 가능
+                      - button " 스크랩" [ref=f16e196]:
+                        - generic [ref=f16e197]: 
+                        - generic [ref=f16e198]: 스크랩
+                    - link "[국비최대무료/취업연계/기숙사제공]AI인공지능/빅데이터/풀스택/부트캠프" [ref=f16e200]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49572243?Oem_Code=C1&logpath=1&stext=%EC%9D%BC%EB%B3%B8+%EA%B2%8C%EC%9E%84+%EC%9D%B8%ED%84%B4%EC%8B%AD&listno=2&sc=552
+                    - link "㈜휴먼교육센터" [ref=f16e203]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49572243?Oem_Code=C1&logpath=1&stext=%EC%9D%BC%EB%B3%B8+%EA%B2%8C%EC%9E%84+%EC%9D%B8%ED%84%B4%EC%8B%AD&listno=2&sc=552
+                    - generic [ref=f16e204]:
+                      - generic [ref=f16e205]:
+                        - generic [ref=f16e206]:
+                          - generic [ref=f16e207]: 충남 천안시 외 14
+                          - generic [ref=f16e211]: 학원·어학원·교육원, 백엔드개발자, 프론트엔드개발자, 웹개발자
+                        - button "즉시 지원" [ref=f16e216]
+                      - generic [ref=f16e217]:
+                        - generic [ref=f16e218]:
+                          - generic [ref=f16e219]: 신입·경력
+                          - generic [ref=f16e220]: •
+                          - generic [ref=f16e221]: 기숙사 지원
+                        - generic [ref=f16e222]:
+                          - generic [ref=f16e223]: 07/13(월) 등록
+                          - generic [ref=f16e224]: •
+                          - generic [ref=f16e225]: 08/12(수) 마감
+                - generic [ref=f16e229] [cursor=pointer]:
+                  - link [ref=f16e230]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49570524?Oem_Code=C1&logpath=1&stext=%EC%9D%BC%EB%B3%B8+%EA%B2%8C%EC%9E%84+%EC%9D%B8%ED%84%B4%EC%8B%AD&listno=3&sc=552
+                    - img "헬스앤바이오㈜ 로고" [ref=f16e232]
+                  - generic [ref=f16e233]:
+                    - generic [ref=f16e234]:
+                      - generic [ref=f16e235]: 상여금/인센티브 지급
+                      - button " 스크랩" [ref=f16e238]:
+                        - generic [ref=f16e239]: 
+                        - generic [ref=f16e240]: 스크랩
+                    - link "스텝모터 제어 및 자동화장비 제어 펌웨어 개발 경력직" [ref=f16e242]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49570524?Oem_Code=C1&logpath=1&stext=%EC%9D%BC%EB%B3%B8+%EA%B2%8C%EC%9E%84+%EC%9D%B8%ED%84%B4%EC%8B%AD&listno=3&sc=552
+                    - link "헬스앤바이오㈜" [ref=f16e245]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49570524?Oem_Code=C1&logpath=1&stext=%EC%9D%BC%EB%B3%B8+%EA%B2%8C%EC%9E%84+%EC%9D%B8%ED%84%B4%EC%8B%AD&listno=3&sc=552
+                    - generic [ref=f16e246]:
+                      - generic [ref=f16e247]:
+                        - generic [ref=f16e248]:
+                          - generic [ref=f16e249]: 서울 강남구
+                          - generic [ref=f16e253]: 쇼핑몰·오픈마켓·소셜커머스, 소프트웨어개발자, 하드웨어개발자, 하드웨어엔지니어
+                        - button "즉시 지원" [ref=f16e258]
+                      - generic [ref=f16e259]:
+                        - generic [ref=f16e260]:
+                          - generic [ref=f16e261]: 경력5년↑
+                          - generic [ref=f16e262]: •
+                          - generic [ref=f16e263]: 경조사 지원, 생일 이벤트, 임직원 할인, 육아휴직, 인센티브 제도, 자기개발비, 연차제도, 자율복장, 회식비 지원
+                        - generic [ref=f16e264]:
+                          - generic [ref=f16e265]: 07/13(월) 등록
+                          - generic [ref=f16e266]: •
+                          - generic [ref=f16e267]: 08/12(수) 마감
+                - generic [ref=f16e271] [cursor=pointer]:
+                  - link [ref=f16e272]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49503065?Oem_Code=C1&logpath=1&stext=%EC%9D%BC%EB%B3%B8+%EA%B2%8C%EC%9E%84+%EC%9D%B8%ED%84%B4%EC%8B%AD&listno=4&sc=552
+                    - img "동국시스템즈㈜ 로고" [ref=f16e274]
+                  - generic [ref=f16e275]:
+                    - button " 스크랩" [ref=f16e277]:
+                      - generic [ref=f16e278]: 
+                      - generic [ref=f16e279]: 스크랩
+                    - link "[동국시스템즈] SAP MM(구매모듈) 담당 경력직 채용" [ref=f16e281]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49503065?Oem_Code=C1&logpath=1&stext=%EC%9D%BC%EB%B3%B8+%EA%B2%8C%EC%9E%84+%EC%9D%B8%ED%84%B4%EC%8B%AD&listno=4&sc=552
+                    - link "동국시스템즈㈜동국제강그룹" [ref=f16e284]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49503065?Oem_Code=C1&logpath=1&stext=%EC%9D%BC%EB%B3%B8+%EA%B2%8C%EC%9E%84+%EC%9D%B8%ED%84%B4%EC%8B%AD&listno=4&sc=552
+                    - generic [ref=f16e285]:
+                      - generic [ref=f16e286]:
+                        - generic [ref=f16e287]:
+                          - generic [ref=f16e288]: 서울 중구
+                          - generic [ref=f16e292]: 솔루션·SI·CRM·ERP, 시스템엔지니어, 네트워크엔지니어
+                        - button "즉시 지원" [ref=f16e297]
+                      - generic [ref=f16e298]:
+                        - generic [ref=f16e299]: 경력4년↑
+                        - generic [ref=f16e301]:
+                          - generic [ref=f16e302]: 07/02(목) 등록
+                          - generic [ref=f16e303]: •
+                          - generic [ref=f16e304]: 내일마감
+                - generic [ref=f16e308] [cursor=pointer]:
+                  - link [ref=f16e309]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49353243?Oem_Code=C1&logpath=1&stext=%EC%9D%BC%EB%B3%B8+%EA%B2%8C%EC%9E%84+%EC%9D%B8%ED%84%B4%EC%8B%AD&listno=5&sc=552
+                    - img "다고테크 로고" [ref=f16e311]
+                  - generic [ref=f16e312]:
+                    - button " 스크랩" [ref=f16e314]:
+                      - generic [ref=f16e315]: 
+                      - generic [ref=f16e316]: 스크랩
+                    - link "다고테크 - IT Helpdesk 엔지니어 채용 (용인,이천)" [ref=f16e318]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49353243?Oem_Code=C1&logpath=1&stext=%EC%9D%BC%EB%B3%B8+%EA%B2%8C%EC%9E%84+%EC%9D%B8%ED%84%B4%EC%8B%AD&listno=5&sc=552
+                    - link "다고테크" [ref=f16e321]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49353243?Oem_Code=C1&logpath=1&stext=%EC%9D%BC%EB%B3%B8+%EA%B2%8C%EC%9E%84+%EC%9D%B8%ED%84%B4%EC%8B%AD&listno=5&sc=552
+                    - generic [ref=f16e322]:
+                      - generic [ref=f16e323]:
+                        - generic [ref=f16e324]:
+                          - generic [ref=f16e325]: 경기 용인시 외 1
+                          - generic [ref=f16e329]: 컴퓨터·하드웨어·장비, 시스템엔지니어, 네트워크엔지니어
+                          - generic [ref=f16e333]: 연봉 3,000~4,000만원
+                        - button "즉시 지원" [ref=f16e338]
+                      - generic [ref=f16e339]:
+                        - generic [ref=f16e340]:
+                          - generic [ref=f16e341]: 경력2년↑
+                          - generic [ref=f16e342]: •
+                          - generic [ref=f16e343]: 연차제도, 휴가제도
+                        - generic [ref=f16e344]:
+                          - generic [ref=f16e345]: 06/11(목) 등록
+                          - generic [ref=f16e346]: •
+                          - generic [ref=f16e347]: 08/10(월) 마감
+          - generic [ref=f16e349]:
+            - generic [ref=f16e350]: 오늘 인기 있는 공고! TOP100
+            - button "TOP100공고 전체보기" [ref=f16e353] [cursor=pointer]
+      - complementary [ref=f16e456]:
+        - generic [ref=f16e457]:
+          - generic [ref=f16e458]:
+            - generic [ref=f16e459]:
+              - generic [ref=f16e460]: 전문채용관
+              - link "전체보기 " [ref=f16e461] [cursor=pointer]:
+                - /url: https://www.jobkorea.co.kr/Theme/Main
+                - text: 전체보기
+                - generic [ref=f16e462]: 
+            - link [ref=f16e463] [cursor=pointer]:
+              - /url: https://www.jobkorea.co.kr/Theme/Food
+              - img "외식 직무채용관" [ref=f16e465]
+              - generic [ref=f16e466]:
+                - paragraph [ref=f16e467]: 외식 직무채용관
+                - paragraph [ref=f16e468]: 외식·프랜차이즈 등 외식 전문가를 채용합니다
+          - link "LG화학 오산" [ref=f16e470] [cursor=pointer]:
+            - /url: https://grow-lgchem.netlify.app/
+            - img "LG화학 오산"
+        - generic [ref=f16e473]:
+          - generic [ref=f16e474]: 최근 검색어
+          - generic [ref=f16e475]:
+            - button "일본 게임 인턴십 ✕" [ref=f16e476] [cursor=pointer]:
+              - generic [ref=f16e477]: 일본 게임 인턴십
+              - generic [ref=f16e478]: ✕
+            - button "게임 서버 개발자 신입 ✕" [ref=f16e479] [cursor=pointer]:
+              - generic [ref=f16e480]: 게임 서버 개발자 신입
+              - generic [ref=f16e481]: ✕
+            - button "게임 클라이언트 개발자 ✕" [ref=f16e482] [cursor=pointer]:
+              - generic [ref=f16e483]: 게임 클라이언트 개발자
+              - generic [ref=f16e484]: ✕
+            - button "웹 프론트엔드 인턴 ✕" [ref=f16e485] [cursor=pointer]:
+              - generic [ref=f16e486]: 웹 프론트엔드 인턴
+              - generic [ref=f16e487]: ✕
+            - button "게임 개발 인턴 ✕" [ref=f16e488] [cursor=pointer]:
+              - generic [ref=f16e489]: 게임 개발 인턴
+              - generic [ref=f16e490]: ✕
+    - button "맨 위로" [ref=f16e492] [cursor=pointer]
+    - link "Ⓒ Worxphere LLC. All rights reserved." [ref=f16e497] [cursor=pointer]:
+      - /url: https://www.worxphere.ai
+  - alert [ref=f16e498]

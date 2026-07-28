@@ -1,0 +1,486 @@
+- generic [ref=e1]:
+  - generic:
+    - link "상단영역 바로가기" [ref=e2] [cursor=pointer]:
+      - /url: "#topAsideButton"
+    - link "서비스 메뉴 바로가기" [ref=e4] [cursor=pointer]:
+      - /url: "#shortcutArea"
+    - link "새소식 블록 바로가기" [ref=e6] [cursor=pointer]:
+      - /url: "#newsstand"
+    - link "쇼핑 블록 바로가기" [ref=e8] [cursor=pointer]:
+      - /url: "#shopping"
+    - link "관심사 블록 바로가기" [ref=e10] [cursor=pointer]:
+      - /url: "#feed"
+    - link "MY 영역 바로가기" [ref=e12] [cursor=pointer]:
+      - /url: "#account"
+    - link "위젯 보드 바로가기" [ref=e14] [cursor=pointer]:
+      - /url: "#widgetboard"
+    - link "보기 설정 바로가기" [ref=e16] [cursor=pointer]:
+      - /url: "#viewSetting"
+  - generic [ref=e18]:
+    - complementary "웨일 브라우저 설치 안내" [ref=e20]:
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - text: 무료 무제한 화상회의
+          - emphasis [ref=e24]: 웨일 경험하기
+          - link "다운로드" [ref=e25] [cursor=pointer]:
+            - /url: https://whale.naver.com/ko/?download=1&wpid=main_theme3
+        - button "배너 닫기" [ref=e27] [cursor=pointer]
+    - complementary "웨일 브라우저 설치 안내" [ref=e29]:
+      - generic [ref=e30]:
+        - img "웨일 브라우저 이미지" [ref=e32]
+        - generic [ref=e33]: 네이버 권장 브라우저
+        - generic [ref=e34]: 웨일 브라우저에서 네이버 서비스를 가장 편하게 사용하세요
+      - link "웨일 다운로드" [ref=e36] [cursor=pointer]:
+        - /url: https://whale.naver.com/ko/?download=1&wpid=main_theme4
+      - button "배너 닫기" [ref=e37] [cursor=pointer]
+    - banner [ref=e39]:
+      - generic [ref=e40]:
+        - generic [ref=e42]:
+          - generic:
+            - img "초복"
+            - generic:
+              - link:
+                - /url: https://blog.naver.com/naverofficial/224341621184
+              - link:
+                - /url: https://search.naver.com/search.naver?ssc=tab.ait.all&dtm_source=main&dtm_medium=splogo&sm=top_clk.main&query=%EC%B4%88%EB%B3%B5%EC%97%90+%EB%8C%80%ED%95%B4+%EC%95%8C%EB%A0%A4%EC%A4%98
+        - generic [ref=e45]:
+          - search [ref=e46]:
+            - group "검색" [ref=e47]:
+              - combobox "검색어를 입력해 주세요." [active] [ref=e50]
+              - button "AI 검색" [ref=e51] [cursor=pointer]
+          - button [ref=e66] [cursor=pointer]
+        - link [ref=e67] [cursor=pointer]:
+          - /url: https://siape.veta.naver.com/fxclick?eu=EU10044129&calp=-&oj=ZJlEFeSBKmLf40n3ktJ9%2FBF3Fad39C7gsunjd0CT866AQJSZA20T%2B2x%2FhcG054wnRm6Ap9ZPkgeNqDLn6Ln8ByGNcbrnFmKn&ac=9302180&src=8176087&br=4961745&evtcd=P901&x_ti=1587&tb=&oid=&sid1=&sid2=&rk=GCO7eK8ShWg0XJhErktP8Q&eltts=ZBMp2IyDU80Q1H5D69ZyRw%3D%3D&brs=Y&&a=CF2B73A47BB5AEA6A5C4B6F28712D8BDAE2D247129ADF28CF413A2158C4EDC045CD58CA062D3678BD69A9878F3D008035908940C2DEF989D264E952D8DF3EB38DB5D49601D59063032E74ED03A01DAEB9E79CA32B7DF193C06FBE5A8AF2F3AFBEE20D1128F146089B281B3F7D1E919FE83B5E1DB829CCB6319624780B2A4C8820DBE2053389C2DB42EEAEC68D0B981CE18E271F65A08A29663BAD80A09D71ECED99311B150CCCCD12411359554AFCD56D736E57B28A44DB21552DAD3A34E71ED3CC90067C3E269A27F200ECC7B98457003052C2E9EC7263E9D14248490665D0712A6981AEC36F9EC54CCC36CEFD1B267EA5D1ADD22D33476760F16629ABA42A84CEAE264FC
+          - img "[광고]블로그 후기 정리해 드려요 AI 쇼핑 에이전트" [ref=e68]
+        - navigation "주요 서비스"
+        - button "확장 영역" [ref=e70] [cursor=pointer]
+        - link "페이 바로가기" [ref=e73] [cursor=pointer]:
+          - /url: https://pay.naver.com
+        - button "알림" [ref=e76] [cursor=pointer]
+        - link "장바구니 알림" [ref=e79] [cursor=pointer]:
+          - /url: https://shopping.naver.com/cart
+          - generic [ref=e80]: 장바구니
+          - generic [ref=e81]: 알림
+    - main [ref=e82]:
+      - generic [ref=e84]:
+        - generic [ref=e85]:
+          - generic [ref=e87]:
+            - generic:
+              - iframe
+          - region "뉴스스탠드" [ref=e88]:
+            - generic [ref=e89]:
+              - tablist [ref=e91]:
+                - generic [ref=e92]:
+                  - tab "뉴스스탠드" [selected] [ref=e93] [cursor=pointer]
+                  - tab "언론사편집" [ref=e94] [cursor=pointer]
+                - tab "엔터" [ref=e95] [cursor=pointer]
+                - tab "스포츠" [ref=e96] [cursor=pointer]
+                - tab "게임" [ref=e97] [cursor=pointer]
+                - tab "경제" [ref=e98] [cursor=pointer]
+                - tab "쇼핑투데이" [ref=e99] [cursor=pointer]
+              - link "북중미 월드컵 배너":
+                - /url: https://m.sports.naver.com/fifaworldcup2026
+                - img "북중미 월드컵 배너"
+            - generic [ref=e100]:
+              - button "전체언론사" [ref=e101] [cursor=pointer]
+              - generic [ref=e103]:
+                - link "연합뉴스" [ref=e104] [cursor=pointer]:
+                  - /url: https://news.naver.com/main/list.naver?mode=LPOD&mid=sec&sid1=001&sid2=140&oid=001&isYeonhapFlash=Y
+                - link "이 대통령, 단일종목 레버리지에 \"보완대책 잘 신속히 마련하라\"" [ref=e109] [cursor=pointer]:
+                  - /url: https://news.naver.com/main/list.naver?mode=LPOD&mid=sec&sid1=001&sid2=140&oid=001&isYeonhapFlash=Y&aid=0016196044
+              - generic [ref=e110]:
+                - link "뉴스스탠드" [ref=e111] [cursor=pointer]:
+                  - /url: https://newsstand.naver.com/
+                - link "뉴스홈" [ref=e112] [cursor=pointer]:
+                  - /url: https://news.naver.com/
+            - tabpanel [ref=e113]:
+              - generic [ref=e124]:
+                - link "문화일보" [ref=e126] [cursor=pointer]:
+                  - /url: "#"
+                  - img "문화일보"
+                - link "세계일보" [ref=e128] [cursor=pointer]:
+                  - /url: "#"
+                  - img "세계일보"
+                - link "MBC" [ref=e130] [cursor=pointer]:
+                  - /url: "#"
+                  - img "MBC"
+                - link "중앙일보" [ref=e132] [cursor=pointer]:
+                  - /url: "#"
+                  - img "중앙일보"
+                - link "국민일보" [ref=e134] [cursor=pointer]:
+                  - /url: "#"
+                  - img "국민일보"
+                - link "아시아투데이" [ref=e136] [cursor=pointer]:
+                  - /url: "#"
+                  - img "아시아투데이"
+                - link "아이뉴스24" [ref=e138] [cursor=pointer]:
+                  - /url: "#"
+                  - img "아이뉴스24"
+                - link "동아일보" [ref=e140] [cursor=pointer]:
+                  - /url: "#"
+                  - img "동아일보"
+                - link "일간스포츠" [ref=e142] [cursor=pointer]:
+                  - /url: "#"
+                  - img "일간스포츠"
+                - link "뉴스타파" [ref=e144] [cursor=pointer]:
+                  - /url: "#"
+                  - img "뉴스타파"
+                - link "연합뉴스TV" [ref=e146] [cursor=pointer]:
+                  - /url: "#"
+                  - img "연합뉴스TV"
+                - link "서울신문" [ref=e148] [cursor=pointer]:
+                  - /url: "#"
+                  - img "서울신문"
+                - link "시사IN" [ref=e150] [cursor=pointer]:
+                  - /url: "#"
+                  - img "시사IN"
+                - link "한국경제TV" [ref=e152] [cursor=pointer]:
+                  - /url: "#"
+                  - img "한국경제TV"
+                - link "미디어오늘" [ref=e154] [cursor=pointer]:
+                  - /url: "#"
+                  - img "미디어오늘"
+                - link "한국농어촌방송" [ref=e156] [cursor=pointer]:
+                  - /url: "#"
+                  - img "한국농어촌방송"
+                - link "철강금속신문" [ref=e158] [cursor=pointer]:
+                  - /url: "#"
+                  - img "철강금속신문"
+                - link "스포탈코리아" [ref=e160] [cursor=pointer]:
+                  - /url: "#"
+                  - img "스포탈코리아"
+                - link "프라임경제" [ref=e162] [cursor=pointer]:
+                  - /url: "#"
+                  - img "프라임경제"
+                - link "초이스경제" [ref=e164] [cursor=pointer]:
+                  - /url: "#"
+                  - img "초이스경제"
+                - link "뉴스토마토" [ref=e166] [cursor=pointer]:
+                  - /url: "#"
+                  - img "뉴스토마토"
+                - link "넥스트데일리" [ref=e168] [cursor=pointer]:
+                  - /url: "#"
+                  - img "넥스트데일리"
+                - link "엘르" [ref=e170] [cursor=pointer]:
+                  - /url: "#"
+                  - img "엘르"
+                - link "티브이데일리" [ref=e172] [cursor=pointer]:
+                  - /url: "#"
+                  - img "티브이데일리"
+            - generic [ref=e173]:
+              - radiogroup [ref=e174]:
+                - radio "리스트형" [ref=e175] [cursor=pointer]
+                - radio "썸네일형" [checked] [ref=e177] [cursor=pointer]
+              - button "이전 페이지" [ref=e179] [cursor=pointer]
+              - generic [ref=e181]:
+                - generic [ref=e182]: 언론사 더보기
+                - generic [ref=e183]:
+                  - text: "1"
+                  - generic [ref=e184]: 페이지
+                - generic [ref=e185]:
+                  - generic [ref=e186]: 전체
+                  - text: /4
+              - button "다음 페이지" [ref=e187] [cursor=pointer]
+          - region "쇼핑" [ref=e189]:
+            - iframe [ref=e190]:
+              
+          - region "추천 관심사" [ref=e191]:
+            - generic [ref=e193]:
+              - tablist [ref=e194]:
+                - tab "추천" [selected] [ref=e196] [cursor=pointer]
+                - tab "카테크" [ref=e197] [cursor=pointer]
+                - tab "웹툰" [ref=e198] [cursor=pointer]
+                - tab "패션뷰티" [ref=e199] [cursor=pointer]
+                - tab "리빙푸드" [ref=e200] [cursor=pointer]
+                - tab "책방" [ref=e201] [cursor=pointer]
+                - tab "지식" [ref=e202] [cursor=pointer]
+                - tab "건강" [ref=e203] [cursor=pointer]
+              - link "구독홈" [ref=e204] [cursor=pointer]:
+                - /url: https://m.naver.com/mysubs?mode=pc
+            - tabpanel [ref=e205]:
+              - list [ref=e207]:
+                - listitem [ref=e208]:
+                  - link "재개발 투자중인 30대 여자, 올해 재산세 얼마나올까? 10억부부" [ref=e209] [cursor=pointer]:
+                    - /url: https://blog.naver.com/dadam_e/224346820279
+                    - generic [ref=e212]:
+                      - strong [ref=e213]: 재개발 투자중인 30대 여자, 올해 재산세 얼마나올까?
+                      - generic [ref=e214]: 10억부부
+                - listitem [ref=e217]:
+                  - link "재생시간 00:49 20평 일본아내 30평으로 이사가자고? 사라패밀리" [ref=e218] [cursor=pointer]:
+                    - /url: https://m.naver.com/shorts?serviceType=CLIP&mediaType=VOD&seedMediaId=CCC11A2DDE02407B29063E18CECAAE499F65&recType=CLIP_PC&recId=%7B%22targetProfileId%22%3A%22uFmqPwddo6LLclPCtFMH%22%2C%22open%22%3Atrue%7D
+                    - generic [ref=e222]:
+                      - generic [ref=e223]: 재생시간
+                      - text: 00:49
+                    - generic [ref=e224]:
+                      - strong [ref=e225]: 20평 일본아내 30평으로 이사가자고?
+                      - generic [ref=e226]: 사라패밀리
+                - listitem [ref=e229]:
+                  - link "펀딩 밀가루 없이 즐겨요! 취향대로 골라 먹는 영덕대게어묵 정승식품" [ref=e230] [cursor=pointer]:
+                    - /url: https://happybean.naver.com/fundings/detail/F2701?p=p&s=nmrp
+                    - generic [ref=e231]: 펀딩
+                    - generic [ref=e234]:
+                      - strong [ref=e235]: 밀가루 없이 즐겨요! 취향대로 골라 먹는 영덕대게어묵
+                      - generic [ref=e236]: 정승식품
+                - listitem [ref=e239]:
+                  - 'link "재생시간 00:13 홀란드 역대급 VAR 오심에 분노한 이유 #북중미월드컵 #월드컵 #2026북중미월드컵 #FIFA #축구 #스포츠 #네이버클립 #손흥민 #이강인 #김민재 #박지성 #홍명보 #이재성 #정몽규 #이영표 #이기혁 #정몽규 #홀란드 #잉글랜드노르웨이 #홀란드오심 #벨링엄 #월드컵우승 #월드컵4강 네이버 클립 크리에이터로서 저작권 핫드라" [ref=e240] [cursor=pointer]':
+                    - /url: https://m.naver.com/shorts?serviceType=CLIP&mediaType=VOD&seedMediaId=398B1E7C123B2961658C44088190A4C6A08B&recType=CLIP_PC&recId=%7B%22targetProfileId%22%3A%22B1oS53Nz4zZqhTdCMbUV%22%2C%22open%22%3Atrue%7D
+                    - generic [ref=e244]:
+                      - generic [ref=e245]: 재생시간
+                      - text: 00:13
+                    - generic [ref=e246]:
+                      - strong [ref=e247]: "홀란드 역대급 VAR 오심에 분노한 이유 #북중미월드컵 #월드컵 #2026북중미월드컵 #FIFA #축구 #스포츠 #네이버클립 #손흥민 #이강인 #김민재 #박지성 #홍명보 #이재성 #정몽규 #이영표 #이기혁 #정몽규 #홀란드 #잉글랜드노르웨이 #홀란드오심 #벨링엄 #월드컵우승 #월드컵4강 네이버 클립 크리에이터로서 저작권"
+                      - generic [ref=e248]: 핫드라
+                - listitem [ref=e251]:
+                  - link "재생시간 01:40 월드컵 시작 전 박지성의 우승팀 예언 ㄷㄷ JTBC Sports" [ref=e252] [cursor=pointer]:
+                    - /url: https://chzzk.naver.com/clips/LW94OwCtAP
+                    - generic [ref=e256]:
+                      - generic [ref=e257]: 재생시간
+                      - text: 01:40
+                    - generic [ref=e258]:
+                      - strong [ref=e259]: 월드컵 시작 전 박지성의 우승팀 예언 ㄷㄷ
+                      - generic [ref=e260]: JTBC Sports
+                - listitem [ref=e263]:
+                  - 'link "재생시간 00:17 적극적인 라민야말이 얻어낸 PK로 만든 선제골 페널티라인으로 빠르게 달려온 라민야말을 보지 못한 뤼카 디뉴가 공을 처리하려다가 허벅지를 때려서 반칙이 선언되었습니다전반전 운 좋게 찾아온 기회를 놓치지 않고 미켈 오야르사발이 선제골에 성공합니다! 프랑스 어린이가 오열하는 장면이 중계장면에 잡혀서 속상했네요 ㅠ #북중미월드컵#클드컵#월드컵리뷰#월드컵4강#프랑 모찌윤" [ref=e264] [cursor=pointer]':
+                    - /url: https://m.naver.com/shorts?serviceType=CLIP&mediaType=VOD&seedMediaId=1594B45198F2CC9EFC85198B8C5F07A0D6FB&recType=CLIP_PC&recId=%7B%22targetProfileId%22%3A%222eIH3k7sa0JqUf8tIgAr%22%2C%22open%22%3Atrue%7D
+                    - generic [ref=e268]:
+                      - generic [ref=e269]: 재생시간
+                      - text: 00:17
+                    - generic [ref=e270]:
+                      - strong [ref=e271]: "적극적인 라민야말이 얻어낸 PK로 만든 선제골 페널티라인으로 빠르게 달려온 라민야말을 보지 못한 뤼카 디뉴가 공을 처리하려다가 허벅지를 때려서 반칙이 선언되었습니다전반전 운 좋게 찾아온 기회를 놓치지 않고 미켈 오야르사발이 선제골에 성공합니다! 프랑스 어린이가 오열하는 장면이 중계장면에 잡혀서 속상했네요 ㅠ #북중미월드컵#클드컵#월드컵리뷰#월드컵4강#프랑"
+                      - generic [ref=e272]: 모찌윤
+                - listitem [ref=e275]:
+                  - link "패션 하트시그널5 김민주 옷 정보 _ 14화 오프숄더니트 반팔니트 코트 홀터넥 치마 패션 트렌드리더 인플루언서" [ref=e276] [cursor=pointer]:
+                    - /url: https://in.naver.com/gundam_says/contents/internal/973811326667584
+                    - generic [ref=e277]: 패션
+                    - generic [ref=e280]:
+                      - strong [ref=e281]: 하트시그널5 김민주 옷 정보 _ 14화 오프숄더니트 반팔니트 코트 홀터넥 치마 패션
+                      - generic [ref=e282]:
+                        - generic [ref=e283]: 트렌드리더
+                        - generic [ref=e285]: 인플루언서
+                - listitem [ref=e286]
+                - listitem [ref=e287]:
+                  - link "펀딩 지금의 행복을 놓치지 말아요, 세잎클로버 목걸이 윤슬 스튜디오" [ref=e288] [cursor=pointer]:
+                    - /url: https://happybean.naver.com/fundings/detail/F2743?p=p&s=nmrp
+                    - generic [ref=e289]: 펀딩
+                    - generic [ref=e292]:
+                      - strong [ref=e293]: 지금의 행복을 놓치지 말아요, 세잎클로버 목걸이
+                      - generic [ref=e294]: 윤슬 스튜디오
+                - listitem [ref=e297]:
+                  - link "펀딩 포슬포슬한 식감과 고소한 풍미, 진도 미니 밤호박 밤솔이네" [ref=e298] [cursor=pointer]:
+                    - /url: https://happybean.naver.com/fundings/detail/F2661?p=p&s=nmrp
+                    - generic [ref=e299]: 펀딩
+                    - generic [ref=e302]:
+                      - strong [ref=e303]: 포슬포슬한 식감과 고소한 풍미, 진도 미니 밤호박
+                      - generic [ref=e304]: 밤솔이네
+                - listitem [ref=e307]:
+                  - 'link "재생시간 00:14 소름돋는 아르헨티나의 징크스 #북중미월드컵 #클드컵 #2026FIFA북중미월드컵 #월드컵 #네이버스포츠 #월드컵리뷰 #2026월드컵 #월드컵4강 #아르헨티나4강 #메시 ・ 출처 : 치지직 jtbc ・ 네이버 클드컵 크리에이터로써 저작권 허가를 받아 제작한 영상입니다. 디아" [ref=e308] [cursor=pointer]':
+                    - /url: https://m.naver.com/shorts?serviceType=CLIP&mediaType=VOD&seedMediaId=627BF59FC98EC187B870C3481E2B5A74DB55&recType=CLIP_PC&recId=%7B%22targetProfileId%22%3A%22pure_quf%22%2C%22open%22%3Atrue%7D
+                    - generic [ref=e312]:
+                      - generic [ref=e313]: 재생시간
+                      - text: 00:14
+                    - generic [ref=e314]:
+                      - strong [ref=e315]: "소름돋는 아르헨티나의 징크스 #북중미월드컵 #클드컵 #2026FIFA북중미월드컵 #월드컵 #네이버스포츠 #월드컵리뷰 #2026월드컵 #월드컵4강 #아르헨티나4강 #메시 ・ 출처 : 치지직 jtbc ・ 네이버 클드컵 크리에이터로써 저작권 허가를 받아 제작한 영상입니다."
+                      - generic [ref=e316]: 디아
+                - listitem [ref=e319]:
+                  - link "허리디스크로 응급실까지 갔던 육아맘, 체지방률 16% 마라톤&바디프로필까지 촬영한 100일 ✨ 미라클 림c" [ref=e320] [cursor=pointer]:
+                    - /url: https://blog.naver.com/rim_c/224342140682
+                    - generic [ref=e323]:
+                      - strong [ref=e324]: 허리디스크로 응급실까지 갔던 육아맘, 체지방률 16% 마라톤&바디프로필까지 촬영한 100일 ✨
+                      - generic [ref=e325]: 미라클 림c
+                - listitem [ref=e328]:
+                  - link "재생시간 00:19 드디어 오픈! 직접 다녀왔어요 🎉 솔직히 큰 기대 없이 방문했는데 생각보다 훨씬 만족한 곳이에요! 버블파티, 워터슬라이드, 키즈풀까지 아이들은 물론 어른들도 신나게 즐길 수 있는 곳! 특히 단독 카바나가 있어서 우리 가족만의 공간에서 편하게 쉬고, 물놀이 후 즐기는 고기 파티는 정말 최고였어요! 아이들은 신나게 물놀이하고, 부모는 카바나에서 여유 김여사" [ref=e329] [cursor=pointer]:
+                    - /url: https://m.blog.naver.com/hibabokk90/clip/15021150
+                    - generic [ref=e333]:
+                      - generic [ref=e334]: 재생시간
+                      - text: 00:19
+                    - generic [ref=e335]:
+                      - strong [ref=e336]: 드디어 오픈! 직접 다녀왔어요 🎉 솔직히 큰 기대 없이 방문했는데 생각보다 훨씬 만족한 곳이에요! 버블파티, 워터슬라이드, 키즈풀까지 아이들은 물론 어른들도 신나게 즐길 수 있는 곳! 특히 단독 카바나가 있어서 우리 가족만의 공간에서 편하게 쉬고, 물놀이 후 즐기는 고기 파티는 정말 최고였어요! 아이들은 신나게 물놀이하고, 부모는 카바나에서 여유
+                      - generic [ref=e337]: 김여사
+              - generic [ref=e340]:
+                - strong [ref=e342]: 매일 찾는 짧은 즐거움
+                - list [ref=e344]:
+                  - listitem [ref=e345]:
+                    - link "대한민국의 운명을 바꾼 단 한 번의 선택 역사채우기" [ref=e346] [cursor=pointer]:
+                      - /url: https://m.naver.com/shorts/?mediaId=7B46317AB51CF194F0F0E77B8BF50C066627&serviceType=NTV&recType=AIRS&panelType=home.pc
+                      - strong [ref=e349]: 대한민국의 운명을 바꾼 단 한 번의 선택
+                      - generic [ref=e350]: 역사채우기
+                  - listitem [ref=e352]:
+                    - 'link "어릴 때 종이별 접어본 사람 손! ⭐️🍭 #asmr #satisfying #tingle 힐링타임즈 ASMR" [ref=e353] [cursor=pointer]':
+                      - /url: https://m.naver.com/shorts/?mediaId=9B81F8EF432A97D8253185AFDA85BDF4D5D2&serviceType=CLIP&recType=AIRS&panelType=home.pc
+                      - strong [ref=e356]: "어릴 때 종이별 접어본 사람 손! ⭐️🍭 #asmr #satisfying #tingle"
+                      - generic [ref=e357]: 힐링타임즈 ASMR
+                  - listitem [ref=e359]:
+                    - 'link "처음 만난 할아버지팬🩷 #박수홍 #행복해다홍 박수홍 행복해다홍" [ref=e360] [cursor=pointer]':
+                      - /url: https://m.naver.com/shorts/?mediaId=3DCFC909067B00A17CA6693FC12A4E395EB3&serviceType=CLIP&recType=AIRS&panelType=home.pc
+                      - strong [ref=e363]: "처음 만난 할아버지팬🩷 #박수홍 #행복해다홍"
+                      - generic [ref=e364]: 박수홍 행복해다홍
+                  - listitem [ref=e366]:
+                    - link "사채업자 조직원들을 박살낸 전직 특수요원 소개해주는 남자" [ref=e367] [cursor=pointer]:
+                      - /url: https://m.naver.com/shorts/?mediaId=65E15366FC24038B7738C87733B1A7DF0F88&serviceType=NTV&recType=AIRS&panelType=home.pc
+                      - strong [ref=e370]: 사채업자 조직원들을 박살낸 전직 특수요원
+                      - generic [ref=e371]: 소개해주는 남자
+                  - listitem [ref=e373]:
+                    - link "한국 도로에서 외국인들이 깜짝 놀라는 이유 어썸코리아" [ref=e374] [cursor=pointer]:
+                      - /url: https://m.naver.com/shorts/?mediaId=61C179A89E44C1F12C543E18CECAAE499F65&serviceType=CLIP&recType=AIRS&panelType=home.pc
+                      - strong [ref=e377]: 한국 도로에서 외국인들이 깜짝 놀라는 이유
+                      - generic [ref=e378]: 어썸코리아
+                  - listitem [ref=e380]:
+                    - link "몸짱 미나 언니가 하루 한번 꼭 먹는다는거? Feelme 필미커플" [ref=e381] [cursor=pointer]:
+                      - /url: https://m.naver.com/shorts/?mediaId=84AA8A1301B9474967837F0CCCD89C1657BB&serviceType=NTV&recType=AIRS&panelType=home.pc
+                      - strong [ref=e384]: 몸짱 미나 언니가 하루 한번 꼭 먹는다는거?
+                      - generic [ref=e385]: Feelme 필미커플
+                  - listitem [ref=e387]:
+                    - link "해설안하고 감탄함 동현kldh" [ref=e388] [cursor=pointer]:
+                      - /url: https://m.naver.com/shorts/?mediaId=BF81D1FD9784D98ED403190A522054653BC1&serviceType=NTV&recType=AIRS&panelType=home.pc
+                      - strong [ref=e391]: 해설안하고 감탄함
+                      - generic [ref=e392]: 동현kldh
+                  - listitem [ref=e394]:
+                    - link "갤럭시USB외장메모리.ixflashQ미니 IT기기 일상필요한것들" [ref=e395] [cursor=pointer]:
+                      - /url: https://m.naver.com/shorts/?mediaId=365C3F9A98EDE8E87D95D0E64E47341F5757&serviceType=NTV&recType=AIRS&panelType=home.pc
+                      - strong [ref=e398]: 갤럭시USB외장메모리.ixflashQ미니
+                      - generic [ref=e399]: IT기기 일상필요한것들
+                  - listitem [ref=e401]:
+                    - link "Come on Beautiful Girl RESCENE OFFICIAL" [ref=e402] [cursor=pointer]:
+                      - /url: https://m.naver.com/shorts/?mediaId=0ECAD34FF70D3A458735A703260D46561EB7&serviceType=NTV&recType=AIRS&panelType=home.pc
+                      - strong [ref=e405]: Come on Beautiful Girl
+                      - generic [ref=e406]: RESCENE OFFICIAL
+                  - listitem [ref=e408]:
+                    - link "서서히 놀랄걸요? good stuff! 춤추는 은채" [ref=e409] [cursor=pointer]:
+                      - /url: https://m.naver.com/shorts/?mediaId=22751110F4752FF012487D2ED8703EB5DE46&serviceType=NTV&recType=AIRS&panelType=home.pc
+                      - strong [ref=e412]: 서서히 놀랄걸요? good stuff!
+                      - generic [ref=e413]: 춤추는 은채
+                  - listitem [ref=e415]:
+                    - 'link "역대급 마술쇼 #유머 #마술쇼 #이남형할머니 이남형할머니퀴즈채널" [ref=e416] [cursor=pointer]':
+                      - /url: https://m.naver.com/shorts/?mediaId=F23796ABB7C9E82CBA6A17BC3E13032C04F8&serviceType=CLIP&recType=AIRS&panelType=home.pc
+                      - strong [ref=e419]: "역대급 마술쇼 #유머 #마술쇼 #이남형할머니"
+                      - generic [ref=e420]: 이남형할머니퀴즈채널
+                  - listitem [ref=e422]:
+                    - 'link "하이볼, 칵테일 만들기 좋은 한국 리큐르 #우리술 #칵테일메이킹 어쿠스틱 드링크" [ref=e423] [cursor=pointer]':
+                      - /url: https://m.naver.com/shorts/?mediaId=2E3EAAB2EFC29B6BCB747931520D8562EE30&serviceType=CLIP&recType=AIRS&panelType=home.pc
+                      - strong [ref=e426]: "하이볼, 칵테일 만들기 좋은 한국 리큐르 #우리술 #칵테일메이킹"
+                      - generic [ref=e427]: 어쿠스틱 드링크
+                  - listitem [ref=e429]:
+                    - 'link "여름 덤벙김치 시원한 국물이 끝내줍니다 [재료] 알배기배추 3통(1.8kg) - 물 1L + 천일염 1컵으로 1시간 절이기, 무 250g, 실쪽파 반줌, 밀가루 2스푼 + 물 2컵(400mL) [믹서기에 갈 재료] 홍고추 8개, 청양고추 3개, 양파 1/2개, 마늘 한줌, 생강 1톨, 멸치액젓 1/3컵(70mL), 갈아만든배 1캔(238mL), 생수 1컵(200mL) [나중에 넣을 재료] 고춧가루 1컵, 매실청 3스푼, 생수 5컵(1L), 천일염 2스푼(간 맞추기), 원당 1/2스푼 #덤벙김치 #김대석셰프 김대석 셰프TV" [ref=e430] [cursor=pointer]':
+                      - /url: https://m.naver.com/shorts/?mediaId=4B397341B7F52BB8769AE865AF19531C81A3&serviceType=CLIP&recType=AIRS&panelType=home.pc
+                      - strong [ref=e433]: "여름 덤벙김치 시원한 국물이 끝내줍니다 [재료] 알배기배추 3통(1.8kg) - 물 1L + 천일염 1컵으로 1시간 절이기, 무 250g, 실쪽파 반줌, 밀가루 2스푼 + 물 2컵(400mL) [믹서기에 갈 재료] 홍고추 8개, 청양고추 3개, 양파 1/2개, 마늘 한줌, 생강 1톨, 멸치액젓 1/3컵(70mL), 갈아만든배 1캔(238mL), 생수 1컵(200mL) [나중에 넣을 재료] 고춧가루 1컵, 매실청 3스푼, 생수 5컵(1L), 천일염 2스푼(간 맞추기), 원당 1/2스푼 #덤벙김치 #김대석셰프"
+                      - generic [ref=e434]: 김대석 셰프TV
+                  - listitem [ref=e436]:
+                    - link "한소희 '이 비주얼 실화? 남심 어택!' 엑스포츠뉴스" [ref=e437] [cursor=pointer]:
+                      - /url: https://m.naver.com/shorts/?mediaId=EF52A64788044377ADAF46708CE04385BC68&serviceType=SPORTS&recType=AIRS&panelType=home.pc
+                      - strong [ref=e440]: 한소희 '이 비주얼 실화? 남심 어택!'
+                      - generic [ref=e441]: 엑스포츠뉴스
+                  - listitem [ref=e443]:
+                    - 'link "야 니 남친 지나간다 가 시작된 이유 #김부장 #연기 #배우 #유준호 유준호" [ref=e444] [cursor=pointer]':
+                      - /url: https://m.naver.com/shorts/?mediaId=4E64213011017BF7EEF61C7C1848BFFF7114&serviceType=CLIP&recType=AIRS&panelType=home.pc
+                      - strong [ref=e447]: "야 니 남친 지나간다 가 시작된 이유 #김부장 #연기 #배우 #유준호"
+                      - generic [ref=e448]: 유준호
+                - button "다음 페이지" [ref=e450] [cursor=pointer]
+            - button "펼쳐보기" [ref=e453] [cursor=pointer]
+        - generic [ref=e459]:
+          - region "로그인 정보" [ref=e460]:
+            - generic [ref=e461]:
+              - paragraph [ref=e462]: 네이버를 더 안전하고 편리하게 이용하세요
+              - link "NAVER 로그인" [ref=e463] [cursor=pointer]:
+                - /url: https://nid.naver.com/nidlogin.login?mode=form&url=https://www.naver.com/
+                - generic [ref=e464]: NAVER
+                - text: 로그인
+              - generic [ref=e466]:
+                - link "아이디 찾기" [ref=e467] [cursor=pointer]:
+                  - /url: https://nid.naver.com/user2/api/route?m=routeIdInquiry
+                - link "비밀번호 찾기" [ref=e468] [cursor=pointer]:
+                  - /url: https://nid.naver.com/user2/api/route?m=routePwInquiry
+                - link "회원가입" [ref=e469] [cursor=pointer]:
+                  - /url: https://nid.naver.com/nidregister.form?url=https%3A%2F%2Fwww.naver.com
+          - iframe [ref=e475]:
+            - generic:
+              - main
+    - contentinfo [ref=e478]:
+      - generic [ref=e479]:
+        - generic [ref=e480]:
+          - iframe [ref=e483]:
+            
+          - iframe [ref=e486]:
+            
+          - iframe [ref=e489]:
+            
+        - generic [ref=e490]:
+          - heading [level=3] [ref=e492]:
+            - link "공지사항" [ref=e493] [cursor=pointer]:
+              - /url: https://www.naver.com/NOTICE
+          - link "서비스 전체보기" [ref=e494] [cursor=pointer]:
+            - /url: /more.html
+        - generic [ref=e495]:
+          - generic [ref=e496]:
+            - generic [ref=e497]:
+              - heading "Partners" [level=3] [ref=e498]
+              - link "네이버 광고주센터" [ref=e499] [cursor=pointer]:
+                - /url: https://naver.me/FJO6jm6w
+              - link "스마트스토어센터" [ref=e500] [cursor=pointer]:
+                - /url: https://naver.me/GsBOYhte
+              - link "스마트플레이스" [ref=e501] [cursor=pointer]:
+                - /url: https://naver.me/FRoWm3Ei
+              - link "비즈니스 스쿨" [ref=e502] [cursor=pointer]:
+                - /url: https://naver.me/5K6OWByt
+              - link "네이버 임팩트" [ref=e503] [cursor=pointer]:
+                - /url: https://naver.me/551yFEFD
+            - generic [ref=e504]:
+              - heading "Developers" [level=3] [ref=e505]
+              - link "네이버 개발자 센터" [ref=e506] [cursor=pointer]:
+                - /url: https://developers.naver.com/
+              - link "오픈 API" [ref=e507] [cursor=pointer]:
+                - /url: https://developers.naver.com/docs/common/openapiguide/#/apilist.md
+              - link "오픈소스" [ref=e508] [cursor=pointer]:
+                - /url: https://naver.github.io/
+              - link "네이버 D2" [ref=e509] [cursor=pointer]:
+                - /url: https://d2.naver.com/
+              - link "네이버 D2SF" [ref=e510] [cursor=pointer]:
+                - /url: http://d2startup.com/
+              - link "네이버 랩스" [ref=e511] [cursor=pointer]:
+                - /url: https://www.naverlabs.com/
+          - generic [ref=e512]:
+            - generic [ref=e513]:
+              - link [ref=e514] [cursor=pointer]:
+                - /url: http://whale.naver.com/
+                - img "웨일 브라우저" [ref=e515]
+              - generic [ref=e516]:
+                - strong [ref=e517]: 웨일 브라우저
+                - link "이용안내" [ref=e518] [cursor=pointer]:
+                  - /url: http://whale.naver.com/
+            - generic [ref=e519]:
+              - link [ref=e520] [cursor=pointer]:
+                - /url: https://www.navercorp.com
+                - img "기업 사이트" [ref=e521]
+              - generic [ref=e522]:
+                - strong [ref=e523]: 기업 사이트
+                - link "바로가기" [ref=e524] [cursor=pointer]:
+                  - /url: https://www.navercorp.com
+        - generic [ref=e525]:
+          - heading "네이버 정책 및 약관" [level=3] [ref=e526]
+          - list [ref=e527]:
+            - listitem [ref=e528]:
+              - link "회사소개" [ref=e529] [cursor=pointer]:
+                - /url: https://www.navercorp.com/
+            - listitem [ref=e530]:
+              - link "인재채용" [ref=e531] [cursor=pointer]:
+                - /url: https://recruit.navercorp.com/
+            - listitem [ref=e532]:
+              - link "제휴제안" [ref=e533] [cursor=pointer]:
+                - /url: https://www.navercorp.com/company/partnership
+            - listitem [ref=e534]:
+              - link "이용약관" [ref=e535] [cursor=pointer]:
+                - /url: https://www.naver.com/policy/service.html
+            - listitem [ref=e536]:
+              - link [ref=e537] [cursor=pointer]:
+                - /url: https://www.naver.com/policy/privacy.html
+                - strong [ref=e538]: 개인정보처리방침
+            - listitem [ref=e539]:
+              - link "청소년보호정책" [ref=e540] [cursor=pointer]:
+                - /url: https://www.naver.com/policy/youthpolicy.html
+            - listitem [ref=e541]:
+              - link "네이버 정책" [ref=e542] [cursor=pointer]:
+                - /url: https://policy.naver.com/policy/service_group.html
+            - listitem [ref=e543]:
+              - link "고객센터" [ref=e544] [cursor=pointer]:
+                - /url: https://help.naver.com/
+          - link "ⓒ NAVER Corp." [ref=e546] [cursor=pointer]:
+            - /url: https://www.navercorp.com/

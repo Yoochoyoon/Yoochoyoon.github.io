@@ -1,0 +1,2 @@
+[    6955ms] [ERROR] Failed to load resource: net::ERR_EMPTY_RESPONSE @ https://www.jobkorea.co.kr/Search/api/codes/designation:0
+[   14626ms] [ERROR] Failed to load resource: net::ERR_CONNECTION_RESET @ https://www.clarity.ms/tag/w24knb5dta?ref=npm:0

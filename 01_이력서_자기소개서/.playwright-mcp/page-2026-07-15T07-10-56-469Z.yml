@@ -1,0 +1,174 @@
+- generic [ref=f30e2]:
+  - generic:
+    - list:
+      - listitem:
+        - link "본문바로가기" [ref=f30e3] [cursor=pointer]:
+          - /url: "#container"
+      - listitem:
+        - link "주메뉴 바로가기" [ref=f30e4] [cursor=pointer]:
+          - /url: "#gnb"
+      - listitem:
+        - link "하단바로가기" [ref=f30e5] [cursor=pointer]:
+          - /url: "#footer"
+  - banner [ref=f30e6]:
+    - generic [ref=f30e7]:
+      - heading [level=1] [ref=f30e8]:
+        - link "World Job Plus, International Integrated Information Network" [ref=f30e9] [cursor=pointer]:
+          - /url: /new_index.do
+      - generic [ref=f30e10]:
+        - navigation [ref=f30e11]:
+          - list [ref=f30e12]:
+            - listitem [ref=f30e13]:
+              - link "채용·모집" [ref=f30e14] [cursor=pointer]:
+                - /url: /advnc/cnttListSub.do?menuId=1000006327
+            - listitem [ref=f30e15]:
+              - link "상담·설명회" [ref=f30e16] [cursor=pointer]:
+                - /url: /visitcounsel/visitcounselCalendarList.do?menuId=1000006328
+            - listitem [ref=f30e17]:
+              - link "취업준비·교육" [ref=f30e18] [cursor=pointer]:
+                - /url: /careerplan/capacity/careerCapacityMain.do?menuId=1000006329
+            - listitem [ref=f30e19]:
+              - link "취업자 지원" [ref=f30e20] [cursor=pointer]:
+                - /url: /ovseaWork/myOvseaWorkList.do?menuId=1000006330
+            - listitem [ref=f30e21]:
+              - link "국내 재취업" [ref=f30e22] [cursor=pointer]:
+                - /url: /stepup/list.do?menuId=1000006331
+            - listitem [ref=f30e23]:
+              - link "자료실" [ref=f30e24] [cursor=pointer]:
+                - /url: /compReview/compReviewMain.do?menuId=1000006332
+            - listitem [ref=f30e25]:
+              - link "공지·문의" [ref=f30e26] [cursor=pointer]:
+                - /url: /info/bbs/notice/list.do?menuId=1000006333
+            - listitem [ref=f30e27]:
+              - button "마이페이지" [ref=f30e28] [cursor=pointer]
+        - button [ref=f30e29] [cursor=pointer]:
+          - img "알림" [ref=f30e30]
+        - button "검색" [ref=f30e34] [cursor=pointer]
+  - generic [ref=f30e35]:
+    - list [ref=f30e38]:
+      - listitem [ref=f30e39]:
+        - link "홈" [ref=f30e40] [cursor=pointer]:
+          - /url: /index.do
+      - listitem [ref=f30e41]: 채용·모집
+      - listitem [ref=f30e42]:
+        - link "해외채용공고" [ref=f30e43] [cursor=pointer]:
+          - /url: "#none"
+    - generic [ref=f30e47]:
+      - button [ref=f30e48] [cursor=pointer]:
+        - paragraph [ref=f30e49]:
+          - strong [ref=f30e50]: 해외취업 위험성 판단
+          - text: 체크리스트
+      - generic [ref=f30e51]:
+        - generic [ref=f30e53]:
+          - button "국가 선택" [ref=f30e54] [cursor=pointer]
+          - button "직종 선택" [ref=f30e55] [cursor=pointer]
+          - generic [ref=f30e56]:
+            - textbox "키워드 검색" [ref=f30e57]:
+              - /placeholder: 검색어를 입력하세요
+            - button "키워드 검색하기" [ref=f30e58] [cursor=pointer]
+        - generic [ref=f30e59]:
+          - generic: 해외취업 공고 검색 조건은
+          - group "정렬 기준" [ref=f30e61]:
+            - button "최신순" [pressed=mixed] [ref=f30e62] [cursor=pointer]
+            - button "마감 임박순" [ref=f30e63] [cursor=pointer]
+            - button "조회순" [ref=f30e64] [cursor=pointer]
+            - button "지원자순" [ref=f30e65] [cursor=pointer]
+        - generic [ref=f30e66]: 검색 조건의 맞는 해외취업 공고 검색중...
+    - generic [ref=f30e70]:
+      - generic [ref=f30e71]:
+        - button "일시정지" [ref=f30e72] [cursor=pointer]
+        - button "prev" [ref=f30e73] [cursor=pointer]
+        - button "next" [ref=f30e74] [cursor=pointer]
+      - list [ref=f30e76]
+  - generic [ref=f30e77]:
+    - generic [ref=f30e78]:
+      - generic [ref=f30e79]:
+        - heading "QUICK MENU" [level=2] [ref=f30e80]
+        - button "빠른 메뉴 펼쳐짐" [ref=f30e81] [cursor=pointer]
+      - list [ref=f30e83]:
+        - listitem [ref=f30e84]:
+          - link "기업회원 서비스" [ref=f30e85] [cursor=pointer]:
+            - /url: /com_index.do
+        - listitem [ref=f30e86]:
+          - link "사업소개" [ref=f30e87] [cursor=pointer]:
+            - /url: /ovsea/intro.do?menuId=1000000051
+        - listitem [ref=f30e88]:
+          - link "취업사실확인 신청" [ref=f30e89] [cursor=pointer]:
+            - /url: /ovseaWork/myOvseaWorkList.do?menuId=1000006387
+        - listitem [ref=f30e90]:
+          - link "정착지원금 신청" [ref=f30e91] [cursor=pointer]:
+            - /url: /indvdl/sbsdSprt/sprtRqst.do?menuId=1000006378
+        - listitem [ref=f30e92]:
+          - link "해외취업 아카데미" [ref=f30e93] [cursor=pointer]:
+            - /url: /academy/academyList.do?menuId=1000006359
+        - listitem [ref=f30e94]:
+          - link "해외취업 설명회" [ref=f30e95] [cursor=pointer]:
+            - /url: /brief/list.do?menuId=1000006366
+        - listitem [ref=f30e96]:
+          - link "완전정복 가이드북" [ref=f30e97] [cursor=pointer]:
+            - /url: /abGuide/ebookPage.do?menuId=1000006392
+        - listitem [ref=f30e98]:
+          - link "해외진출의 모든 것" [ref=f30e99] [cursor=pointer]:
+            - /url: /downFile/findJobInfo.pdf?1683610471393
+    - list [ref=f30e101]:
+      - listitem [ref=f30e102]:
+        - link "페이스북" [ref=f30e103] [cursor=pointer]:
+          - /url: http://www.facebook.com/worldjob1
+      - listitem [ref=f30e104]:
+        - link "유투브" [ref=f30e105] [cursor=pointer]:
+          - /url: https://www.youtube.com/channel/UCvzofAUgs4C0I2J8VgWho5A
+      - listitem [ref=f30e106]:
+        - link "네이버 블로그" [ref=f30e107] [cursor=pointer]:
+          - /url: http://blog.naver.com/hrdkorea2020
+      - listitem [ref=f30e108]:
+        - link "인스타그램" [ref=f30e109] [cursor=pointer]:
+          - /url: https://www.instagram.com/worldjob
+    - generic [ref=f30e110]:
+      - link [ref=f30e111] [cursor=pointer]:
+        - /url: /halo/main.do
+        - paragraph [ref=f30e112]: 해외취업이 처음이라면?
+        - generic [ref=f30e113]: 해일로 바로가기
+      - link [ref=f30e114] [cursor=pointer]:
+        - /url: http://pf.kakao.com/_Cpqnl
+        - paragraph [ref=f30e115]:
+          - text: 월드잡플러스
+          - strong [ref=f30e116]: 카카오톡 챗봇
+  - contentinfo [ref=f30e117]:
+    - generic [ref=f30e118]:
+      - generic [ref=f30e122]:
+        - list [ref=f30e123]:
+          - listitem [ref=f30e124]:
+            - link "이용약관" [ref=f30e125] [cursor=pointer]:
+              - /url: /guide/terms.do?menuId=1000006493
+          - listitem [ref=f30e126]:
+            - link "개인정보 처리방침" [ref=f30e127] [cursor=pointer]:
+              - /url: /guide/policyIndivisualInfo.do?menuId=1000006495
+          - listitem [ref=f30e128]:
+            - link "이메일무단수집거부" [ref=f30e129] [cursor=pointer]:
+              - /url: /guide/emailWithoutCollect.do?menuId=1000006496
+          - listitem [ref=f30e130]:
+            - button "원격지원서비스" [ref=f30e131] [cursor=pointer]
+          - listitem [ref=f30e132]:
+            - link "배너가져가기" [ref=f30e133] [cursor=pointer]:
+              - /url: /guide/outBanner.do?menuId=1000006497
+          - listitem [ref=f30e134]:
+            - link "사이트맵" [ref=f30e135] [cursor=pointer]:
+              - /url: /guide/siteMap.do?menuId=1000005311
+          - listitem [ref=f30e136]:
+            - link "OpenAPI" [ref=f30e137] [cursor=pointer]:
+              - /url: /info/openApi.do?menuId=1000006491
+          - listitem [ref=f30e138]:
+            - button "Languages" [ref=f30e139] [cursor=pointer]
+        - generic [ref=f30e140]:
+          - paragraph [ref=f30e141]: 울산광역시 중구 종가로 345
+          - paragraph [ref=f30e142]: 고객센터 1644-8000
+          - paragraph [ref=f30e143]: 이메일 job1@hrdkorea.or.kr
+        - generic [ref=f30e144]: ⓒ WORLDJOB PLUS.
+        - generic:
+          - link "과학기술정보통신부 WEB ACCESSIBILITY 마크(웹 접근성 품질인증 마크)" [ref=f30e145] [cursor=pointer]:
+            - /url: http://www.webwatch.or.kr/Situation/WA_Situation.html?MenuCD=110
+          - button "한국산업인력공단 반부패 청렴기반" [ref=f30e146] [cursor=pointer]
+      - generic [ref=f30e147]:
+        - button "재외공관" [ref=f30e149] [cursor=pointer]
+        - button "유관기관" [ref=f30e151] [cursor=pointer]
+        - button "대학교" [ref=f30e153] [cursor=pointer]

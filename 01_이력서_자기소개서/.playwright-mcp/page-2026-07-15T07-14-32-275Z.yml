@@ -1,0 +1,1046 @@
+- generic [active] [ref=f31e1]:
+  - generic:
+    - link "메뉴 영역으로 바로가기" [ref=f31e2] [cursor=pointer]:
+      - /url: "#lnb"
+    - link "본문 영역으로 바로가기" [ref=f31e4] [cursor=pointer]:
+      - /url: "#content"
+  - generic [ref=f31e6]:
+    - generic [ref=f31e8]:
+      - generic [ref=f31e11]:
+        - heading [level=1] [ref=f31e12]:
+          - link "NAVER" [ref=f31e13] [cursor=pointer]:
+            - /url: https://www.naver.com
+        - search [ref=f31e15]:
+          - group "검색" [ref=f31e16]:
+            - combobox "검색어를 입력해 주세요." [ref=f31e18]: 일본 게임회사 인턴 한국인 지원가능
+            - button "한글 입력기" [ref=f31e20] [cursor=pointer]
+            - button "검색" [ref=f31e22] [cursor=pointer]
+      - generic [ref=f31e24]:
+        - generic [ref=f31e26]:
+          - generic [ref=f31e27]:
+            - tab "AI new" [ref=f31e29] [cursor=pointer]:
+              - text: AI
+              - generic [ref=f31e30]: new
+            - tab "블로그" [ref=f31e33] [cursor=pointer]
+            - tab "카페" [ref=f31e35] [cursor=pointer]
+            - tab "클립" [ref=f31e37] [cursor=pointer]
+            - tab "이미지" [ref=f31e39] [cursor=pointer]
+            - tab "지식iN" [ref=f31e41] [cursor=pointer]
+            - tab "동영상" [ref=f31e43] [cursor=pointer]
+            - tab "쇼핑" [ref=f31e45] [cursor=pointer]
+            - tab "뉴스" [ref=f31e47] [cursor=pointer]
+            - tab "어학사전" [ref=f31e49] [cursor=pointer]
+          - button "더보기" [ref=f31e51] [cursor=pointer]
+        - list [ref=f31e54]:
+          - listitem [ref=f31e55]:
+            - button "공유" [ref=f31e56] [cursor=pointer]
+    - main [ref=f31e57]:
+      - generic [ref=f31e58]:
+        - heading "일본 게임회사 인턴 한국인 지원가능 검색 결과" [level=1] [ref=f31e59]
+        - generic [ref=f31e60]:
+          - generic [ref=f31e72]:
+            - generic [ref=f31e73]:
+              - generic [ref=f31e74]:
+                - heading "AI 브리핑" [level=2] [ref=f31e80]
+                - generic [ref=f31e81]: 실험 단계로 정확하지 않을 수 있어요.
+              - button "정보 확인 도움말" [ref=f31e82] [cursor=pointer]
+            - button "Feedback 박스 열기" [ref=f31e89] [cursor=pointer]
+          - generic [ref=f31e131]:
+            - generic [ref=f31e134]:
+              - heading "교육 주제 네이버 메이트" [level=2] [ref=f31e136]
+              - button "정보 확인 도움말" [ref=f31e143] [cursor=pointer]
+            - generic [ref=f31e148]:
+              - generic [ref=f31e149]:
+                - link "프로필 이미지 공준모★공기업,채용,공공기관,코레일,서교공,NCS,인턴,취업카페 카페 1,273만 인용 공기업 및 공공기관 취업 준비생들의 직무별 전공 공부법, 자격증 취득, 채용 정보에 대한 실질적인 질의응답 공간 새 창 열림" [ref=f31e150] [cursor=pointer]:
+                  - /url: https://cafe.naver.com/studentstudyhard
+                  - generic [ref=f31e151]:
+                    - img "프로필 이미지" [ref=f31e153]
+                    - generic [ref=f31e154]:
+                      - generic [ref=f31e155]:
+                        - generic [ref=f31e156]: 공준모★공기업,채용,공공기관,코레일,서교공,NCS,인턴,취업카페
+                        - generic [ref=f31e161]:
+                          - generic [ref=f31e162]: 카페
+                          - generic [ref=f31e164]: 1,273만 인용
+                      - generic [ref=f31e169]: 공기업 및 공공기관 취업 준비생들의 직무별 전공 공부법, 자격증 취득, 채용 정보에 대한 실질적인 질의응답 공간
+                  - generic [ref=f31e170]: 새 창 열림
+                - link "프로필 이미지 고랑 지식인 3.8만 인용 고랑님은 취업 및 채용 관련 전문성을 갖춘 지식인 답변자로, 기업 인사 담당자의 관점에서 채용 컨설팅을 진행합니다. 새 창 열림" [ref=f31e171] [cursor=pointer]:
+                  - /url: https://kin.naver.com/profile/index.naver?u=ULbovNbGfUje%2FC5Vea3bm6nxnOI49YG%2BwAKaUqO5E4s%3D
+                  - generic [ref=f31e172]:
+                    - img "프로필 이미지" [ref=f31e174]
+                    - generic [ref=f31e175]:
+                      - generic [ref=f31e176]:
+                        - generic [ref=f31e177]: 고랑
+                        - generic [ref=f31e179]:
+                          - generic [ref=f31e180]: 지식인
+                          - generic [ref=f31e182]: 3.8만 인용
+                      - generic [ref=f31e187]: 고랑님은 취업 및 채용 관련 전문성을 갖춘 지식인 답변자로, 기업 인사 담당자의 관점에서 채용 컨설팅을 진행합니다.
+                  - generic [ref=f31e188]: 새 창 열림
+                - link "프로필 이미지 씨마스 블로그 56.3만 인용 씨마스 블로그는 입시, 취업, 자격증 준비 관련 정보를 제공하는 블로그입니다. 새 창 열림" [ref=f31e189] [cursor=pointer]:
+                  - /url: https://blog.naver.com/bosungabi
+                  - generic [ref=f31e190]:
+                    - img "프로필 이미지" [ref=f31e192]
+                    - generic [ref=f31e193]:
+                      - generic [ref=f31e194]:
+                        - generic [ref=f31e195]: 씨마스
+                        - generic [ref=f31e197]:
+                          - generic [ref=f31e198]: 블로그
+                          - generic [ref=f31e200]: 56.3만 인용
+                      - generic [ref=f31e205]: 씨마스 블로그는 입시, 취업, 자격증 준비 관련 정보를 제공하는 블로그입니다.
+                  - generic [ref=f31e206]: 새 창 열림
+                - link "프로필 이미지 루멘 블로그 391만 인용 취업 준비 및 자격증 취득 관련 정보를 제공하는 블로그입니다. 새 창 열림" [ref=f31e207] [cursor=pointer]:
+                  - /url: https://blog.naver.com/hellstudy
+                  - generic [ref=f31e208]:
+                    - img "프로필 이미지" [ref=f31e210]
+                    - generic [ref=f31e211]:
+                      - generic [ref=f31e212]:
+                        - generic [ref=f31e213]: 루멘
+                        - generic [ref=f31e215]:
+                          - generic [ref=f31e216]: 블로그
+                          - generic [ref=f31e218]: 391만 인용
+                      - generic [ref=f31e223]: 취업 준비 및 자격증 취득 관련 정보를 제공하는 블로그입니다.
+                  - generic [ref=f31e224]: 새 창 열림
+                - link "프로필 이미지 스마일 지식인 10.2만 인용 전기, 소방, 공무원 관련 자격증 및 취업 정보에 대한 전문성을 갖춘 지식인 답변자입니다. 새 창 열림" [ref=f31e225] [cursor=pointer]:
+                  - /url: https://kin.naver.com/profile/index.naver?u=hBqhEIR%2BmBOOu680kWkewjt4eC3vhGSRtVjJ6v1XbyE%3D
+                  - generic [ref=f31e226]:
+                    - img "프로필 이미지" [ref=f31e228]
+                    - generic [ref=f31e229]:
+                      - generic [ref=f31e230]:
+                        - generic [ref=f31e231]: 스마일
+                        - generic [ref=f31e233]:
+                          - generic [ref=f31e234]: 지식인
+                          - generic [ref=f31e236]: 10.2만 인용
+                      - generic [ref=f31e241]: 전기, 소방, 공무원 관련 자격증 및 취업 정보에 대한 전문성을 갖춘 지식인 답변자입니다.
+                  - generic [ref=f31e242]: 새 창 열림
+                - link "프로필 이미지 쿠팡풀필먼트정보카페+쿠팡입점판매자 카페 20.4만 인용 쿠팡 물류센터 단기직 및 계약직 근무자들의 실시간 확정 문자, 인센티브 정보, 공정별 업무 노하우를 공유하는 소통 공간 새 창 열림" [ref=f31e243] [cursor=pointer]:
+                  - /url: https://cafe.naver.com/brown5jvix
+                  - generic [ref=f31e244]:
+                    - img "프로필 이미지" [ref=f31e246]
+                    - generic [ref=f31e247]:
+                      - generic [ref=f31e248]:
+                        - generic [ref=f31e249]: 쿠팡풀필먼트정보카페+쿠팡입점판매자
+                        - generic [ref=f31e251]:
+                          - generic [ref=f31e252]: 카페
+                          - generic [ref=f31e254]: 20.4만 인용
+                      - generic [ref=f31e259]: 쿠팡 물류센터 단기직 및 계약직 근무자들의 실시간 확정 문자, 인센티브 정보, 공정별 업무 노하우를 공유하는 소통 공간
+                  - generic [ref=f31e260]: 새 창 열림
+                - link "프로필 이미지 메이 블로그 60.5만 인용 메이의 느리게 걷고 경험하자! 블로그는 언어 학습, 여행, 일상 생활에 유용한 정보를 공유하는 블로그입니다. 새 창 열림" [ref=f31e261] [cursor=pointer]:
+                  - /url: https://blog.naver.com/camel95
+                  - generic [ref=f31e262]:
+                    - img "프로필 이미지" [ref=f31e264]
+                    - generic [ref=f31e265]:
+                      - generic [ref=f31e266]:
+                        - generic [ref=f31e267]: 메이
+                        - generic [ref=f31e269]:
+                          - generic [ref=f31e270]: 블로그
+                          - generic [ref=f31e272]: 60.5만 인용
+                      - generic [ref=f31e277]: 메이의 느리게 걷고 경험하자! 블로그는 언어 학습, 여행, 일상 생활에 유용한 정보를 공유하는 블로그입니다.
+                  - generic [ref=f31e278]: 새 창 열림
+                - link "프로필 이미지 UKPLUS영국교육진흥원 지식인 3.7만 인용 영국 유학 및 어학연수 전문가로, 영국 대학 진학 시스템과 비자, 생활 정보에 대한 상세한 지식을 보유한 전문가. 새 창 열림" [ref=f31e279] [cursor=pointer]:
+                  - /url: https://kin.naver.com/profile/index.naver?u=T8tDp1MEN%2B8TLfbLa9OJi3TdMSEqrh9nsSsabkhxAIg%3D
+                  - generic [ref=f31e280]:
+                    - img "프로필 이미지" [ref=f31e282]
+                    - generic [ref=f31e283]:
+                      - generic [ref=f31e284]:
+                        - generic [ref=f31e285]: UKPLUS영국교육진흥원
+                        - generic [ref=f31e287]:
+                          - generic [ref=f31e288]: 지식인
+                          - generic [ref=f31e290]: 3.7만 인용
+                      - generic [ref=f31e295]: 영국 유학 및 어학연수 전문가로, 영국 대학 진학 시스템과 비자, 생활 정보에 대한 상세한 지식을 보유한 전문가.
+                  - generic [ref=f31e296]: 새 창 열림
+                - link "프로필 이미지 우라늄볼트 지식인 28.4만 인용 알바 관련 질문에 전문성을 가진 지식인 답변자입니다. 새 창 열림" [ref=f31e297] [cursor=pointer]:
+                  - /url: https://kin.naver.com/profile/index.naver?u=%2Bvy2ZEouLWzgre29QlGGFJ74I5RPzKcLWrpNWRlEmt8%3D
+                  - generic [ref=f31e298]:
+                    - img "프로필 이미지" [ref=f31e300]
+                    - generic [ref=f31e301]:
+                      - generic [ref=f31e302]:
+                        - generic [ref=f31e303]: 우라늄볼트
+                        - generic [ref=f31e305]:
+                          - generic [ref=f31e306]: 지식인
+                          - generic [ref=f31e308]: 28.4만 인용
+                      - generic [ref=f31e313]: 알바 관련 질문에 전문성을 가진 지식인 답변자입니다.
+                  - generic [ref=f31e314]: 새 창 열림
+                - link "프로필 이미지 알공이 블로그 99.3만 인용 자격증 취득 방법, 취업 전망, 학점은행제 등 교육 및 직업 관련 정보를 제공하는 블로그입니다. 새 창 열림" [ref=f31e315] [cursor=pointer]:
+                  - /url: https://blog.naver.com/wlgh113
+                  - generic [ref=f31e316]:
+                    - img "프로필 이미지" [ref=f31e318]
+                    - generic [ref=f31e319]:
+                      - generic [ref=f31e320]:
+                        - generic [ref=f31e321]: 알공이
+                        - generic [ref=f31e323]:
+                          - generic [ref=f31e324]: 블로그
+                          - generic [ref=f31e326]: 99.3만 인용
+                      - generic [ref=f31e331]: 자격증 취득 방법, 취업 전망, 학점은행제 등 교육 및 직업 관련 정보를 제공하는 블로그입니다.
+                  - generic [ref=f31e332]: 새 창 열림
+              - button "다음" [ref=f31e333] [cursor=pointer]
+            - link "네이버 메이트 창작자 더보기" [ref=f31e338] [cursor=pointer]:
+              - /url: "#lb_api=https%3A%2F%2Fs.search.naver.com%2Fp%2Finfluencer%2F47%2Fapi%2Fv2%2Fai-pick%3Fquery%3D%25EC%259D%25BC%25EB%25B3%25B8%2B%25EA%25B2%258C%25EC%259E%2584%25ED%259A%258C%25EC%2582%25AC%2B%25EC%259D%25B8%25ED%2584%25B4%2B%25ED%2595%259C%25EA%25B5%25AD%25EC%259D%25B8%2B%25EC%25A7%2580%25EC%259B%2590%25EA%25B0%2580%25EB%258A%25A5%26query_analysis%3DKLUv%252FWBGISVzACrT8CRCMG2cMRgeBgYGKLw0jXZadmOjZnsX0IF9NyFSJHa3%252B1toU2yXu5hAj0J9l2%252FRmEZgjuEybUoppZRS8t9%252FIGNgYEAVdQLvAdMCiIq4i47rvW%252Buyvl5iPfn5tp8mo6nyLr4j7bcbs2b1m7rrm59jfnPbcp8rdq%252BqG37a3y37nlqZ4ps%252FGmL9myIvYp8eoeft9rY7J6u6b6ti63mimq8jZmWOWGUZm703FvM97tLvM7jM7XnvAmToLzfJvPinRlink0Y5bV1rS%252F19Vr9JozCzvts3fjrjmkTJlF5LswUQo7HIoE%252BWJgIBOiSpozlw6Vu40RLeC4eWgYNhJhEJA3lJLMimj4lF3Z76i0vVx9OTiyR6aIiil2e6%252BKArKkCWRY1haiLsjqTZZlEqCuiZEUkUnkyEpdqMuAwnw%252FVsSybj1RppEr6WCyKU4EslrSJKEZ5Ptd0kTYfjtTRUFPlyXA8F5ESy2JREaUrIozFk%252BlQFsuE6UgdKhNRPCSgQQgJaBDCBxR8QAEGCoTAQIEQlGiC5aMjVZcPKaKceNBIl1RtPhHFg4jGikBMFkfKVEQYTIdiAlXX1ZkiShRVRJYlcS6S6fpMmI4HE1GijCwfkKfSWDyUVFcH5KHQIaqIOtV0XdLHUk0dCRKmEItINV0R5QR5zczCuYA%252BEeXk8lzdoq5q%252BpBMEUVz%252BTjUhfqYKkxEwc9eK7moyrO5QBJHojBUJuOJKCcnHk4UhEczXRLGMl2UZclMVUTxcPL%252FP2EV0VR5MFZEiS4KVGGmKgLRoSK6LIpjwVAfz2WhRKHpw3JZnipDXaKKaBKROpZqskARJbKAARES0CCEByQIkcAFISR8QEGIDDwIYQIIRpDQwQIjfEBBCAkYKBDCgQhGWKCCEA5sEIKEDzgQAQQKQkQVUUk1gT6APlgu00gEoiL6oDgey5KJQAQaAHw8AVTSNaEhiSpEgmKqpI1FUVHSRUFxIQor87G5TCMUGMqSLhISF%252BZDUSKNTJekoRDxYCY%252BlQdTTSGpM2ElZoLE0wmhoKiwPte1iSqiDWf68IhU08XicECdikgDukwfH4qDmTodaYOxWCyKZJouq0NlpupjMqE4kkjl6XQoDVV5SqRMiEcjWdYkgh8kPNMHFYooJ1oRTZgK5MGTcJNYNIwqIst0SR8fDXkoq5pCEcWDX2KzIqr9XfoxGxp2Pi9qsqmhYuPb%252BSFmN2Oq37Id7%252B52HyY2Zq%252Fl%252FR6aO%252FKlunn24u26W%252F71bh9youfd2t7%252FqmcfPvvfeWPv81v6ol1fI3%252B2%252Fx5mb7o3N%252FaiI%252Fe1oXHbP%252BIZ%252BiLvtmonvrqdmXer5SrrYa6ucudh%252B%252FUmsm27trk7eydaYm7uqu%252Ftm64zv%252BW7sjFf8h27%252Ba4uKr%252Frmp%252BnrW%252Bqop4fKmuv6tkvNp9aOzqndjOvfuYrJqb%252FpW47br7lKiKv2u6jq3rbPT6a8rFhd7%252FecaPtuSnbo%252Bl%252BLqP%252BrSqatnHmYWvvZj%252Bjs9qa4%252BX2nbrhezvb89p17p%252FZL6p%252Bq%252FP9298b46J14jEaXvKrdd%252B2trYdb3sy4xnrZfq3Zt6a9RpeP5%252B%252BuiPn6y6ycrdh6mLjaebbYnKe6%252FXttQcZnYhLhIULGjRkARp3sajYxgbP8wZTgFWokcE0LJELHUFhE6LBQHyksqlsPhoE8Cm0ASRNOjgJUrEQ4vH5DRk6bV1EMGRQFZINDIsIrMBhjKEpiaAQ4qh4MH6jhKocxiZNMqHDSMo3YJRsWOuSdEIXtuxBzDHgCvBcWE2lYxqO9qC85CwsJH5C9pHJCAvUb4xYaDo0gEIkH4nDY8iPGUhIMxYhEBKLI0I6HBMFyRj5jpAjSONBGAsLxODgXHyEvG3zFxQXFFYFWJtM6IDKw%252BQ%252FhERI7HImGz5CGOPQ4NNHszHByEDSF0IbGzYqERckUwF9sTDAxlSp0JHh8dLFHiuzuFKDw3XgjzxFBS8HcHR4hC6kCteDPDR0DIOCJ3gqFxsqC7shSwQiAiFCfTZGFZHlY7I%252BEmeKKLib%252B2n6%252F%252B0UFsUGU0lTx2eaLCg0HWqDuaQMHKkCTRmWJ6RDcSxUCDUSUSKSTsczQXEUIx5OZrqAQiguzCfzwSixkaXyVNUUUSIAANgIVSMlG%252FyDB0eut%252BMvFQyXTMQ7ARwTkn4KIlPFYhqZ8CIcJiB3yXDnVD44lGi4lKGxMRDPChMql4gIkc%252BwqXB5GWAAjyqEIcJC9R4moIu0IAkBkSqqHs1bEZ%252FMXTQGGIlGhQgCPiKovdjIxmA0GiocGKvwGyWexf5kVAWEqiljwSIaboEVAUniEbpcCJDhLzI8mZWGk4FDpQIGAzoirAsioBIQDqlkVEAwoyQiBCTjYy1EOhcqlQnVhSM8NBMs9GUjBAMmBMIayTNUJB7BoC5KQhUOUMl%252Bh3Nkmnwg2bCpZDhwCInQYBcXti9sgKSQBQWNxjVd0SDB6FSZUKViIXTxSTOSfBEAQ8mnwoGafk2GTKoJBYwPqpGBQ4i7CXBAhGEcEMFBQIgi5OMRVUQW5cmSLhHFg4E6Fg8WEyodKgN0dKBElMhDBwaFDlFnCskYoBInJx5OXFNROzdx0dAvD685EcUyUyf1OkQ2cRIsNy8ELu3f80Kgj9smUEL%252Fq14IsFtqo%252BaFwARKuMvPqCKyPiTOxzph1Htj1dY09c%252Fr%252B27uTm5Gzzt9a1VX419cP%252BVuP3ZMzW7WvM7GnbAIRAeLpYSaBG%252Fztery9V77Jlr68uprnqVhm9vlfetuHvraq6Xv9%252Fcu9x33uR73mqlxdu6b%252Bemxprf62aG697l%252BN5utHm%252B%252F6uP2e649suMibj9ifjuvp2f%252F3Z67b2LjXe%252B2ZSeant3arz1%252B8x678Z56o%252FGmOuLvYb6Z662v7%252BIzYps2a%252FKh6vE7r93iWrO23tmeN2fqJ6eh52ejm%252BWuPz7jYuovOj56Z%252B9ymr5rmqcxW5u5antuHnNi8l9zL%252F%252Fqux2efabh2tqdG1ruq7HxdWs7pz3a7faqa%252B8fc%252Bt1q1r%252F3z3mOx8yryGvpePf3tnxml2u7V8%252Fep9xotq9mf6yX%252FM6G7%252B6XvIeZmIa6q8evnb%252BnSu%252BIV56q%252BK156%252Fl9rpyrx7fcyPmn6Iz5qJu797ho527rS6jeVvabrOv9tvlvm2fmd5lM9ulWh6%252B%252FXLmL5oELwATQgGCJ6iichwFGVIGKSQydAtSyDAGoggQCCNxGshZ0A8SoDUth1HDEBERCUREJJBAJJAgSgqSJBkOIIE7FZLp2b1OPeZ5WYaT%252B5OBaE3YwikegZOZJGcPu8ebn7JVcuzvuf%252B4Yt%252BrekjyBoOOn09D34a2%252Bf4hczSoi1ihBrn1pj5im6rHxfkXFoKr%252FX2xV2vIbyCX4%252BNBXso%252FQcqkqabUxy7n5pkWsPU%252BOqFG31YmZSpBCyJ3jmLKSZD3ZThgvy8RTFD7ci%252FA5LMd%252FzvMd8voqHd34v2MK3NHNGsKmy6lbbhA8JB4VReSylGBeeaUSltBvcZOBb28rQRbDj50RHJT3Hn0Cn0lBCrrKzVPjMKSox%252BAQpoLXrLX3KC0Um3%252BPXTa5odUlERkQbyRCxQYL5ZfdlpY0NDRR1KkQShAjz%252BOL5Y5BgJw5LQrSN04mwYj9%252B3bzfUNWHPQtv2N1XcdxIOTftlXYRFD80U7SwMzfzB%252B52I%252BdOwCeDJxnZgrhoRCwCsjIrBzRp4EAQuWtPluaE7Mvb6ToYbNP9jYOT8vvsrO9CJjaUDaruypyWPoADG0Ag9LvIXMo90IsWmmIkOHkb%252BrFCVNEXdoQ4l09eJC3CCCizCqH2xYKVlz%252F8bGJhWs6iROrq1fxecDlSIKCEUsEqwjAbwdeNThLyWtfCT3dAaUUiBxD240VJvQEZnyL4uLRhkOYkvxBC7bFXq6ISysWIIHzKRLKFWlA9bPKx4WPH2%252F%252BPDRNancW8mwJHYOgzAubgTSlFWiGNGm4Y61K9nBAWkEgXhFhC2c1p4gqrSI4I5P0l%252FCEIyW78L6CrBhkhtVbH2cinSkpMwA3pOuCZTVwBNS%252BtlA4vp2csdlt0qS7fUP9K14kEuRVy1jCFynVElBSK5RSaYma6deu5XnQ4%252FaoIgEJMnLyIb6UFF4oyEJqppPJLeAk59DcnVZBnKodVtZ%252FQAagvePDAERjQox54fdQ66vyDDQZsMBmqRijVPfnbfPRgqOnJwLSBGvZvPmZAkHJwVAHmvYhh2R5UJnp8%252FBdUCjx6GgH0nxR%252Bh8HeaZCMm%252FVmw9SK7scbB4LpqwujvFQVv7RAVhQaLvhHLNE5hB2yrRWLTQMyh7ct7KpFIGDtRBPE9jvIAyYmiyp0Ow6MKOzfliEGWjYqnGmPBoNbeYwRAs6OA7zWy8sNeBbqhEAcK7%252FIC7W0JivLLg2zJWY13PdpvxueukUsz2%252BIdS2YsYGEAu27L7HqBRzg4BwphyLpVfSee5Hs3Jf9aoQcnf0P5F9v5dnpmyimX3IIDDIp7QxbWyXIk0vqlkunIfleZmzJ2qAG4KvGbqYO%252F1DDATV0F4NUc48C712wCgN39BiwCuMQhAzkfyuGzhZ8Cv%252BDGax1c4HcHTJxI5jXFKhKmH5BGsvVrKPfXGJ8id6m0HYG1CXf9keAs9Kfe%252FrTmimrfPiQLOf34TkFp12tSPTlVe%252BSpsd1Ww6d%252BOkW1SzDLfAVLUAobvWT8As6Cqa1sj38MKg%252Bhma3ZDLc2yS%252Fpxq4rxYvwtI1wGdVbpI6dQvElvG8P%252F71A75H%252FPgjZR5a2skBmba89FP8ECL%252Frt85hCrZ6BfI4A%252Bia%252BpZWVi%252BfbZw9FIH%252FeFBYf4ew2lcCbuz7OKS43egynQNhEvXga%252FiEwKELfsM9eDlDl5LRkqgh42A7aDqd%252FJ7C%252BnU7weMiImoAXEg1U3n82ufjIS7JliY2eTwKLQKq1mo2F2MeGLiaKqwT%252FWDGkJ9pGVNmkLZmMDg%253D%253D%26ssc%3Dtab.nmate.lit%26start%3D1%26where%3Dapi"
+              - generic [ref=f31e343]:
+                - generic [ref=f31e344]: 네이버 메이트 창작자
+                - generic [ref=f31e345]: 더보기
+          - generic [ref=f31e349]:
+            - generic [ref=f31e354]:
+              - generic [ref=f31e355]:
+                - generic [ref=f31e356]:
+                  - link "링커리어 linkareer.com›activity 새 창 열림" [ref=f31e357] [cursor=pointer]:
+                    - /url: https://linkareer.com/activity/329008
+                    - generic [ref=f31e359]:
+                      - generic [ref=f31e363]: 링커리어
+                      - generic [ref=f31e365]: linkareer.com›activity
+                    - generic [ref=f31e369]: 새 창 열림
+                  - button "옵션 메뉴 열기" [ref=f31e371] [cursor=pointer]
+                - link "[일본어 원어민] 일본 사업 지원 인턴 새 창 열림" [ref=f31e378] [cursor=pointer]:
+                  - /url: https://linkareer.com/activity/329008
+                  - generic [ref=f31e379]:
+                    - text: "["
+                    - mark [ref=f31e380]: 일본
+                    - text: 어 원어민]
+                    - mark [ref=f31e381]: 일본
+                    - text: 사업
+                    - mark [ref=f31e382]: 지원
+                    - mark [ref=f31e383]: 인턴
+                  - generic [ref=f31e384]: 새 창 열림
+              - generic [ref=f31e385]:
+                - generic [ref=f31e387]:
+                  - generic [ref=f31e388]:
+                    - generic [ref=f31e389] [cursor=pointer]: "[회사 소개]"
+                    - generic [ref=f31e392] [cursor=pointer]: "[그룹 소개]"
+                    - generic [ref=f31e395] [cursor=pointer]: "[주요 업무]"
+                  - button "다음" [ref=f31e398] [cursor=pointer]
+                - generic [ref=f31e403]:
+                  - link "새 창 열림" [ref=f31e404] [cursor=pointer]:
+                    - /url: https://linkareer.com/activity/329008
+                  - generic [ref=f31e410]:
+                    - generic [ref=f31e411]: 2026.06.17.
+                    - text: 패스트파이브는 전 통산업인 부동산 시장의 혁신을 통해 새로운 고객경험을 제공하고자 공간은 물론 서비스, 커뮤니티, 인프라를 모두 최적화함으로써 일하는 공간을 WaaS(Workplace as a Service)로 새롭게 정의합니다.
+            - generic [ref=f31e416]:
+              - generic [ref=f31e417]:
+                - generic [ref=f31e418]:
+                  - link "나무위키 namu.wiki›일본›취업 새 창 열림" [ref=f31e419] [cursor=pointer]:
+                    - /url: https://namu.wiki/w/%EC%9D%BC%EB%B3%B8/%EC%B7%A8%EC%97%85
+                    - generic [ref=f31e421]:
+                      - generic [ref=f31e425]: 나무위키
+                      - generic [ref=f31e427]: namu.wiki›일본›취업
+                    - generic [ref=f31e431]: 새 창 열림
+                  - button "옵션 메뉴 열기" [ref=f31e433] [cursor=pointer]
+                - generic [ref=f31e438]:
+                  - link "일본/취업 - 나무위키 새 창 열림" [ref=f31e440] [cursor=pointer]:
+                    - /url: https://namu.wiki/w/%EC%9D%BC%EB%B3%B8/%EC%B7%A8%EC%97%85
+                    - generic [ref=f31e441]:
+                      - mark [ref=f31e442]: 일본
+                      - text: /취업 - 나무위키
+                    - generic [ref=f31e443]: 새 창 열림
+                  - link "개요 한국인의 일본 취업에 대한 내용을 여러 기준으로 서술한 문서. 결론 문단에서도 써져있듯, 누구나 편집이 가능한... 이쪽도 사람을 가리니 지원자가 많은데도 불구하고 계속 구인 중인 것이다. 즉, 일본은 유효구인배율이 높아도 아무나 안... 해외영업 직군의 경우, 한국에서 일본회사에 제품을 판매하던 해외영업 경험자라면 일본어가 능통하다는 전제하에... 새 창 열림" [ref=f31e445] [cursor=pointer]:
+                    - /url: https://namu.wiki/w/%EC%9D%BC%EB%B3%B8/%EC%B7%A8%EC%97%85
+                    - generic [ref=f31e446]:
+                      - text: 개요
+                      - mark [ref=f31e447]: 한국인
+                      - text: 의
+                      - mark [ref=f31e448]: 일본
+                      - text: 취업에 대한 내용을 여러 기준으로 서술한 문서. 결론 문단에서도 써져있듯, 누구나 편집이
+                      - mark [ref=f31e449]: 가능
+                      - text: 한... 이쪽도 사람을 가리니
+                      - mark [ref=f31e450]: 지원
+                      - text: 자가 많은데도 불구하고 계속 구인 중인 것이다. 즉,
+                      - mark [ref=f31e451]: 일본
+                      - text: 은 유효구인배율이 높아도 아무나 안... 해외영업 직군의 경우,
+                      - mark [ref=f31e452]: 한국
+                      - text: 에서
+                      - mark [ref=f31e453]: 일본
+                      - mark [ref=f31e454]: 회사
+                      - text: 에 제품을 판매하던 해외영업 경험자라면
+                      - mark [ref=f31e455]: 일본
+                      - text: 어가 능통하다는 전제하에...
+                    - generic [ref=f31e456]: 새 창 열림
+              - generic [ref=f31e457]:
+                - link "개요 새 창 열림" [ref=f31e458] [cursor=pointer]:
+                  - /url: https://namu.wiki/w/%EC%9D%BC%EB%B3%B8/%EC%B7%A8%EC%97%85#s-1
+                  - generic [ref=f31e459]: 개요
+                  - generic [ref=f31e460]: 새 창 열림
+                - link "상세 새 창 열림" [ref=f31e461] [cursor=pointer]:
+                  - /url: https://namu.wiki/w/%EC%9D%BC%EB%B3%B8/%EC%B7%A8%EC%97%85#s-2
+                  - generic [ref=f31e462]: 상세
+                  - generic [ref=f31e463]: 새 창 열림
+                - link "특징 새 창 열림" [ref=f31e464] [cursor=pointer]:
+                  - /url: https://namu.wiki/w/%EC%9D%BC%EB%B3%B8/%EC%B7%A8%EC%97%85#s-3
+                  - generic [ref=f31e465]: 특징
+                  - generic [ref=f31e466]: 새 창 열림
+                - link "분류 새 창 열림" [ref=f31e467] [cursor=pointer]:
+                  - /url: https://namu.wiki/w/%EC%9D%BC%EB%B3%B8/%EC%B7%A8%EC%97%85#s-4
+                  - generic [ref=f31e468]: 분류
+                  - generic [ref=f31e469]: 새 창 열림
+                - link "물가와 세금 새 창 열림" [ref=f31e470] [cursor=pointer]:
+                  - /url: https://namu.wiki/w/%EC%9D%BC%EB%B3%B8/%EC%B7%A8%EC%97%85#s-5
+                  - generic [ref=f31e471]: 물가와 세금
+                  - generic [ref=f31e472]: 새 창 열림
+                - link "일본 취업의 단점 새 창 열림" [ref=f31e473] [cursor=pointer]:
+                  - /url: https://namu.wiki/w/%EC%9D%BC%EB%B3%B8/%EC%B7%A8%EC%97%85#s-6
+                  - generic [ref=f31e474]: 일본 취업의 단점
+                  - generic [ref=f31e475]: 새 창 열림
+                - link "일본 취업의 장점 새 창 열림" [ref=f31e476] [cursor=pointer]:
+                  - /url: https://namu.wiki/w/%EC%9D%BC%EB%B3%B8/%EC%B7%A8%EC%97%85#s-7
+                  - generic [ref=f31e477]: 일본 취업의 장점
+                  - generic [ref=f31e478]: 새 창 열림
+                - link "결론 새 창 열림" [ref=f31e479] [cursor=pointer]:
+                  - /url: https://namu.wiki/w/%EC%9D%BC%EB%B3%B8/%EC%B7%A8%EC%97%85#s-8
+                  - generic [ref=f31e480]: 결론
+                  - generic [ref=f31e481]: 새 창 열림
+                - link "관련 용어 새 창 열림" [ref=f31e482] [cursor=pointer]:
+                  - /url: https://namu.wiki/w/%EC%9D%BC%EB%B3%B8/%EC%B7%A8%EC%97%85#s-9
+                  - generic [ref=f31e483]: 관련 용어
+                  - generic [ref=f31e484]: 새 창 열림
+                - link "취업률 새 창 열림" [ref=f31e485] [cursor=pointer]:
+                  - /url: https://namu.wiki/w/%EC%9D%BC%EB%B3%B8/%EC%B7%A8%EC%97%85#s-3.1
+                  - generic [ref=f31e486]: 취업률
+                  - generic [ref=f31e487]: 새 창 열림
+              - generic [ref=f31e488]:
+                - generic [ref=f31e490]:
+                  - link "나이 제한 - 나무위키 새 창 열림" [ref=f31e491] [cursor=pointer]:
+                    - /url: https://namu.wiki/w/%EB%82%98%EC%9D%B4%20%EC%A0%9C%ED%95%9C
+                    - generic [ref=f31e492]: 나이 제한 - 나무위키
+                    - generic [ref=f31e493]: 새 창 열림
+                  - generic [ref=f31e495]:
+                    - text: 개요 단체를 가입하거나
+                    - mark [ref=f31e496]: 회사
+                    - text: 에서 취업을 하는데 나이를 기준으로 가입이나 취업을 제한하는 행위. 하향식은 특정 연령을... 재취업이
+                    - mark [ref=f31e497]: 가능
+                    - text: 하다. 전문자격증을 가진 8대 전문직의 경우에도 나이 제한이 적다. 그래도 케바케로서 이 경우 안 가고 다른 곳에 가도 그만이긴 하다. 하지만 신입 채용이면 얘기가 완전히 달라진다.
+                    - mark [ref=f31e498]: 한국
+                    - text: 대기업에서는 코로나 이전까지만 해도 만...
+                - link "관련문서 더보기" [ref=f31e500] [cursor=pointer]:
+                  - /url: "?page=2&query=%EC%9D%BC%EB%B3%B8+%EA%B2%8C%EC%9E%84%ED%9A%8C%EC%82%AC+%EC%9D%B8%ED%84%B4+%ED%95%9C%EA%B5%AD%EC%9D%B8+%EC%A7%80%EC%9B%90%EA%B0%80%EB%8A%A5+site%3Anamu.wiki&qvt=0&ssc=tab.ur.all"
+            - generic [ref=f31e509]:
+              - generic [ref=f31e510]:
+                - link "부산외국어대학교 www.bufs.ac.kr›bbs 새 창 열림" [ref=f31e511] [cursor=pointer]:
+                  - /url: https://www.bufs.ac.kr/bbs/board.php?bo_table=notice_emp&wr_id=4914
+                  - generic [ref=f31e513]:
+                    - generic [ref=f31e517]: 부산외국어대학교
+                    - generic [ref=f31e519]: www.bufs.ac.kr›bbs
+                  - generic [ref=f31e523]: 새 창 열림
+                - button "옵션 메뉴 열기" [ref=f31e525] [cursor=pointer]
+              - generic [ref=f31e530]:
+                - link "넥슨코리아 <mark>인턴</mark> 채용의 이미지 새 창 열림" [ref=f31e531] [cursor=pointer]:
+                  - /url: https://www.bufs.ac.kr/bbs/board.php?bo_table=notice_emp&wr_id=4914
+                  - img "넥슨코리아 <mark>인턴</mark> 채용의 이미지" [ref=f31e533]
+                  - generic [ref=f31e535]: 새 창 열림
+                - link "넥슨코리아 인턴 채용 새 창 열림" [ref=f31e537] [cursor=pointer]:
+                  - /url: https://www.bufs.ac.kr/bbs/board.php?bo_table=notice_emp&wr_id=4914
+                  - generic [ref=f31e538]:
+                    - text: 넥슨코리아
+                    - mark [ref=f31e539]: 인턴
+                    - text: 채용
+                  - generic [ref=f31e540]: 새 창 열림
+                - link "2023.05.31. About BUFS 대학교육 해외교류 입학안내 진로·취업·창업 국제교류처(OIA) > 학생포털 > 사이트맵 Language 취업현장실습공지 넥슨코리아 인턴 채용 2023. 5. 31 조회수13,137 한국연구재단 채용 목록 넥슨코리아 인턴 채용 개인정보처리방침 예·결산공고 찾아오시는 길 캠퍼스안내 통학버스 발전기금 입찰공고 총동문회 정보공개 원격지원 교내 주요사이트 46234 부산광역시 금정구 금샘 새 창 열림" [ref=f31e542] [cursor=pointer]:
+                  - /url: https://www.bufs.ac.kr/bbs/board.php?bo_table=notice_emp&wr_id=4914
+                  - generic [ref=f31e543]:
+                    - generic [ref=f31e544]: 2023.05.31.
+                    - generic [ref=f31e545]:
+                      - text: About BUFS 대학교육 해외교류 입학안내 진로·취업·창업 국제교류처(OIA) > 학생포털 > 사이트맵 Language 취업현장실습공지 넥슨코리아
+                      - mark [ref=f31e546]: 인턴
+                      - text: 채용 2023. 5. 31 조회수13,137
+                      - mark [ref=f31e547]: 한국
+                      - text: 연구재단 채용 목록 넥슨코리아
+                      - mark [ref=f31e548]: 인턴
+                      - text: 채용 개인정보처리방침 예·결산공고 찾아오시는 길 캠퍼스안내 통학버스 발전기금 입찰공고 총동문회 정보공개 원격
+                      - mark [ref=f31e549]: 지원
+                      - text: 교내 주요사이트 46234 부산광역시 금정구 금샘
+                  - generic [ref=f31e550]: 새 창 열림
+            - generic [ref=f31e556]:
+              - generic [ref=f31e557]:
+                - link "경상국립대학교 www.gnu.ac.kr›me 새 창 열림" [ref=f31e558] [cursor=pointer]:
+                  - /url: https://www.gnu.ac.kr/me/na/ntt/selectNttInfo.do?mi=6151&nttSn=92173
+                  - generic [ref=f31e560]:
+                    - generic [ref=f31e564]: 경상국립대학교
+                    - generic [ref=f31e566]: www.gnu.ac.kr›me
+                  - generic [ref=f31e570]: 새 창 열림
+                - button "옵션 메뉴 열기" [ref=f31e572] [cursor=pointer]
+              - generic [ref=f31e577]:
+                - 'link "[인턴십/채용공고] 2021년 국내 일본계기업 인턴십 프로그램 안내(지원마감: ~5월23일) - 취업 정보<.... 새 창 열림" [ref=f31e579] [cursor=pointer]':
+                  - /url: https://www.gnu.ac.kr/me/na/ntt/selectNttInfo.do?mi=6151&nttSn=92173
+                  - generic [ref=f31e580]:
+                    - text: "["
+                    - mark [ref=f31e581]: 인턴
+                    - text: 십/채용공고] 2021년 국내
+                    - mark [ref=f31e582]: 일본
+                    - text: 계기업
+                    - mark [ref=f31e583]: 인턴
+                    - text: 십 프로그램 안내(
+                    - mark [ref=f31e584]: 지원
+                    - text: "마감: ~5월23일) - 취업 정보<...."
+                  - generic [ref=f31e585]: 새 창 열림
+                - 'link "2021.05.04.지원 조건 (1) 4 년제 대학 재학생(3~4학년) 및 졸업 1년 이내인 자 (2) 일본어 또는 영어 중급 레벨 이상 (3) 인턴십 실시기간(오리엔테이션, 수료식 포함) 전 일정에 참가 가능할 것 (4) 본 사업의 취지를 이해하고 일본계 기업에서 진지한 자세로 근무할 수 있는 학생 3. 사업 개요 (1) 일한산업기술협력재단 (업무대행: *제니엘)에서 한국 소재 대학의 대학생을... 새 창 열림" [ref=f31e587] [cursor=pointer]':
+                  - /url: https://www.gnu.ac.kr/me/na/ntt/selectNttInfo.do?mi=6151&nttSn=92173
+                  - generic [ref=f31e588]:
+                    - generic [ref=f31e589]: 2021.05.04.
+                    - generic [ref=f31e590]:
+                      - mark [ref=f31e591]: 지원
+                      - text: 조건 (1) 4 년제 대학 재학생(3~4학년) 및 졸업 1년 이내인 자 (2)
+                      - mark [ref=f31e592]: 일본
+                      - text: 어 또는 영어 중급 레벨 이상 (3)
+                      - mark [ref=f31e593]: 인턴
+                      - text: 십 실시기간(오리엔테이션, 수료식 포함) 전 일정에 참가
+                      - mark [ref=f31e594]: 가능
+                      - text: 할 것 (4) 본 사업의 취지를 이해하고
+                      - mark [ref=f31e595]: 일본
+                      - text: "계 기업에서 진지한 자세로 근무할 수 있는 학생 3. 사업 개요 (1) 일한산업기술협력재단 (업무대행: *제니엘)에서"
+                      - mark [ref=f31e596]: 한국
+                      - text: 소재 대학의 대학생을...
+                  - generic [ref=f31e597]: 새 창 열림
+            - generic [ref=f31e602]:
+              - generic [ref=f31e603]:
+                - generic [ref=f31e604]:
+                  - link "사람인 www.saramin.co.kr›zf_user 새 창 열림" [ref=f31e605] [cursor=pointer]:
+                    - /url: https://www.saramin.co.kr/zf_user/jobs/view?rec_idx=40423365
+                    - generic [ref=f31e607]:
+                      - generic [ref=f31e611]: 사람인
+                      - generic [ref=f31e613]: www.saramin.co.kr›zf_user
+                    - generic [ref=f31e617]: 새 창 열림
+                  - button "옵션 메뉴 열기" [ref=f31e619] [cursor=pointer]
+                - generic [ref=f31e624]:
+                  - link "[(주)엘엔케이로직코리아] [온라인게임] 일본어 번역 로컬라이징 담당 채용 새 창 열림" [ref=f31e626] [cursor=pointer]:
+                    - /url: https://www.saramin.co.kr/zf_user/jobs/view?rec_idx=40423365
+                    - generic [ref=f31e627]:
+                      - text: "[(주)엘엔케이로직코리아] [온라인"
+                      - mark [ref=f31e628]: 게임
+                      - text: "]"
+                      - mark [ref=f31e629]: 일본
+                      - text: 어 번역 로컬라이징 담당 채용
+                    - generic [ref=f31e630]: 새 창 열림
+                  - generic [ref=f31e631]:
+                    - 'link "2021.06.08.경력 : 무관(신입포함), 학력 : 학력무관, 근무형태 : 정규직 수습기간 3개월, 자격요건 : 1건 · 상세보기, 우대사항 : 4건 · 상세보기, 급여 : 회사내규에 따름, 근무일시 : 주 5일(월~금) 오전 9시~오후 6시, 근무지역 : 서울 강남구 · 지도보기 새 창 열림" [ref=f31e632] [cursor=pointer]':
+                      - /url: https://www.saramin.co.kr/zf_user/jobs/view?rec_idx=40423365
+                      - generic [ref=f31e633]:
+                        - generic [ref=f31e634]: 2021.06.08.
+                        - generic [ref=f31e635]:
+                          - text: "경력 : 무관(신입포함), 학력 : 학력무관, 근무형태 : 정규직 수습기간 3개월, 자격요건 : 1건 · 상세보기, 우대사항 : 4건 · 상세보기, 급여 :"
+                          - mark [ref=f31e636]: 회사
+                          - text: "내규에 따름, 근무일시 : 주 5일(월~금) 오전 9시~오후 6시, 근무지역 : 서울 강남구 · 지도보기"
+                      - generic [ref=f31e637]: 새 창 열림
+                    - link "근무형태 정규직 수습기간 3개월 자격요건 1건 외국어JPT 800급(점) 이상 새 창 열림" [ref=f31e638] [cursor=pointer]:
+                      - /url: https://www.saramin.co.kr/zf_user/jobs/view?rec_idx=40423365
+                      - generic [ref=f31e639]:
+                        - generic [ref=f31e640]:
+                          - generic [ref=f31e641]: 근무형태
+                          - generic [ref=f31e642]: 정규직 수습기간 3개월
+                        - generic [ref=f31e644]:
+                          - generic [ref=f31e645]: 자격요건
+                          - generic [ref=f31e646]: 1건 외국어JPT 800급(점) 이상
+                      - generic [ref=f31e648]: 새 창 열림
+              - generic [ref=f31e649]:
+                - generic [ref=f31e651]:
+                  - link "[(주)케이앤웍스] [신입/경력] 카카오게임즈 파트너사 글로벌 커뮤니티 및 고객서비스(일본어) 담.... 새 창 열림" [ref=f31e652] [cursor=pointer]:
+                    - /url: https://www.saramin.co.kr/zf_user/jobs/view?rec_idx=54027362
+                    - generic [ref=f31e653]:
+                      - text: "[(주)케이앤웍스] [신입/경력] 카카오"
+                      - mark [ref=f31e654]: 게임
+                      - text: 즈 파트너사 글로벌 커뮤니티 및 고객서비스(
+                      - mark [ref=f31e655]: 일본
+                      - text: 어) 담....
+                    - generic [ref=f31e656]: 새 창 열림
+                  - generic [ref=f31e658]:
+                    - text: (주)케이앤웍스는 폭넓은 모바일과 PC환경 전반의 광고 대행, 검색/쇼핑 운영, DB/콘텐츠 구축, 모니터링/고객
+                    - mark [ref=f31e659]: 지원
+                    - text: 등 운영 서비스를 전문적으로 수행하는 기업입니다.
+                - link "관련문서 더보기" [ref=f31e661] [cursor=pointer]:
+                  - /url: "?page=2&query=%EC%9D%BC%EB%B3%B8+%EA%B2%8C%EC%9E%84%ED%9A%8C%EC%82%AC+%EC%9D%B8%ED%84%B4+%ED%95%9C%EA%B5%AD%EC%9D%B8+%EC%A7%80%EC%9B%90%EA%B0%80%EB%8A%A5+site%3Awww.saramin.co.kr&qvt=0&ssc=tab.ur.all"
+          - generic [ref=f31e665]:
+            - generic [ref=f31e671]:
+              - generic [ref=f31e672]:
+                - generic [ref=f31e673]:
+                  - link "새 창 열림" [ref=f31e675] [cursor=pointer]:
+                    - /url: https://blog.naver.com/kimminsrrr
+                  - link "슬기로운 유미생활 새 창 열림" [ref=f31e681] [cursor=pointer]:
+                    - /url: https://blog.naver.com/kimminsrrr
+                    - generic [ref=f31e682]: 슬기로운 유미생활
+                    - generic [ref=f31e683]: 새 창 열림
+                  - generic [ref=f31e684]: 2025.07.04.
+                - button "옵션 메뉴 열기" [ref=f31e688] [cursor=pointer]
+              - generic [ref=f31e694]:
+                - generic [ref=f31e695]:
+                  - link "일본게임회사 사이버에이전트 채용정보, 게임 개발자라면 꼭 주목해야 할 기회! 새 창 열림" [ref=f31e696] [cursor=pointer]:
+                    - /url: https://blog.naver.com/kimminsrrr/223921468375
+                    - generic [ref=f31e697]:
+                      - mark [ref=f31e698]: 일본게임회사
+                      - text: 사이버에이전트 채용정보,
+                      - mark [ref=f31e699]: 게임
+                      - text: 개발자라면 꼭 주목해야 할 기회!
+                    - generic [ref=f31e700]: 새 창 열림
+                  - link "“혹시 온라인 지원 준비가 미흡했다면, 현장 박람회에서 이력서 들고 직접 지원해도 OK!” 왜 이 기회가 특 별할까요? ✅ 일본게임회사 중에서도 대기업 ✅ 세계적으로 인기 있는 IP 제작 경험 가능 ✅ 안정적인 정규직 조건 ✅ 일본어 중상급 아니라도 도전 가능 ✅ 한국에서 지원하거나 현장 박람회 지원도 가능 특히 일 본 취업을 고민 중이셨던 게 임... 새 창 열림" [ref=f31e702] [cursor=pointer]:
+                    - /url: https://blog.naver.com/kimminsrrr/223921468375
+                    - generic [ref=f31e703]:
+                      - text: “혹시 온라인
+                      - mark [ref=f31e704]: 지원
+                      - text: 준비가 미흡했다면, 현장 박람회에서 이력서 들고 직접
+                      - mark [ref=f31e705]: 지원
+                      - text: 해도 OK!” 왜 이 기회가 특 별할까요? ✅
+                      - mark [ref=f31e706]: 일본게임회사
+                      - text: 중에서도 대기업 ✅ 세계적으로 인기 있는 IP 제작 경험
+                      - mark [ref=f31e707]: 가능
+                      - text: ✅ 안정적인 정규직 조건 ✅
+                      - mark [ref=f31e708]: 일본
+                      - text: 어 중상급 아니라도 도전
+                      - mark [ref=f31e709]: 가능
+                      - text: ✅
+                      - mark [ref=f31e710]: 한국
+                      - text: 에서
+                      - mark [ref=f31e711]: 지원
+                      - text: 하거나 현장 박람회
+                      - mark [ref=f31e712]: 지원
+                      - text: 도
+                      - mark [ref=f31e713]: 가능
+                      - text: 특히
+                      - mark [ref=f31e714]: 일 본
+                      - text: 취업을 고민 중이셨던
+                      - mark [ref=f31e715]: 게 임
+                      - text: ...
+                    - generic [ref=f31e716]: 새 창 열림
+                - generic [ref=f31e717]:
+                  - link "새 창 열림" [ref=f31e718] [cursor=pointer]:
+                    - /url: https://blog.naver.com/kimminsrrr/223921468375
+                  - link "새 창 열림" [ref=f31e723] [cursor=pointer]:
+                    - /url: https://blog.naver.com/kimminsrrr/223921468375
+                  - link "새 창 열림" [ref=f31e728] [cursor=pointer]:
+                    - /url: https://blog.naver.com/kimminsrrr/223921468375
+                  - link "새 창 열림" [ref=f31e733] [cursor=pointer]:
+                    - /url: https://blog.naver.com/kimminsrrr/223921468375
+                  - link "새 창 열림" [ref=f31e738] [cursor=pointer]:
+                    - /url: https://blog.naver.com/kimminsrrr/223921468375
+                  - generic [ref=f31e743]: "7"
+            - generic [ref=f31e749]:
+              - generic [ref=f31e750]:
+                - generic [ref=f31e751]:
+                  - link "새 창 열림" [ref=f31e753] [cursor=pointer]:
+                    - /url: https://blog.naver.com/employ1106
+                  - link "차곡차곡 새 창 열림" [ref=f31e759] [cursor=pointer]:
+                    - /url: https://blog.naver.com/employ1106
+                    - generic [ref=f31e760]: 차곡차곡
+                    - generic [ref=f31e761]: 새 창 열림
+                  - generic [ref=f31e762]: 2025.04.22.
+                - button "옵션 메뉴 열기" [ref=f31e766] [cursor=pointer]
+              - generic [ref=f31e773]:
+                - link "제 11기 국내 일본계 기업 인턴십 모집 시작+꿀팁 새 창 열림" [ref=f31e774] [cursor=pointer]:
+                  - /url: https://blog.naver.com/employ1106/223842928321
+                  - generic [ref=f31e775]:
+                    - text: 제 11기 국내
+                    - mark [ref=f31e776]: 일본
+                    - text: 계 기업
+                    - mark [ref=f31e777]: 인턴
+                    - text: 십 모집 시작+꿀팁
+                  - generic [ref=f31e778]: 새 창 열림
+                - link "+ 체험형 인턴으로 진행되지만 채용으로 이어지는 경우도 있었고! 우수한 기업들의 현직자와 네트워크를 형성할 할 수 있다는게 아주아주 큰 장점 일본어 자격증이 없어도 지원 가능하니 다들 꼭 경험했으면 좋겠다 꿀팁 1. 참가 기업과 모집 직무... 지원자들을 면접을 통해 어떤 사람인지 보고 이 사업에 얼마나 열심히 참여할 사람인지 (의지) 어떤 회사와 가장 fit 할 지... 새 창 열림" [ref=f31e780] [cursor=pointer]:
+                  - /url: https://blog.naver.com/employ1106/223842928321
+                  - generic [ref=f31e781]:
+                    - text: + 체험형
+                    - mark [ref=f31e782]: 인턴
+                    - text: 으로 진행되지만 채용으로 이어지는 경우도 있었고! 우수한 기업들의 현직자와 네트워크를 형성할 할 수 있다는게 아주아주 큰 장점
+                    - mark [ref=f31e783]: 일본
+                    - text: 어 자격증이 없어도
+                    - mark [ref=f31e784]: 지원 가능
+                    - text: 하니 다들 꼭 경험했으면 좋겠다 꿀팁 1. 참가 기업과 모집 직무...
+                    - mark [ref=f31e785]: 지원
+                    - text: 자들을 면접을 통해 어떤 사람인지 보고 이 사업에 얼마나 열심히 참여할 사람인지 (의지) 어떤
+                    - mark [ref=f31e786]: 회사
+                    - text: 와 가장 fit 할 지...
+                  - generic [ref=f31e787]: 새 창 열림
+            - generic [ref=f31e793]:
+              - generic [ref=f31e794]:
+                - generic [ref=f31e795]:
+                  - link "새 창 열림" [ref=f31e797] [cursor=pointer]:
+                    - /url: https://in.naver.com/albatross_001
+                  - link "비젼 새 창 열림" [ref=f31e803] [cursor=pointer]:
+                    - /url: https://in.naver.com/albatross_001
+                    - generic [ref=f31e804]: 비젼
+                    - generic [ref=f31e805]: 새 창 열림
+                  - generic [ref=f31e806]: 2025.08.03.
+                - button "옵션 메뉴 열기" [ref=f31e810] [cursor=pointer]
+              - generic [ref=f31e816]:
+                - generic [ref=f31e817]:
+                  - link "일본 마케팅 인턴십 주요 기업과 자격 요건 및 선발 기준·지원 방법 새 창 열림" [ref=f31e818] [cursor=pointer]:
+                    - /url: https://blog.naver.com/albatross_01/223936006886
+                    - generic [ref=f31e819]:
+                      - mark [ref=f31e820]: 일본
+                      - text: 마케팅
+                      - mark [ref=f31e821]: 인턴
+                      - text: 십 주요 기업과 자격 요건 및 선발 기준·
+                      - mark [ref=f31e822]: 지원
+                      - text: 방법
+                    - generic [ref=f31e823]: 새 창 열림
+                  - 'link "주요 기업 및 프로그램 기업 인턴십 유형 특징 Rakuten 마케팅/EC 인턴 영어 가능, 콘텐츠 및 SEO 중심 SoftBank Brand... 중 인턴 연결 ⦁ JETRO 또는 JASSO 장학재단 산하 인턴십도 존재 ⦁ 일본 기업에서 직접 한국 대학생 대상 단기 인턴십... 일본마케팅인턴십주요기업 #일본마케팅인턴십자격요건 #일본마케팅인턴십선발기준 #일본마케팅인턴십지원방법 새 창 열림" [ref=f31e825] [cursor=pointer]':
+                    - /url: https://blog.naver.com/albatross_01/223936006886
+                    - generic [ref=f31e826]:
+                      - text: 주요 기업 및 프로그램 기업
+                      - mark [ref=f31e827]: 인턴
+                      - text: 십 유형 특징 Rakuten 마케팅/EC
+                      - mark [ref=f31e828]: 인턴
+                      - text: 영어
+                      - mark [ref=f31e829]: 가능
+                      - text: ", 콘텐츠 및 SEO 중심 SoftBank Brand... 중"
+                      - mark [ref=f31e830]: 인턴
+                      - text: 연결 ⦁ JETRO 또는 JASSO 장학재단 산하
+                      - mark [ref=f31e831]: 인턴
+                      - text: 십도 존재 ⦁
+                      - mark [ref=f31e832]: 일본
+                      - text: 기업에서 직접
+                      - mark [ref=f31e833]: 한국
+                      - text: 대학생 대상 단기
+                      - mark [ref=f31e834]: 인턴
+                      - text: 십...
+                      - mark [ref=f31e835]: 일본
+                      - text: 마케팅
+                      - mark [ref=f31e836]: 인턴
+                      - text: "십주요기업 #"
+                      - mark [ref=f31e837]: 일본
+                      - text: 마케팅
+                      - mark [ref=f31e838]: 인턴
+                      - text: "십자격요건 #"
+                      - mark [ref=f31e839]: 일본
+                      - text: 마케팅
+                      - mark [ref=f31e840]: 인턴
+                      - text: "십선발기준 #"
+                      - mark [ref=f31e841]: 일본
+                      - text: 마케팅
+                      - mark [ref=f31e842]: 인턴
+                      - text: 십
+                      - mark [ref=f31e843]: 지원
+                      - text: 방법
+                    - generic [ref=f31e844]: 새 창 열림
+                - link "4 새 창 열림" [ref=f31e845] [cursor=pointer]:
+                  - /url: https://blog.naver.com/albatross_01/223936006886
+                  - generic [ref=f31e846]: "4"
+                  - generic [ref=f31e853]: 새 창 열림
+            - generic [ref=f31e859]:
+              - generic [ref=f31e860]:
+                - link "공공데이터포털 www.data.go.kr›fileData 새 창 열림" [ref=f31e861] [cursor=pointer]:
+                  - /url: https://www.data.go.kr/data/15154267/fileData.do
+                  - generic [ref=f31e863]:
+                    - generic [ref=f31e867]: 공공데이터포털
+                    - generic [ref=f31e869]: www.data.go.kr›fileData
+                  - generic [ref=f31e873]: 새 창 열림
+                - button "옵션 메뉴 열기" [ref=f31e875] [cursor=pointer]
+              - generic [ref=f31e880]:
+                - link "한국고용정보원_사이버진로교육센터_커리어인포(웹진)목록_20251126 새 창 열림" [ref=f31e882] [cursor=pointer]:
+                  - /url: https://www.data.go.kr/data/15154267/fileData.do
+                  - generic [ref=f31e883]:
+                    - mark [ref=f31e884]: 한국
+                    - text: 고용정보원_사이버진로교육센터_커리어인포(웹진)목록_20251126
+                  - generic [ref=f31e885]: 새 창 열림
+                - 'link "2025.11.26.파일데이터명 : 한국고용정보원_사이버진로교육센터_커리어인포(웹진)목록_20251126, 분류체계 : 사회복지 - 고용노동, 제공기관 : 한국고용정보원, 관리부서명 : 데이터기획운영팀, 관리부서 전화번호 : 043-870-8564, 매체유형 : 텍스트, 전체 행 : 51, 확장자 : CSV, 키워드 : 커리어인포,웹진,정책정보,직업인사이드,경력개발콘텐츠, 등록일 : 2025-11-26, 수정일 : 2025-11-26, 제공형태 : 공공...... 새 창 열림" [ref=f31e887] [cursor=pointer]':
+                  - /url: https://www.data.go.kr/data/15154267/fileData.do
+                  - generic [ref=f31e888]:
+                    - generic [ref=f31e889]: 2025.11.26.
+                    - generic [ref=f31e890]:
+                      - text: "파일데이터명 :"
+                      - mark [ref=f31e891]: 한국
+                      - text: "고용정보원_사이버진로교육센터_커리어인포(웹진)목록_20251126, 분류체계 : 사회복지 - 고용노동, 제공기관 :"
+                      - mark [ref=f31e892]: 한국
+                      - text: "고용정보원, 관리부서명 : 데이터기획운영팀, 관리부서 전화번호 : 043-870-8564, 매체유형 : 텍스트, 전체 행 : 51, 확장자 : CSV, 키워드 : 커리어인포,웹진,정책정보,직업인사이드,경력개발콘텐츠, 등록일 : 2025-11-26, 수정일 : 2025-11-26, 제공형태 : 공공......"
+                  - generic [ref=f31e893]: 새 창 열림
+            - generic [ref=f31e899]:
+              - generic [ref=f31e900]:
+                - generic [ref=f31e901]:
+                  - link "새 창 열림" [ref=f31e903] [cursor=pointer]:
+                    - /url: https://blog.naver.com/washerc1
+                  - link "BALENCIAGA 새 창 열림" [ref=f31e912] [cursor=pointer]:
+                    - /url: https://blog.naver.com/washerc1
+                    - generic [ref=f31e913]: BALENCIAGA
+                    - generic [ref=f31e914]: 새 창 열림
+                  - generic [ref=f31e915]: 2025.05.20.
+                - button "옵션 메뉴 열기" [ref=f31e919] [cursor=pointer]
+              - generic [ref=f31e926]:
+                - link "일본인이 한국에서 할 수 있는 직장 — 카테고리별 상세 안내 새 창 열림" [ref=f31e927] [cursor=pointer]:
+                  - /url: https://blog.naver.com/washerc1/223872025333
+                  - generic [ref=f31e928]:
+                    - mark [ref=f31e929]: 일본
+                    - text: 인이
+                    - mark [ref=f31e930]: 한국
+                    - text: 에서 할 수 있는 직장 — 카테고리별 상세 안내
+                  - generic [ref=f31e931]: 새 창 열림
+                - link "구직비자 한국에서 구직 활동 가능 (최대 6개월~1년) F-6 결혼비자 한국인과 결혼한 경우, 자유롭게 취업 가능 D-8 투자비자 한국에 투자하여 사업하는 경우 일본인이 구직할 수 있는... 일본어 가능 외국계 포지션 탐색에 유리 실제 사례 예시 도쿄 출신 29세 일본인 한국 유학 후 D-10 비자 → 게임 회사 QA로 취업 → E-7 비자 전환 혼혈 여성 일본어 + 영어 능력으로... 새 창 열림" [ref=f31e933] [cursor=pointer]:
+                  - /url: https://blog.naver.com/washerc1/223872025333
+                  - generic [ref=f31e934]:
+                    - text: 구직비자
+                    - mark [ref=f31e935]: 한국
+                    - text: 에서 구직 활동
+                    - mark [ref=f31e936]: 가능
+                    - text: (최대 6개월~1년) F-6 결혼비자
+                    - mark [ref=f31e937]: 한국인
+                    - text: 과 결혼한 경우, 자유롭게 취업
+                    - mark [ref=f31e938]: 가능
+                    - text: D-8 투자비자
+                    - mark [ref=f31e939]: 한국
+                    - text: 에 투자하여 사업하는 경우
+                    - mark [ref=f31e940]: 일본
+                    - text: 인이 구직할 수 있는...
+                    - mark [ref=f31e941]: 일본
+                    - text: 어
+                    - mark [ref=f31e942]: 가능
+                    - text: 외국계 포지션 탐색에 유리 실제 사례 예시 도쿄 출신 29세
+                    - mark [ref=f31e943]: 일본
+                    - text: 인
+                    - mark [ref=f31e944]: 한국
+                    - text: 유학 후 D-10 비자 →
+                    - mark [ref=f31e945]: 게임 회사
+                    - text: QA로 취업 → E-7 비자 전환 혼혈 여성
+                    - mark [ref=f31e946]: 일본
+                    - text: 어 + 영어 능력으로...
+                  - generic [ref=f31e947]: 새 창 열림
+            - generic [ref=f31e953]:
+              - generic [ref=f31e954]:
+                - generic [ref=f31e955]:
+                  - link "새 창 열림" [ref=f31e957] [cursor=pointer]:
+                    - /url: https://blog.naver.com/karuena502
+                  - link "소년이여, 신화가 되어라. 새 창 열림" [ref=f31e963] [cursor=pointer]:
+                    - /url: https://blog.naver.com/karuena502
+                    - generic [ref=f31e964]: 소년이여, 신화가 되어라.
+                    - generic [ref=f31e965]: 새 창 열림
+                  - generic [ref=f31e966]: 2025.12.09.
+                - button "옵션 메뉴 열기" [ref=f31e970] [cursor=pointer]
+              - generic [ref=f31e976]:
+                - generic [ref=f31e977]:
+                  - link "일본게임회사취업 – 신입·경력 모두에게 기회가 열려 있습니다 새 창 열림" [ref=f31e978] [cursor=pointer]:
+                    - /url: https://blog.naver.com/karuena502/224103833062
+                    - generic [ref=f31e979]:
+                      - mark [ref=f31e980]: 일본게임회사
+                      - text: 취업 – 신입·경력 모두에게 기회가 열려 있습니다
+                    - generic [ref=f31e981]: 새 창 열림
+                  - link "3DS MAX 중심 하이폴/로우폴 모델링 리깅·애니메이션 가능하면 강점 엔진 구현 경험 결론적으로 일본은 툴보다 기본기를 훨씬 강조하는 나라입니다. 일본게임회사취업에 필요한... 일본게임회사취업 루트는 크게 네 가지입니다 1) 직접 지원(신입·경력) 각 회사 공식 사이트에서 상시 채용을 진행합니다. 2) 일본 취업 박람회 매년 여러 게임사가 한국에 와서 면접을... 새 창 열림" [ref=f31e983] [cursor=pointer]:
+                    - /url: https://blog.naver.com/karuena502/224103833062
+                    - generic [ref=f31e984]:
+                      - text: 3DS MAX 중심 하이폴/로우폴 모델링 리깅·애니메이션
+                      - mark [ref=f31e985]: 가능
+                      - text: 하면 강점 엔진 구현 경험 결론적으로
+                      - mark [ref=f31e986]: 일본
+                      - text: 은 툴보다 기본기를 훨씬 강조하는 나라입니다.
+                      - mark [ref=f31e987]: 일본게임회사
+                      - text: 취업에 필요한...
+                      - mark [ref=f31e988]: 일본게임회사
+                      - text: 취업 루트는 크게 네 가지입니다 1) 직접
+                      - mark [ref=f31e989]: 지원
+                      - text: (신입·경력) 각
+                      - mark [ref=f31e990]: 회사
+                      - text: 공식 사이트에서 상시 채용을 진행합니다. 2)
+                      - mark [ref=f31e991]: 일본
+                      - text: 취업 박람회 매년 여러
+                      - mark [ref=f31e992]: 게임
+                      - text: 사가
+                      - mark [ref=f31e993]: 한국
+                      - text: 에 와서 면접을...
+                    - generic [ref=f31e994]: 새 창 열림
+                - link "7 새 창 열림" [ref=f31e995] [cursor=pointer]:
+                  - /url: https://blog.naver.com/karuena502/224103833062
+                  - generic [ref=f31e996]: "7"
+                  - generic [ref=f31e1003]: 새 창 열림
+            - generic [ref=f31e1009]:
+              - generic [ref=f31e1010]:
+                - generic [ref=f31e1011]:
+                  - link "새 창 열림" [ref=f31e1013] [cursor=pointer]:
+                    - /url: https://blog.naver.com/kyoutokyou
+                  - link "오늘과오늘 새 창 열림" [ref=f31e1022] [cursor=pointer]:
+                    - /url: https://blog.naver.com/kyoutokyou
+                    - generic [ref=f31e1023]: 오늘과오늘
+                    - generic [ref=f31e1024]: 새 창 열림
+                  - generic [ref=f31e1025]: 4일 전
+                - button "옵션 메뉴 열기" [ref=f31e1029] [cursor=pointer]
+              - generic [ref=f31e1035]:
+                - generic [ref=f31e1036]:
+                  - link "[일본 취업] 내정 과정과 COE 수령, 그리고 비자 발급까지 새 창 열림" [ref=f31e1037] [cursor=pointer]:
+                    - /url: https://blog.naver.com/kyoutokyou/224343149450
+                    - generic [ref=f31e1038]:
+                      - text: "["
+                      - mark [ref=f31e1039]: 일본
+                      - text: 취업] 내정 과정과 COE 수령, 그리고 비자 발급까지
+                    - generic [ref=f31e1040]: 새 창 열림
+                  - link "달은 회사에서 기숙사를 마련해주니 주소를 받게 되면 출국하면 된다. 그런데 지금 이 순간까지도 일본에 갈까말까를 고민하고 있다. 국내 게임 중소기업에서 또 하나 서류 합격이 되었고, 펄어비스의 체험형 인턴에서도 서류 합격한 상태라... 발급 일본 회사 내정 취업 포탈 사이트에 이력서 공개 후, 헤드헌터로 부터 지원 제안을 받아서 서류를 지원. 이후 면접 일정이... 새 창 열림" [ref=f31e1042] [cursor=pointer]:
+                    - /url: https://blog.naver.com/kyoutokyou/224343149450
+                    - generic [ref=f31e1043]:
+                      - text: 달은
+                      - mark [ref=f31e1044]: 회사
+                      - text: 에서 기숙사를 마련해주니 주소를 받게 되면 출국하면 된다. 그런데 지금 이 순간까지도
+                      - mark [ref=f31e1045]: 일본
+                      - text: 에 갈까말까를 고민하고 있다. 국내
+                      - mark [ref=f31e1046]: 게임
+                      - text: 중소기업에서 또 하나 서류 합격이 되었고, 펄어비스의 체험형
+                      - mark [ref=f31e1047]: 인턴
+                      - text: 에서도 서류 합격한 상태라... 발급
+                      - mark [ref=f31e1048]: 일본
+                      - mark [ref=f31e1049]: 회사
+                      - text: 내정 취업 포탈 사이트에 이력서 공개 후, 헤드헌터로 부터
+                      - mark [ref=f31e1050]: 지원
+                      - text: 제안을 받아서 서류를
+                      - mark [ref=f31e1051]: 지원
+                      - text: . 이후 면접 일정이...
+                    - generic [ref=f31e1052]: 새 창 열림
+                - link "6 새 창 열림" [ref=f31e1053] [cursor=pointer]:
+                  - /url: https://blog.naver.com/kyoutokyou/224343149450
+                  - generic [ref=f31e1054]: "6"
+                  - generic [ref=f31e1061]: 새 창 열림
+            - generic [ref=f31e1067]:
+              - generic [ref=f31e1068]:
+                - link "community.linkareer.com›intern_activity 새 창 열림" [ref=f31e1069] [cursor=pointer]:
+                  - /url: https://community.linkareer.com/intern_activity/2078839
+                  - generic [ref=f31e1070]: community.linkareer.com›intern_activity
+                  - generic [ref=f31e1078]: 새 창 열림
+                - button "옵션 메뉴 열기" [ref=f31e1080] [cursor=pointer]
+              - generic [ref=f31e1085]:
+                - link "[넥슨] 게임서비스 채용형인턴 서류 합격 - 링커리어 커뮤니티 새 창 열림" [ref=f31e1087] [cursor=pointer]:
+                  - /url: https://community.linkareer.com/intern_activity/2078839
+                  - generic [ref=f31e1088]:
+                    - text: "[넥슨]"
+                    - mark [ref=f31e1089]: 게임
+                    - text: 서비스 채용형
+                    - mark [ref=f31e1090]: 인턴
+                    - text: 서류 합격 - 링커리어 커뮤니티
+                  - generic [ref=f31e1091]: 새 창 열림
+                - link "2023.07.06.첫 IT회사 지원ㅋㅋㅋ 진짜 여기 자소서쓰다가 돌아가실뻔 했었음...ㅋㅋㅋㅋㅋㅋㅋㅋ 모든 문항이 4000자였고 그걸 맞추기 위해 진짜 노력했다 ㅋㅋ 넥슨 채용형인턴이 이번에 두 번째라서 참고할 블로그가 많이 없었음 ㅠㅠ 특히나... 정말 그냥 일단 내 이야기를 한 것 같음 그리고 게임서비스에 필요한 역량을 한가지 정해서 다섯가지 경험이 모두 그 역량을... 새 창 열림" [ref=f31e1093] [cursor=pointer]:
+                  - /url: https://community.linkareer.com/intern_activity/2078839
+                  - generic [ref=f31e1094]:
+                    - generic [ref=f31e1095]: 2023.07.06.
+                    - generic [ref=f31e1096]:
+                      - text: 첫 IT
+                      - mark [ref=f31e1097]: 회사
+                      - mark [ref=f31e1098]: 지원
+                      - text: ㅋㅋㅋ 진짜 여기 자소서쓰다가 돌아가실뻔 했었음...ㅋㅋㅋㅋㅋㅋㅋㅋ 모든 문항이 4000자였고 그걸 맞추기 위해 진짜 노력했다 ㅋㅋ 넥슨 채용형
+                      - mark [ref=f31e1099]: 인턴
+                      - text: 이 이번에 두 번째라서 참고할 블로그가 많이 없었음 ㅠㅠ 특히나... 정말 그냥 일단 내 이야기를 한 것 같음 그리고
+                      - mark [ref=f31e1100]: 게임
+                      - text: 서비스에 필요한 역량을 한가지 정해서 다섯가지 경험이 모두 그 역량을...
+                  - generic [ref=f31e1101]: 새 창 열림
+            - generic [ref=f31e1107]:
+              - generic [ref=f31e1108]:
+                - generic [ref=f31e1109]:
+                  - link "새 창 열림" [ref=f31e1111] [cursor=pointer]:
+                    - /url: https://blog.naver.com/lariceorclaire
+                  - link "라리쓰닷컴 새 창 열림" [ref=f31e1117] [cursor=pointer]:
+                    - /url: https://blog.naver.com/lariceorclaire
+                    - generic [ref=f31e1118]: 라리쓰닷컴
+                    - generic [ref=f31e1119]: 새 창 열림
+                  - generic [ref=f31e1120]: 3주 전
+                - button "옵션 메뉴 열기" [ref=f31e1124] [cursor=pointer]
+              - generic [ref=f31e1130]:
+                - generic [ref=f31e1131]:
+                  - link "[취준후기] 신입분들을 위한 프로이직러의 취준 꿀팁 (ft. 첫회사는 중요하다?) 새 창 열림" [ref=f31e1132] [cursor=pointer]:
+                    - /url: https://blog.naver.com/lariceorclaire/224327826389
+                    - generic [ref=f31e1133]:
+                      - text: "[취준후기] 신입분들을 위한 프로이직러의 취준 꿀팁 (ft. 첫"
+                      - mark [ref=f31e1134]: 회사
+                      - text: 는 중요하다?)
+                    - generic [ref=f31e1135]: 새 창 열림
+                  - link "회사가 망함, 당일퇴사통보, 인턴->정규직 전환 안됨, 오퍼 받아서 퇴사했는데 채용동결 통보) 후 강제로 이직을 준비하는... 이후 잠깐 딴거 하다 다시 업계로 돌아와 게임회사 블록체인부서 1년 3개월 근무 후 블록체인 유럽 회사 계약직으로 근무하던중 4~5개월차에 메이커랩이라는 에이전시를 통해 빅테크 한국지사 파견직 면접과 / 엔터회사 경력직 면접을 보고... 새 창 열림" [ref=f31e1137] [cursor=pointer]:
+                    - /url: https://blog.naver.com/lariceorclaire/224327826389
+                    - generic [ref=f31e1138]:
+                      - mark [ref=f31e1139]: 회사
+                      - text: 가 망함, 당일퇴사통보,
+                      - mark [ref=f31e1140]: 인턴
+                      - text: "->정규직 전환 안됨, 오퍼 받아서 퇴사했는데 채용동결 통보) 후 강제로 이직을 준비하는... 이후 잠깐 딴거 하다 다시 업계로 돌아와"
+                      - mark [ref=f31e1141]: 게임회사
+                      - text: 블록체인부서 1년 3개월 근무 후 블록체인 유럽
+                      - mark [ref=f31e1142]: 회사
+                      - text: 계약직으로 근무하던중 4~5개월차에 메이커랩이라는 에이전시를 통해 빅테크
+                      - mark [ref=f31e1143]: 한국
+                      - text: 지사 파견직 면접과 / 엔터
+                      - mark [ref=f31e1144]: 회사
+                      - text: 경력직 면접을 보고...
+                    - generic [ref=f31e1145]: 새 창 열림
+                - link "3 새 창 열림" [ref=f31e1146] [cursor=pointer]:
+                  - /url: https://blog.naver.com/lariceorclaire/224327826389
+                  - generic [ref=f31e1147]: "3"
+                  - generic [ref=f31e1154]: 새 창 열림
+            - generic [ref=f31e1160]:
+              - generic [ref=f31e1161]:
+                - generic [ref=f31e1162]:
+                  - link "새 창 열림" [ref=f31e1164] [cursor=pointer]:
+                    - /url: https://blog.naver.com/speech_n
+                  - link "완벽한말하기엔, 스피치N 새 창 열림" [ref=f31e1170] [cursor=pointer]:
+                    - /url: https://blog.naver.com/speech_n
+                    - generic [ref=f31e1171]: 완벽한말하기엔, 스피치N
+                    - generic [ref=f31e1172]: 새 창 열림
+                  - generic [ref=f31e1173]: 3주 전
+                - button "옵션 메뉴 열기" [ref=f31e1177] [cursor=pointer]
+              - generic [ref=f31e1183]:
+                - generic [ref=f31e1184]:
+                  - link "스피치N 을지대학병원 간호사 합격 새 창 열림" [ref=f31e1185] [cursor=pointer]:
+                    - /url: https://blog.naver.com/speech_n/224326793175
+                    - generic [ref=f31e1186]: 스피치N 을지대학병원 간호사 합격
+                    - generic [ref=f31e1187]: 새 창 열림
+                  - link "이름 / 연락처 / 수강 목적 / 통화가능시간 ex) 임선생 / 010******** / 면접 / 오후 6시이후 방송 또는 강의 중일 때는 답변이 늦을 수 있으니 참고해 주세요 확인 후 바로 연락드리겠습니다 '◡' <<<스피치N 취업 면접 합격자>>> 순천향대학교병원 간호사 임** 존슨앤존슨 제약회사 김** 인천 임용고시 고** 인천 임용고시 박** 일본 J 게임회사 조** 삼성전자 염** sk 텔레콤 염... 새 창 열림" [ref=f31e1189] [cursor=pointer]:
+                    - /url: https://blog.naver.com/speech_n/224326793175
+                    - generic [ref=f31e1190]:
+                      - text: 이름 / 연락처 / 수강 목적 / 통화
+                      - mark [ref=f31e1191]: 가능
+                      - text: 시간 ex) 임선생 / 010******** / 면접 / 오후 6시이후 방송 또는 강의 중일 때는 답변이 늦을 수 있으니 참고해 주세요 확인 후 바로 연락드리겠습니다 '◡' <<<스피치N 취업 면접 합격자>>> 순천향대학교병원 간호사 임** 존슨앤존슨 제약
+                      - mark [ref=f31e1192]: 회사
+                      - text: 김** 인천 임용고시 고** 인천 임용고시 박**
+                      - mark [ref=f31e1193]: 일본
+                      - text: J
+                      - mark [ref=f31e1194]: 게임회사
+                      - text: 조** 삼성전자 염** sk 텔레콤 염...
+                    - generic [ref=f31e1195]: 새 창 열림
+                - link "6 새 창 열림" [ref=f31e1196] [cursor=pointer]:
+                  - /url: https://blog.naver.com/speech_n/224326793175
+                  - generic [ref=f31e1197]: "6"
+                  - generic [ref=f31e1204]: 새 창 열림
+            - generic [ref=f31e1210]:
+              - generic [ref=f31e1211]:
+                - generic [ref=f31e1212]:
+                  - link "새 창 열림" [ref=f31e1214] [cursor=pointer]:
+                    - /url: https://blog.naver.com/u_hakseang
+                  - link "일본유학 월간지! 월간 유학생 새 창 열림" [ref=f31e1220] [cursor=pointer]:
+                    - /url: https://blog.naver.com/u_hakseang
+                    - generic [ref=f31e1221]: 일본유학 월간지! 월간 유학생
+                    - generic [ref=f31e1222]: 새 창 열림
+                  - generic [ref=f31e1223]: 2025.05.27.
+                - button "옵션 메뉴 열기" [ref=f31e1227] [cursor=pointer]
+              - generic [ref=f31e1233]:
+                - generic [ref=f31e1234]:
+                  - link "일본 게임회사 취업 성공법 일본전자전문학교 후기 새 창 열림" [ref=f31e1235] [cursor=pointer]:
+                    - /url: https://blog.naver.com/u_hakseang/223879683040
+                    - generic [ref=f31e1236]:
+                      - mark [ref=f31e1237]: 일본 게임회사
+                      - text: 취업 성공법
+                      - mark [ref=f31e1238]: 일본
+                      - text: 전자전문학교 후기
+                    - generic [ref=f31e1239]: 새 창 열림
+                  - link "▶커리어 서포트 클래스 모든 학과에 취업 전문가가 있어 수업 중에도 개인 상담이 가능해요. 진로 고민부터 포트폴리오... 종합 지원해요. 좋아하는 것, 꿈만 꾸지 말고 '직업'으로 만들어보세요 일본전자전문학교는 '좋아한다'는 마음 하나만 있으면 충분해요. 배워본 적 없어도, 잘 못해도 지금 시작해도 괜찮아요! 게임 업계에서 일하고 싶다면 생각보다 가까울 수... 새 창 열림" [ref=f31e1241] [cursor=pointer]:
+                    - /url: https://blog.naver.com/u_hakseang/223879683040
+                    - generic [ref=f31e1242]:
+                      - text: ▶커리어 서포트 클래스 모든 학과에 취업 전문가가 있어 수업 중에도 개인 상담이
+                      - mark [ref=f31e1243]: 가능
+                      - text: 해요. 진로 고민부터 포트폴리오... 종합
+                      - mark [ref=f31e1244]: 지원
+                      - text: 해요. 좋아하는 것, 꿈만 꾸지 말고 '직업'으로 만들어보세요
+                      - mark [ref=f31e1245]: 일본
+                      - text: 전자전문학교는 '좋아한다'는 마음 하나만 있으면 충분해요. 배워본 적 없어도, 잘 못해도 지금 시작해도 괜찮아요!
+                      - mark [ref=f31e1246]: 게임
+                      - text: 업계에서 일하고 싶다면 생각보다 가까울 수...
+                    - generic [ref=f31e1247]: 새 창 열림
+                - link "13 새 창 열림" [ref=f31e1248] [cursor=pointer]:
+                  - /url: https://blog.naver.com/u_hakseang/223879683040
+                  - generic [ref=f31e1249]: "13"
+                  - generic [ref=f31e1256]: 새 창 열림
+            - generic [ref=f31e1262]:
+              - generic [ref=f31e1263]:
+                - generic [ref=f31e1264]:
+                  - link "새 창 열림" [ref=f31e1266] [cursor=pointer]:
+                    - /url: https://blog.naver.com/newjeans225
+                  - link "Be On Alert 새 창 열림" [ref=f31e1272] [cursor=pointer]:
+                    - /url: https://blog.naver.com/newjeans225
+                    - generic [ref=f31e1273]: Be On Alert
+                    - generic [ref=f31e1274]: 새 창 열림
+                  - generic [ref=f31e1275]: 2주 전
+                - button "옵션 메뉴 열기" [ref=f31e1279] [cursor=pointer]
+              - generic [ref=f31e1285]:
+                - generic [ref=f31e1286]:
+                  - link "일주일 사이에 전역, 취업, 면접을 모두 마치며 새 창 열림" [ref=f31e1287] [cursor=pointer]:
+                    - /url: https://blog.naver.com/newjeans225/224333450348
+                    - generic [ref=f31e1288]: 일주일 사이에 전역, 취업, 면접을 모두 마치며
+                    - generic [ref=f31e1289]: 새 창 열림
+                  - link "하지만 '군인' + '장교'라는 것을 고려해보면, 이것도 가능성 게임임. CASE 1 중대장 대대장 단장 지휘관 하는데 애가 자살함... 어떤 시스템도 인간의 강력한 의지를 막을 수 없다고 생각함. 예방정도? 아니면 지연? 군대말고 전역하고 자살하렴~ 뭐 이정도는 가능. 불가항력이라고 봄. 군생활 끝 아니야? 창창한 대위로 멀리 봤는데 그대로 커리어 단절임. 전역하고 사기업... 새 창 열림" [ref=f31e1291] [cursor=pointer]:
+                    - /url: https://blog.naver.com/newjeans225/224333450348
+                    - generic [ref=f31e1292]:
+                      - text: 하지만 '군인' + '장교'라는 것을 고려해보면, 이것도
+                      - mark [ref=f31e1293]: 가능
+                      - text: 성
+                      - mark [ref=f31e1294]: 게임
+                      - text: 임. CASE 1 중대장 대대장 단장 지휘관 하는데 애가 자살함... 어떤 시스템도 인간의 강력한 의지를 막을 수 없다고 생각함. 예방정도? 아니면 지연? 군대말고 전역하고 자살하렴~ 뭐 이정도는
+                      - mark [ref=f31e1295]: 가능
+                      - text: . 불가항력이라고 봄. 군생활 끝 아니야? 창창한 대위로 멀리 봤는데 그대로 커리어 단절임. 전역하고 사기업...
+                    - generic [ref=f31e1296]: 새 창 열림
+                - link "3 새 창 열림" [ref=f31e1297] [cursor=pointer]:
+                  - /url: https://blog.naver.com/newjeans225/224333450348
+                  - generic [ref=f31e1298]: "3"
+                  - generic [ref=f31e1305]: 새 창 열림
+            - generic [ref=f31e1311]:
+              - generic [ref=f31e1312]:
+                - generic [ref=f31e1313]:
+                  - link "새 창 열림" [ref=f31e1315] [cursor=pointer]:
+                    - /url: https://blog.naver.com/usokuha9695
+                  - link "하피바라의 일본정착기 새 창 열림" [ref=f31e1321] [cursor=pointer]:
+                    - /url: https://blog.naver.com/usokuha9695
+                    - generic [ref=f31e1322]: 하피바라의 일본정착기
+                    - generic [ref=f31e1323]: 새 창 열림
+                  - generic [ref=f31e1324]: 2024.07.29.
+                - button "옵션 메뉴 열기" [ref=f31e1328] [cursor=pointer]
+              - generic [ref=f31e1334]:
+                - generic [ref=f31e1335]:
+                  - link "한국에서 일본 취업을 준비하는 현실적인 방법 새 창 열림" [ref=f31e1336] [cursor=pointer]:
+                    - /url: https://blog.naver.com/usokuha9695/223529854124
+                    - generic [ref=f31e1337]:
+                      - mark [ref=f31e1338]: 한국
+                      - text: 에서
+                      - mark [ref=f31e1339]: 일본
+                      - text: 취업을 준비하는 현실적인 방법
+                    - generic [ref=f31e1340]: 새 창 열림
+                  - link "물론, 일본어 능력이 N3 이하이거나, 영어능력이 비즈니스 레벨 이하라고 하시더라도 취업을 하실 순 있지만, 흔히, 일본 사람들이 기피하는 회사인 블랙기업일 가능성이 높습니다.... 저도 취업 전에 개인적으로 KOREC에서 주최한 일본 대기업 인턴십에 참가한 경험이 있고, 이직활동 중에도 KOREC을 통해 한국 대기업의 일본 지사를 지원한 경험이 있습니다. 개인적으로... 새 창 열림" [ref=f31e1342] [cursor=pointer]:
+                    - /url: https://blog.naver.com/usokuha9695/223529854124
+                    - generic [ref=f31e1343]:
+                      - text: 물론,
+                      - mark [ref=f31e1344]: 일본
+                      - text: 어 능력이 N3 이하이거나, 영어능력이 비즈니스 레벨 이하라고 하시더라도 취업을 하실 순 있지만, 흔히,
+                      - mark [ref=f31e1345]: 일본
+                      - text: 사람들이 기피하는
+                      - mark [ref=f31e1346]: 회사
+                      - text: 인 블랙기업일
+                      - mark [ref=f31e1347]: 가능
+                      - text: 성이 높습니다.... 저도 취업 전에 개인적으로 KOREC에서 주최한
+                      - mark [ref=f31e1348]: 일본
+                      - text: 대기업
+                      - mark [ref=f31e1349]: 인턴
+                      - text: 십에 참가한 경험이 있고, 이직활동 중에도 KOREC을 통해
+                      - mark [ref=f31e1350]: 한국
+                      - text: 대기업의
+                      - mark [ref=f31e1351]: 일본
+                      - text: 지사를
+                      - mark [ref=f31e1352]: 지원
+                      - text: 한 경험이 있습니다. 개인적으로...
+                    - generic [ref=f31e1353]: 새 창 열림
+                - link "새 창 열림" [ref=f31e1354] [cursor=pointer]:
+                  - /url: https://blog.naver.com/usokuha9695/223529854124
+          - generic [ref=f31e1361]:
+            - button "이전" [disabled] [ref=f31e1362]
+            - generic [ref=f31e1364]:
+              - button "1" [pressed] [ref=f31e1365] [cursor=pointer]
+              - button "2" [ref=f31e1366] [cursor=pointer]
+              - button "3" [ref=f31e1367] [cursor=pointer]
+              - button "4" [ref=f31e1368] [cursor=pointer]
+              - button "5" [ref=f31e1369] [cursor=pointer]
+              - button "6" [ref=f31e1370] [cursor=pointer]
+              - button "7" [ref=f31e1371] [cursor=pointer]
+              - button "8" [ref=f31e1372] [cursor=pointer]
+              - button "9" [ref=f31e1373] [cursor=pointer]
+              - button "10" [ref=f31e1374] [cursor=pointer]
+            - button "다음" [ref=f31e1375] [cursor=pointer]
+        - generic [ref=f31e1380]:
+          - link [ref=f31e1381] [cursor=pointer]:
+            - /url: https://mkt.naver.com/p1/atrb?channel_id=naver_pcsearchmktbanner&campaign_id=2603-naverclip-001&target=https%3A%2F%2Fclipcreators.naver.com%2Fpromotion%2Ftoday%3Fdtm_source%3Dnaver_pcsearchmktbanner%26dtm_medium%3Dmktatrb_etc%26dtm_campaign%3D2603-naverclip-001
+            - generic [ref=f31e1383]:
+              - strong [ref=f31e1384]: 오늘의 경험, 클립으로 연결해요
+              - paragraph [ref=f31e1385]: 클립 올리면 매월 포인트 최대 12만원
+          - link [ref=f31e1386] [cursor=pointer]:
+            - /url: https://mkt.naver.com/p1/atrb?channel_id=naver_pcsearchmktbanner&campaign_id=2512-shopping-024&material=M&target=https%3A%2F%2Fmkt.naver.com%2Fstore_discovery%3Fdtm_detail%3DM%26dtm_source%3Dnaver_pcsearchmktbanner%26dtm_medium%3Dmktatrb_etc%26dtm_campaign%3D2512-shopping-024
+            - generic [ref=f31e1388]:
+              - strong [ref=f31e1389]: 여름에 가장 맛있는
+              - paragraph [ref=f31e1390]: 제철 스토어 랭킹 공개
+          - link [ref=f31e1391] [cursor=pointer]:
+            - /url: https://mkt.naver.com/p1/atrb?channel_id=naver_pcsearchmktbanner&campaign_id=2606-knockit-001&target=https%3A%2F%2Fshopping.naver.com%2Fknockit%2Fhome%3Fdtm_source%3Dnaver_pcsearchmktbanner%26dtm_medium%3Dmktatrb_etc%26dtm_campaign%3D2606-knockit-001
+            - generic [ref=f31e1393]:
+              - strong [ref=f31e1394]: 여름 준비는 노크잇에서!
+              - paragraph [ref=f31e1395]: 장마철 필수 아이템부터 바캉스룩까지
+          - link [ref=f31e1396] [cursor=pointer]:
+            - /url: https://mkt.naver.com/p1/atrb?channel_id=naver_pcsearchmktbanner&campaign_id=2607-naverAI-001&target=https%3A%2F%2Fmkt.naver.com%2Faitab%3Fdtm_source%3Dnaver_pcsearchmktbanner%26dtm_medium%3Dmktatrb_etc%26dtm_campaign%3D2607-naverAI-001
+            - generic [ref=f31e1398]:
+              - strong [ref=f31e1399]: 끝까지 끝내주는 AI, 네이버 AI탭
+              - paragraph [ref=f31e1400]: 검색이 대화가 되다
+    - generic [ref=f31e1401]:
+      - link "맨위로" [ref=f31e1403] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=f31e1406]:
+        - link "전체서비스" [ref=f31e1408] [cursor=pointer]:
+          - /url: https://www.naver.com/more.html
+        - link "이용약관" [ref=f31e1410] [cursor=pointer]:
+          - /url: https://policy.naver.com/policy/service.html
+        - link [ref=f31e1412] [cursor=pointer]:
+          - /url: https://policy.naver.com/policy/privacy.html
+          - strong [ref=f31e1413]: 개인정보처리방침
+        - link "검색 고객센터" [ref=f31e1415] [cursor=pointer]:
+          - /url: https://help.naver.com/alias/search/integration/main.naver
+        - link "© NAVER Corp." [ref=f31e1417] [cursor=pointer]:
+          - /url: https://www.navercorp.com/

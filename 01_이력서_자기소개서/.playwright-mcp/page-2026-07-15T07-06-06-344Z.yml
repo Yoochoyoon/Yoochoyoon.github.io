@@ -1,0 +1,988 @@
+- generic [active] [ref=f17e1]:
+  - generic:
+    - link "메뉴 영역으로 바로가기" [ref=f17e2] [cursor=pointer]:
+      - /url: "#lnb"
+    - link "본문 영역으로 바로가기" [ref=f17e4] [cursor=pointer]:
+      - /url: "#content"
+  - generic [ref=f17e6]:
+    - generic [ref=f17e8]:
+      - generic [ref=f17e11]:
+        - heading [level=1] [ref=f17e12]:
+          - link "NAVER" [ref=f17e13] [cursor=pointer]:
+            - /url: https://www.naver.com
+        - search [ref=f17e15]:
+          - group "검색" [ref=f17e16]:
+            - combobox "검색어를 입력해 주세요." [ref=f17e18]: 일본 게임회사 해외인턴십 대학생
+            - button "한글 입력기" [ref=f17e20] [cursor=pointer]
+            - button "검색" [ref=f17e22] [cursor=pointer]
+      - generic [ref=f17e24]:
+        - generic [ref=f17e26]:
+          - generic [ref=f17e27]:
+            - tab "AI new" [ref=f17e29] [cursor=pointer]:
+              - text: AI
+              - generic [ref=f17e30]: new
+            - tab "블로그" [ref=f17e33] [cursor=pointer]
+            - tab "카페" [ref=f17e35] [cursor=pointer]
+            - tab "클립" [ref=f17e37] [cursor=pointer]
+            - tab "이미지" [ref=f17e39] [cursor=pointer]
+            - tab "지식iN" [ref=f17e41] [cursor=pointer]
+            - tab "동영상" [ref=f17e43] [cursor=pointer]
+            - tab "쇼핑" [ref=f17e45] [cursor=pointer]
+            - tab "뉴스" [ref=f17e47] [cursor=pointer]
+            - tab "어학사전" [ref=f17e49] [cursor=pointer]
+          - button "더보기" [ref=f17e51] [cursor=pointer]
+        - list [ref=f17e54]:
+          - listitem [ref=f17e55]:
+            - button "공유" [ref=f17e56] [cursor=pointer]
+    - main [ref=f17e57]:
+      - generic [ref=f17e58]:
+        - heading "일본 게임회사 해외인턴십 대학생 검색 결과" [level=1] [ref=f17e59]
+        - generic [ref=f17e60]:
+          - generic [ref=f17e64]:
+            - generic [ref=f17e65]:
+              - generic [ref=f17e66]:
+                - heading "일본게임회사해외인턴십대학생 관련 광고" [level=2] [ref=f17e67]:
+                  - generic [ref=f17e68]: 일본게임회사해외인턴십대학생
+                  - generic [ref=f17e69]: 관련 광고
+                - button "이 광고가 표시된 이유" [ref=f17e70] [cursor=pointer]
+              - link "등록 안내" [ref=f17e73] [cursor=pointer]:
+                - /url: //saedu.naver.com/adbiz/searchad/clickChoice.naver
+            - list [ref=f17e75]:
+              - listitem [ref=f17e76]:
+                - link [ref=f17e77] [cursor=pointer]:
+                  - /url: https://ader.naver.com/v1/hqoLW8k6wwFsUUMiyEB2zUaP7SMXLdEosueZwBy6dfOhy3ygjs8gsJy__zLwdmihZrOQkRzxnyuY95iQXSvUW_LC3i6Cw6905pQZGYBsAXKLTT8_JtZ7tLm0mZR_yJkeFPLrgG5XoUjkTeuGbDcT9DQBEnvqXGUsOh2k1lmC3YQKlDRKIFHLP2r4LyH38iJknT16iNmPEr_Hxn3S_zKr_8RB3XTlQV94_YtivllvnUnbeqGyTtEA7QuVxjSYnTz9GvB5L0J-bmcA0dLLpWictyC8mcdCy8UZ7DAoYohYhK9m8YpIl9-kJ63LQR74-Wk2C5VM-nB2Rlgim3c3Mrrb4MGuQfuofLM4OZAQ7Z3MVANUpWGaPeTJFDd8M1M_ITkIaS7ftn5jjv7_dDhaxrPYPIKVvaD4NuHYrPP54WFPfNlzcFrihR3x_KX1ZKX9q6PuFeh_IVDq8CL_zLev2dlZuCPD-QYHdkyw68mnREzKJCsG86SrDRI7EhNrNySEBV7M?c=naver.search.pc.plsearch&t=0
+                  - img "링크이미지" [ref=f17e78]
+                - generic [ref=f17e79]:
+                  - generic [ref=f17e80]:
+                    - generic [ref=f17e81]:
+                      - link [ref=f17e82] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/ZDd2AiG2cXwHkMftbEkbcDhw7j4_xpwTP2rrI_PQFDUCqk2tTzDFw-qln36cjmUXSJes7y4D38152Z-FkRhAXL4ql5lQksNT37LChJqM4SCjolOqHYWm8spB3NizeS8D9peusX_LlqFKirBmpu3qI13dylAvnWhZRWESEEpKwRk0a0Mf4xLVQhiRF4B27qQUfmO_IclTrNNeRB-SFAHUOfMYyVRt_yGPd1aD-SGteCLuYCq1A8bil6NusLwemePhu77ohlRJ6UiEME524cV-bWbve64zZl6xTIRDxaNWzPzkUe8yGew9KBYXJFMthpTnfaGchfxegj9RgmY14RPhkroYWYjyYI9EaSQXD-nXPbFqDhrjmTzgDDLZAStjJjBS3Co1EVCrhleDRiiAQy0jEJTar5lvktMrVfDwD47w7JIDEgL6uqlvGbDbwCxDj-Tf5gAmiQf4N7AaSSbmudyt0t4iP3yd1IvpYWka4vPb5xQ=?c=naver.search.pc.plsearch&t=0
+                        - img "favicon" [ref=f17e83]
+                      - img "광고" [ref=f17e84]
+                      - link "글로벌인일본취업전문" [ref=f17e88] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/ZDd2AiG2cXwHkMftbEkbcDhw7j4_xpwTP2rrI_PQFDUCqk2tTzDFw-qln36cjmUXSJes7y4D38152Z-FkRhAXL4ql5lQksNT37LChJqM4SCjolOqHYWm8spB3NizeS8D9peusX_LlqFKirBmpu3qI13dylAvnWhZRWESEEpKwRk0a0Mf4xLVQhiRF4B27qQUfmO_IclTrNNeRB-SFAHUOfMYyVRt_yGPd1aD-SGteCLuYCq1A8bil6NusLwemePhu77ohlRJ6UiEME524cV-bWbve64zZl6xTIRDxaNWzPzkUe8yGew9KBYXJFMthpTnfaGchfxegj9RgmY14RPhkroYWYjyYI9EaSQXD-nXPbFqDhrjmTzgDDLZAStjJjBS3Co1EVCrhleDRiiAQy0jEJTar5lvktMrVfDwD47w7JIDEgL6uqlvGbDbwCxDj-Tf5gAmiQf4N7AaSSbmudyt0t4iP3yd1IvpYWka4vPb5xQ=?c=naver.search.pc.plsearch&t=0
+                      - link "globalin.kr/" [ref=f17e90] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/ZDd2AiG2cXwHkMftbEkbcDhw7j4_xpwTP2rrI_PQFDUCqk2tTzDFw-qln36cjmUXSJes7y4D38152Z-FkRhAXL4ql5lQksNT37LChJqM4SCjolOqHYWm8spB3NizeS8D9peusX_LlqFKirBmpu3qI13dylAvnWhZRWESEEpKwRk0a0Mf4xLVQhiRF4B27qQUfmO_IclTrNNeRB-SFAHUOfMYyVRt_yGPd1aD-SGteCLuYCq1A8bil6NusLwemePhu77ohlRJ6UiEME524cV-bWbve64zZl6xTIRDxaNWzPzkUe8yGew9KBYXJFMthpTnfaGchfxegj9RgmY14RPhkroYWYjyYI9EaSQXD-nXPbFqDhrjmTzgDDLZAStjJjBS3Co1EVCrhleDRiiAQy0jEJTar5lvktMrVfDwD47w7JIDEgL6uqlvGbDbwCxDj-Tf5gAmiQf4N7AaSSbmudyt0t4iP3yd1IvpYWka4vPb5xQ=?c=naver.search.pc.plsearch&t=0
+                    - link [ref=f17e91] [cursor=pointer]:
+                      - /url: https://ader.naver.com/v1/ZDd2AiG2cXwHkMftbEkbcDhw7j4_xpwTP2rrI_PQFDUCqk2tTzDFw-qln36cjmUXSJes7y4D38152Z-FkRhAXL4ql5lQksNT37LChJqM4SCjolOqHYWm8spB3NizeS8D9peusX_LlqFKirBmpu3qI13dylAvnWhZRWESEEpKwRk0a0Mf4xLVQhiRF4B27qQUfmO_IclTrNNeRB-SFAHUOfMYyVRt_yGPd1aD-SGteCLuYCq1A8bil6NusLwemePhu77ohlRJ6UiEME524cV-bWbve64zZl6xTIRDxaNWzPzkUe8yGew9KBYXJFMthpTnfaGchfxegj9RgmY14RPhkroYWYjyYI9EaSQXD-nXPbFqDhrjmTzgDDLZAStjJjBS3Co1EVCrhleDRiiAQy0jEJTar5lvktMrVfDwD47w7JIDEgL6uqlvGbDbwCxDj-Tf5gAmiQf4N7AaSSbmudyt0t4iP3yd1IvpYWka4vPb5xQ=?c=naver.search.pc.plsearch&t=0
+                      - generic [ref=f17e92]:
+                        - text: 글로벌인
+                        - strong [ref=f17e93]: 일본
+                        - text: 취업반 전문교육
+                      - text: 100%국비지원,항공료지원
+                  - link [ref=f17e96] [cursor=pointer]:
+                    - /url: https://ader.naver.com/v1/ZDd2AiG2cXwHkMftbEkbcDhw7j4_xpwTP2rrI_PQFDUCqk2tTzDFw-qln36cjmUXSJes7y4D38152Z-FkRhAXL4ql5lQksNT37LChJqM4SCjolOqHYWm8spB3NizeS8D9peusX_LlqFKirBmpu3qI13dylAvnWhZRWESEEpKwRk0a0Mf4xLVQhiRF4B27qQUfmO_IclTrNNeRB-SFAHUOfMYyVRt_yGPd1aD-SGteCLuYCq1A8bil6NusLwemePhu77ohlRJ6UiEME524cV-bWbve64zZl6xTIRDxaNWzPzkUe8yGew9KBYXJFMthpTnfaGchfxegj9RgmY14RPhkroYWYjyYI9EaSQXD-nXPbFqDhrjmTzgDDLZAStjJjBS3Co1EVCrhleDRiiAQy0jEJTar5lvktMrVfDwD47w7JIDEgL6uqlvGbDbwCxDj-Tf5gAmiQf4N7AaSSbmudyt0t4iP3yd1IvpYWka4vPb5xQ=?c=naver.search.pc.plsearch&t=0
+                    - strong [ref=f17e97]: 일본
+                    - text: 취업최우수기관, 배움카드X 100%국비
+                    - strong [ref=f17e98]: 일본
+                    - text: K-MOVE(IT개발/호텔/지상직)
+                  - list [ref=f17e99]:
+                    - listitem [ref=f17e100]:
+                      - link "국비연수공고" [ref=f17e101] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/c11DrSa5QhmLwEQcICRrIHhAVmxXYDerqR_d3PLmybtI6Q9RGbAVGHL4A5j6EwmdXviEYQU6-JelKwGQrcYromQcFhl-IwBnNrMb8kBkS4FyklaOwR_SCxIf4hS2hyimx-coIqIUJK6koUzieydU-mOAOVzkhMdqXJoC30djzOVt1BogtEc-65M19dK11UAVPvHaTF1sujOGZcRx5azMOfk4LadxHWr_OYPc0kGNaXkWrKRSn75mQzDJWuVaxnp8abiZle4XWJSXjXyEhgHKukwLcMx_LcUi4g5LpAOr7_UBVe9CGwmK4lGFU4Z0xSETvHpTMDLHTB7CFb1PoHmsyVyxNooLVOWicPfjylB3l3Vr2em0MneLRhUQQV-K2BO9s2ASCHylja1UMMz6qWzdiyPJY-0uCsUknFNOPWOhzUmhsXH8yquZp8LUrHuvTMu_lzu09IO5fQm9xTLdYhAVNdAr7PC0lR8bQX-pkewBO4TBWU6XOIgH3JPjtL-yqfEqJJ0DFOeUhTe9narK1D969bts8AaOnu0sUwogQaUprJ4=?c=naver.search.pc.plsearch&t=0
+                    - listitem [ref=f17e102]:
+                      - link "일본채용공고" [ref=f17e103] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/eYx55ZpdXHZNGlarWQ6JbeO9iMZAl0FUl6pDwR6G4IhoVz_yU7HeOgu3xHJnk8AjzE6XRzIikAIiDKJqYK8q4Jjlb1r1dLkNpLgT0HXJM-78uRmj6xqpyzBdP6LXKHe5RHLzkbn0MpmMmp5cN7JY2x5Sjh5fu_zHyD5ZCn5jYNqA7jGHIUATbzkK53RkGqa5f_Si22Q3YZofmSBqS7I0x4Z-mPc2IYiIXn3AMwapgy4IvYqlbM22yowaevZhg_aW_Hjwml3F6mX1nQlomno1VWKZmAVAbxEZnhMaD5nC3LFc5s7VQk6PtmmIjF2mRi2nasoG3f3E--pfa5CpdNn0wbR1GHxNQHKyqQawEkTJeCbFZm9_1WjhatRKKDhMJUcE56KVpM8evY_q7uwsH0-0_rm4ILkRs9zfbDxCWQ_kXwNMrF5p-8kpj1019MKLWWahkaN0emZZyHSvuLAIeizArjEs0KU_JYg--LxjfGulDdX8HAy70xlkFwGBHYtO-W0ECe1tZQYelK0lEGUJhxFxfZPSPP4qbD_NiiGuqK8Xf0A=?c=naver.search.pc.plsearch&t=0
+                    - listitem [ref=f17e104]:
+                      - link "국비연수후기" [ref=f17e105] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/zD2HpqYlZbvqQAV53ppSnAmlwhjoFwdPqZuPYAb6Nslk9Tkds5FQW4yGkm-Hp7L6rJzsO156j3hUVRWLNxpXyJEAYdKM8eBOzMCXlYllhfEY-XunBsFVRlCTAPCfG-w_i8ncCASFVNJ_Q2EB2GdpOK0Sm-JXmA3reHbPR2Jk4TXtflJHsp26bZtS1ZFbYO2Ftkv9lGvub0V0HR4ww_JLFoZtqJUbXGUtIulZWqfpMIZw3ea9S-dZ_GCUP4AYw1KPOwooWOs_dtm-7EAtfqkeRksHGRUKnhM8WJj7To7rm9ysFdkNgcsPIpjPpbQmdvcTpw8F5LeAp8jYvdQEYYXL6gGJrW54Nay3XNqmHIxIqH5MmGNWB_yNqMoahdjzIWWZcqN9jEBRRHPKE7Frm6FygZafbaHGdIf3lw_iUG0ZDTFssM3kkNFTmbqrn4q4ht2edSugXmhz7K804Xi5rv6JgHZtLfZqdLdfUXarVe2Lio6GdIJ1WIoiNtorEU7y1I4GV6H0N6EQlj1Qu4ZldEpQb-jMMjRYFKu7fbdZd4sbUJY=?c=naver.search.pc.plsearch&t=0
+                    - listitem [ref=f17e106]:
+                      - link "영등포점약도" [ref=f17e107] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/uIMsSwBmmaRLBx041aSKhMMfdu5M2T7vDGtaaXF8oI-0M_aXm8HFA8NvPsjYwy7nABqK8z3Vn1W1zt-cDNdob_qlo38hFyGB79SM6UgLwoXxOX7eNGUZTPBdGKhFOHrW0W_R7EYEjNq33eQplt5nz6S-3oa5iGYbjMngSBXOaSndakZbuF258rngAaoHc89j06T6EJHtsIL0e1er9jzqtUZrqmPGwgc-HPu1NgKC1K3TcLTFTuXlc7_-pWKiW3u58KzH5vK1p5nK3Q6X16-8hJ2H0Xf1zHitm1OGctkKz6QY4gJqmFEgfBVOMoh7N_lmXghxOw4FmV84Y60tG5iv150V0u41ofcJNHdJmZvkamW-0eV60dOwv3yVYwDht-deKriphTGac4c_KiOzOM_G3qg03iI-W-5bItzLR8h0OHgLWRmcDljyQwB7z606g4l7Y9ApdMtNbUFLgXutIq5jVhj-zr5k5v8xt0qU9J13pqJhO6vuAOQczpzGsYnim8eGafFik423j8osGljnmskNMQ==?c=naver.search.pc.plsearch&t=0
+              - listitem [ref=f17e108]:
+                - generic [ref=f17e109]:
+                  - generic [ref=f17e110]:
+                    - generic [ref=f17e111]:
+                      - link [ref=f17e112] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/6h5LH1X4_9iuJ1QMjBE8JTAcS2TXUVK529K8q7ilJaSRUf53zsJxyVU7z1l9lBiejZOiVmUgAzGU_Ln_VAlJL08gtEBUK1998RQIsggcIVydJ6XlPq014CXHAXNYc7Zx5V7Ha3g6BJioBjSoAIcrgCUXerE4sjR5bwk07vSeTjP7qH9xXK0IuBLZShh9OAD_-GGlUvMkMNVVQ75POcAARV5jtm4n5O0nM-u5x-PnSo4-Y9YW6BOEsYPEmhyLKMChGcwp5gKK0Gs5rZArYKq4mg==?c=naver.search.pc.plsearch&t=0
+                        - img "favicon" [ref=f17e113]
+                      - img "광고" [ref=f17e114]
+                      - link "언커버" [ref=f17e118] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/6h5LH1X4_9iuJ1QMjBE8JTAcS2TXUVK529K8q7ilJaSRUf53zsJxyVU7z1l9lBiejZOiVmUgAzGU_Ln_VAlJL08gtEBUK1998RQIsggcIVydJ6XlPq014CXHAXNYc7Zx5V7Ha3g6BJioBjSoAIcrgCUXerE4sjR5bwk07vSeTjP7qH9xXK0IuBLZShh9OAD_-GGlUvMkMNVVQ75POcAARV5jtm4n5O0nM-u5x-PnSo4-Y9YW6BOEsYPEmhyLKMChGcwp5gKK0Gs5rZArYKq4mg==?c=naver.search.pc.plsearch&t=0
+                      - link "uc-group.biz" [ref=f17e120] [cursor=pointer]:
+                        - /url: https://ader.naver.com/v1/6h5LH1X4_9iuJ1QMjBE8JTAcS2TXUVK529K8q7ilJaSRUf53zsJxyVU7z1l9lBiejZOiVmUgAzGU_Ln_VAlJL08gtEBUK1998RQIsggcIVydJ6XlPq014CXHAXNYc7Zx5V7Ha3g6BJioBjSoAIcrgCUXerE4sjR5bwk07vSeTjP7qH9xXK0IuBLZShh9OAD_-GGlUvMkMNVVQ75POcAARV5jtm4n5O0nM-u5x-PnSo4-Y9YW6BOEsYPEmhyLKMChGcwp5gKK0Gs5rZArYKq4mg==?c=naver.search.pc.plsearch&t=0
+                    - link [ref=f17e121] [cursor=pointer]:
+                      - /url: https://ader.naver.com/v1/6h5LH1X4_9iuJ1QMjBE8JTAcS2TXUVK529K8q7ilJaSRUf53zsJxyVU7z1l9lBiejZOiVmUgAzGU_Ln_VAlJL08gtEBUK1998RQIsggcIVydJ6XlPq014CXHAXNYc7Zx5V7Ha3g6BJioBjSoAIcrgCUXerE4sjR5bwk07vSeTjP7qH9xXK0IuBLZShh9OAD_-GGlUvMkMNVVQ75POcAARV5jtm4n5O0nM-u5x-PnSo4-Y9YW6BOEsYPEmhyLKMChGcwp5gKK0Gs5rZArYKq4mg==?c=naver.search.pc.plsearch&t=0
+                      - text: 부산 K-MOVE
+                      - generic [ref=f17e122]:
+                        - strong [ref=f17e123]: 일본
+                        - text: IT취업 연수생 모집중
+                  - link [ref=f17e126] [cursor=pointer]:
+                    - /url: https://ader.naver.com/v1/6h5LH1X4_9iuJ1QMjBE8JTAcS2TXUVK529K8q7ilJaSRUf53zsJxyVU7z1l9lBiejZOiVmUgAzGU_Ln_VAlJL08gtEBUK1998RQIsggcIVydJ6XlPq014CXHAXNYc7Zx5V7Ha3g6BJioBjSoAIcrgCUXerE4sjR5bwk07vSeTjP7qH9xXK0IuBLZShh9OAD_-GGlUvMkMNVVQ75POcAARV5jtm4n5O0nM-u5x-PnSo4-Y9YW6BOEsYPEmhyLKMChGcwp5gKK0Gs5rZArYKq4mg==?c=naver.search.pc.plsearch&t=0
+                    - strong [ref=f17e127]: 일본
+                    - text: IT 취업 기회! 비전공자 가능, 자부담금 0원, 선착순 마감! K-MOVE 부산 연수생 모집! 정부 대행기관, 전액 무료,
+                    - strong [ref=f17e128]: 일본
+                    - text: 취업 연계
+          - generic [ref=f17e129]:
+            - generic [ref=f17e135]:
+              - generic [ref=f17e136]:
+                - link "JSL인재개발원 blog.naver.com›jslglobal 새 창 열림" [ref=f17e137] [cursor=pointer]:
+                  - /url: https://blog.naver.com/jslglobal/224010390788
+                  - generic [ref=f17e139]:
+                    - generic [ref=f17e143]: JSL인재개발원
+                    - generic [ref=f17e145]: blog.naver.com›jslglobal
+                  - generic [ref=f17e149]: 새 창 열림
+                - button "옵션 메뉴 열기" [ref=f17e151] [cursor=pointer]
+              - generic [ref=f17e156]:
+                - link "[<mark>일본</mark> 취업준비] <mark>일본</mark> <mark>인턴십</mark> 제도, 무엇이 다를까?의 이미지 새 창 열림" [ref=f17e157] [cursor=pointer]:
+                  - /url: https://blog.naver.com/jslglobal/224010390788
+                  - img "[<mark>일본</mark> 취업준비] <mark>일본</mark> <mark>인턴십</mark> 제도, 무엇이 다를까?의 이미지" [ref=f17e159]
+                  - generic [ref=f17e161]: 새 창 열림
+                - link "[일본 취업준비] 일본 인턴십 제도, 무엇이 다를까? 새 창 열림" [ref=f17e163] [cursor=pointer]:
+                  - /url: https://blog.naver.com/jslglobal/224010390788
+                  - generic [ref=f17e164]:
+                    - text: "["
+                    - mark [ref=f17e165]: 일본
+                    - text: 취업준비]
+                    - mark [ref=f17e166]: 일본
+                    - mark [ref=f17e167]: 인턴십
+                    - text: 제도, 무엇이 다를까?
+                  - generic [ref=f17e168]: 새 창 열림
+                - link "2026.06.15.취업을 준비하는 대학생들에게 인턴십(インターンシップ) 은 중요한 경험입니다. 하지만 일본의 인턴십은 한국이나... 일본 인턴십의 시작과 배경 일본에서 인턴십 제도가 본격적으로 도입된 것은 1990년대 후반입니다. 글로벌 인재 양성과 대학... 인턴십의 주요 특징 단기 인턴십 중심 대부분의 인턴십은 1일 ~ 1주일 정도로 매우 짧습니다. 이 기간 동안 학생들은 회사... 새 창 열림" [ref=f17e170] [cursor=pointer]:
+                  - /url: https://blog.naver.com/jslglobal/224010390788
+                  - generic [ref=f17e171]:
+                    - generic [ref=f17e172]: 2026.06.15.
+                    - generic [ref=f17e173]:
+                      - text: 취업을 준비하는
+                      - mark [ref=f17e174]: 대학생
+                      - text: 들에게
+                      - mark [ref=f17e175]: 인턴십
+                      - text: (インターンシップ) 은 중요한 경험입니다. 하지만
+                      - mark [ref=f17e176]: 일본
+                      - text: 의
+                      - mark [ref=f17e177]: 인턴십
+                      - text: 은 한국이나...
+                      - mark [ref=f17e178]: 일본
+                      - mark [ref=f17e179]: 인턴십
+                      - text: 의 시작과 배경
+                      - mark [ref=f17e180]: 일본
+                      - text: 에서
+                      - mark [ref=f17e181]: 인턴십
+                      - text: 제도가 본격적으로 도입된 것은 1990년대 후반입니다. 글로벌 인재 양성과
+                      - mark [ref=f17e182]: 대학
+                      - text: ...
+                      - mark [ref=f17e183]: 인턴십
+                      - text: 의 주요 특징 단기
+                      - mark [ref=f17e184]: 인턴십
+                      - text: 중심 대부분의
+                      - mark [ref=f17e185]: 인턴십
+                      - text: 은 1일 ~ 1주일 정도로 매우 짧습니다. 이 기간 동안 학생들은
+                      - mark [ref=f17e186]: 회사
+                      - text: ...
+                  - generic [ref=f17e187]: 새 창 열림
+            - generic [ref=f17e193]:
+              - generic [ref=f17e194]:
+                - link "welcon.kocca.kr›cmm PDF 새 창 열림" [ref=f17e195] [cursor=pointer]:
+                  - /url: https://welcon.kocca.kr/cmm/fms/FileDown.do?atchFileId=FILE_aa5bf31a-8079-4a3a-b71d-422c66eddbae&fileSn=1
+                  - generic [ref=f17e196]: welcon.kocca.kr›cmm
+                  - generic [ref=f17e204]: PDF
+                  - generic [ref=f17e206]: 새 창 열림
+                - button "옵션 메뉴 열기" [ref=f17e208] [cursor=pointer]
+              - generic [ref=f17e213]:
+                - link "지역 <mark>게임</mark> 산업 발전을 추구하는 ‘<mark>일본</mark> 후쿠오카 <mark>게임</mark>산업진흥기관’ 인터뷰 - WelCon 콘텐츠수출....의 이미지 새 창 열림" [ref=f17e214] [cursor=pointer]:
+                  - /url: https://welcon.kocca.kr/cmm/fms/FileDown.do?atchFileId=FILE_aa5bf31a-8079-4a3a-b71d-422c66eddbae&fileSn=1
+                  - img "지역 <mark>게임</mark> 산업 발전을 추구하는 ‘<mark>일본</mark> 후쿠오카 <mark>게임</mark>산업진흥기관’ 인터뷰 - WelCon 콘텐츠수출....의 이미지" [ref=f17e216]
+                  - generic [ref=f17e218]: 새 창 열림
+                - link "지역 게임 산업 발전을 추구하는 ‘일본 후쿠오카 게임산업진흥기관’ 인터뷰 - WelCon 콘텐츠수출.... 새 창 열림" [ref=f17e220] [cursor=pointer]:
+                  - /url: https://welcon.kocca.kr/cmm/fms/FileDown.do?atchFileId=FILE_aa5bf31a-8079-4a3a-b71d-422c66eddbae&fileSn=1
+                  - generic [ref=f17e221]:
+                    - text: 지역
+                    - mark [ref=f17e222]: 게임
+                    - text: 산업 발전을 추구하는 ‘
+                    - mark [ref=f17e223]: 일본
+                    - text: 후쿠오카
+                    - mark [ref=f17e224]: 게임
+                    - text: 산업진흥기관’ 인터뷰 - WelCon 콘텐츠수출....
+                  - generic [ref=f17e225]: 새 창 열림
+                - link "4페이지 240KB이어 2005년에는 GFF와 규슈 대학이 제휴했으며, 2006년에는 ‘규슈·후쿠오카를 세계적인 게임산업 도시로 만 든다’라는... 차세대 게임 크리에이터를 육성하기 위해 ‘후쿠오카 게임 인턴십’도 실시하고 있습니다. 이 사업은 새로운 인재의... 모바일 게임시장은 특히 많은 일본 및 해외 기업들이 치열한 경쟁을 벌이고 있습니다. 이 러한 상황에서 게임이 성공하기... 새 창 열림" [ref=f17e227] [cursor=pointer]:
+                  - /url: https://welcon.kocca.kr/cmm/fms/FileDown.do?atchFileId=FILE_aa5bf31a-8079-4a3a-b71d-422c66eddbae&fileSn=1
+                  - generic [ref=f17e228]:
+                    - generic [ref=f17e229]: 4페이지240KB
+                    - generic [ref=f17e231]:
+                      - text: 이어 2005년에는 GFF와 규슈
+                      - mark [ref=f17e232]: 대학
+                      - text: 이 제휴했으며, 2006년에는 ‘규슈·후쿠오카를 세계적인
+                      - mark [ref=f17e233]: 게임
+                      - text: 산업 도시로 만 든다’라는... 차세대
+                      - mark [ref=f17e234]: 게임
+                      - text: 크리에이터를 육성하기 위해 ‘후쿠오카
+                      - mark [ref=f17e235]: 게임
+                      - mark [ref=f17e236]: 인턴십
+                      - text: ’도 실시하고 있습니다. 이 사업은 새로운 인재의... 모바일
+                      - mark [ref=f17e237]: 게임
+                      - text: 시장은 특히 많은
+                      - mark [ref=f17e238]: 일본
+                      - text: 및
+                      - mark [ref=f17e239]: 해외
+                      - text: 기업들이 치열한 경쟁을 벌이고 있습니다. 이 러한 상황에서
+                      - mark [ref=f17e240]: 게임
+                      - text: 이 성공하기...
+                  - generic [ref=f17e241]: 새 창 열림
+            - generic [ref=f17e247]:
+              - generic [ref=f17e248]:
+                - link "조선대학교 www3.chosun.ac.kr›bbs 새 창 열림" [ref=f17e249] [cursor=pointer]:
+                  - /url: https://www3.chosun.ac.kr/bbs/chosun/406/277518/artclView.do
+                  - generic [ref=f17e251]:
+                    - generic [ref=f17e255]: 조선대학교
+                    - generic [ref=f17e257]: www3.chosun.ac.kr›bbs
+                  - generic [ref=f17e261]: 새 창 열림
+                - button "옵션 메뉴 열기" [ref=f17e263] [cursor=pointer]
+              - generic [ref=f17e268]:
+                - link "[하계 인턴십] 국내일본계기업 인턴십 참가자 모집 안내 새 창 열림" [ref=f17e270] [cursor=pointer]:
+                  - /url: https://www3.chosun.ac.kr/bbs/chosun/406/277518/artclView.do
+                  - generic [ref=f17e271]:
+                    - text: "[하계"
+                    - mark [ref=f17e272]: 인턴십
+                    - text: "] 국내"
+                    - mark [ref=f17e273]: 일본
+                    - text: 계기업
+                    - mark [ref=f17e274]: 인턴십
+                    - text: 참가자 모집 안내
+                  - generic [ref=f17e275]: 새 창 열림
+                - 'link "2026년_포스터.png ; 다음글 : [전남대학교산학협력단] 「2026년 광주·전남 대학(원)생 상표·디자인 아이디어 경진대회」 홍보, 이전글 : 현대오토에버 모빌리티 SW스쿨 4기 클래스메이트 모집 새 창 열림" [ref=f17e277] [cursor=pointer]':
+                  - /url: https://www3.chosun.ac.kr/bbs/chosun/406/277518/artclView.do
+                  - generic [ref=f17e278]:
+                    - text: "2026년_포스터.png ; 다음글 : [전남"
+                    - mark [ref=f17e279]: 대학
+                    - text: 교산학협력단] 「2026년 광주·전남
+                    - mark [ref=f17e280]: 대학
+                    - text: "(원)생 상표·디자인 아이디어 경진대회」 홍보, 이전글 : 현대오토에버 모빌리티 SW스쿨 4기 클래스메이트 모집"
+                  - generic [ref=f17e281]: 새 창 열림
+            - generic [ref=f17e287]:
+              - generic [ref=f17e288]:
+                - link "서울과학기술대학교 www.seoultech.ac.kr›service 새 창 열림" [ref=f17e289] [cursor=pointer]:
+                  - /url: https://www.seoultech.ac.kr/service/info/janghak/?do=commonview&bnum=1821&bidx=518619
+                  - generic [ref=f17e291]:
+                    - generic [ref=f17e295]: 서울과학기술대학교
+                    - generic [ref=f17e297]: www.seoultech.ac.kr›service
+                  - generic [ref=f17e301]: 새 창 열림
+                - button "옵션 메뉴 열기" [ref=f17e303] [cursor=pointer]
+              - generic [ref=f17e308]:
+                - link "2022 국내 일본계기업 인턴십 프로그램 새 창 열림" [ref=f17e310] [cursor=pointer]:
+                  - /url: https://www.seoultech.ac.kr/service/info/janghak/?do=commonview&bnum=1821&bidx=518619
+                  - generic [ref=f17e311]:
+                    - text: 2022 국내
+                    - mark [ref=f17e312]: 일본
+                    - text: 계기업
+                    - mark [ref=f17e313]: 인턴십
+                    - text: 프로그램
+                  - generic [ref=f17e314]: 새 창 열림
+                - 'link "2022.04.22.- 일한산업기술협력재단 주최 파슬코리아 위탁 운영 - 일본계기업 23개사 참가 ○ 모집기간 : 4/20-5/11 ○ 지원방법 : https://persolkr.applyin.co.kr/ 에서 온라인 지원서 작성 - 국내 4년제 대학 재학생(3~4학년) 또는 졸업 1년이내 - 일본어 또는 영어 중급 이상 가능자 이공계열의 경우 외국어 가능자 우대 - 2022년 7월 ~ 2023년 1월 중 1개월간 근무 가능자... 새 창 열림" [ref=f17e316] [cursor=pointer]':
+                  - /url: https://www.seoultech.ac.kr/service/info/janghak/?do=commonview&bnum=1821&bidx=518619
+                  - generic [ref=f17e317]:
+                    - generic [ref=f17e318]: 2022.04.22.
+                    - generic [ref=f17e319]:
+                      - text: "- 일한산업기술협력재단 주최 파슬코리아 위탁 운영 -"
+                      - mark [ref=f17e320]: 일본
+                      - text: "계기업 23개사 참가 ○ 모집기간 : 4/20-5/11 ○ 지원방법 : https://persolkr.applyin.co.kr/ 에서 온라인 지원서 작성 - 국내 4년제"
+                      - mark [ref=f17e321]: 대학
+                      - text: 재학생(3~4학년) 또는 졸업 1년이내 -
+                      - mark [ref=f17e322]: 일본
+                      - text: 어 또는 영어 중급 이상 가능자 이공계열의 경우 외국어 가능자 우대 - 2022년 7월 ~ 2023년 1월 중 1개월간 근무 가능자...
+                  - generic [ref=f17e323]: 새 창 열림
+            - generic [ref=f17e328]:
+              - generic [ref=f17e329]:
+                - generic [ref=f17e330]:
+                  - link "부산외국어대학교 www.bufs.ac.kr›bbs 새 창 열림" [ref=f17e331] [cursor=pointer]:
+                    - /url: https://www.bufs.ac.kr/bbs/board.php?bo_table=computer_board&wr_id=140
+                    - generic [ref=f17e333]:
+                      - generic [ref=f17e337]: 부산외국어대학교
+                      - generic [ref=f17e339]: www.bufs.ac.kr›bbs
+                    - generic [ref=f17e343]: 새 창 열림
+                  - button "옵션 메뉴 열기" [ref=f17e345] [cursor=pointer]
+                - generic [ref=f17e350]:
+                  - link "국내 일본계기업 인턴십 프로그램 새 창 열림" [ref=f17e352] [cursor=pointer]:
+                    - /url: https://www.bufs.ac.kr/bbs/board.php?bo_table=computer_board&wr_id=140
+                    - generic [ref=f17e353]:
+                      - text: 국내
+                      - mark [ref=f17e354]: 일본
+                      - text: 계기업
+                      - mark [ref=f17e355]: 인턴십
+                      - text: 프로그램
+                    - generic [ref=f17e356]: 새 창 열림
+                  - link "2020.04.10. 컴퓨터공학전공 학과소개 교육과정 공지사항 학과소식지 | 대학사이트 ▸ Language 학과게시판 취업정보 국내 일본계기업 인턴십 프로그램 최고관리자 2020. 4. 10 조회수1,294 0 등록된 댓글이 없습니다. 2020년 대학생 전공멘토단 구성… 목록 국비지원 스마트데이터 전문가 양성… 개인정보처리방침 예·결산공고 찾아오시는 길 캠퍼스안내 통학버스 발전기금 입찰공고 총동문회 정 새 창 열림" [ref=f17e358] [cursor=pointer]:
+                    - /url: https://www.bufs.ac.kr/bbs/board.php?bo_table=computer_board&wr_id=140
+                    - generic [ref=f17e359]:
+                      - generic [ref=f17e360]: 2020.04.10.
+                      - generic [ref=f17e361]:
+                        - text: 컴퓨터공학전공 학과소개 교육과정 공지사항 학과소식지 |
+                        - mark [ref=f17e362]: 대학
+                        - text: 사이트 ▸ Language 학과게시판 취업정보 국내
+                        - mark [ref=f17e363]: 일본
+                        - text: 계기업
+                        - mark [ref=f17e364]: 인턴십
+                        - text: 프로그램 최고관리자 2020. 4. 10 조회수1,294 0 등록된 댓글이 없습니다. 2020년
+                        - mark [ref=f17e365]: 대학생
+                        - text: 전공멘토단 구성… 목록 국비지원 스마트데이터 전문가 양성… 개인정보처리방침 예·결산공고 찾아오시는 길 캠퍼스안내 통학버스 발전기금 입찰공고 총동문회 정
+                    - generic [ref=f17e366]: 새 창 열림
+              - generic [ref=f17e367]:
+                - generic [ref=f17e369]:
+                  - link "2021 국내 일본계기업 인턴십 프로그랩 7기 모집 새 창 열림" [ref=f17e370] [cursor=pointer]:
+                    - /url: https://www.bufs.ac.kr/bbs/board.php?bo_table=notice&wr_id=650
+                    - generic [ref=f17e371]:
+                      - text: 2021 국내
+                      - mark [ref=f17e372]: 일본
+                      - text: 계기업
+                      - mark [ref=f17e373]: 인턴십
+                      - text: 프로그랩 7기 모집
+                    - generic [ref=f17e374]: 새 창 열림
+                  - generic [ref=f17e376]:
+                    - text: About BUFS
+                    - mark [ref=f17e377]: 대학
+                    - text: 교육
+                    - mark [ref=f17e378]: 해외
+                    - text: 교류 입학안내 진로·취업·창업 국제교류처(OIA) > 학생포털 > 사이트맵 Language 공지·안내 취업공지 2021 국내
+                    - mark [ref=f17e379]: 일본
+                    - text: 계기업
+                    - mark [ref=f17e380]: 인턴십
+                    - text: 프로그랩 7기 모집 5952.jpg 642.png 640.pdf_page_1.jpg 대구광역시 지방임기제공무원 임용시험.pdf (양식) 2021년 청해진
+                    - mark [ref=f17e381]: 대학
+                    - text: 베트남과정 신청서_예비자.hwp [붙임3] 인턴매칭 자기소개서.hwp 2021. 5. 17 조회수21,666 2021 미니인턴 X 퍼스팩티브
+                - link "관련문서 더보기" [ref=f17e383] [cursor=pointer]:
+                  - /url: "?page=2&query=%EC%9D%BC%EB%B3%B8+%EA%B2%8C%EC%9E%84%ED%9A%8C%EC%82%AC+%ED%95%B4%EC%99%B8%EC%9D%B8%ED%84%B4%EC%8B%AD+%EB%8C%80%ED%95%99%EC%83%9D+site%3Awww.bufs.ac.kr&qvt=0&ssc=tab.ur.all"
+          - generic [ref=f17e387]:
+            - generic [ref=f17e393]:
+              - generic [ref=f17e394]:
+                - link "건양대학교 www.konyang.ac.kr›cop 새 창 열림" [ref=f17e395] [cursor=pointer]:
+                  - /url: https://www.konyang.ac.kr/cop/bbs/BBSMSTR_000000000111/selectBoardArticle.do?nttId=282086
+                  - generic [ref=f17e397]:
+                    - generic [ref=f17e401]: 건양대학교
+                    - generic [ref=f17e403]: www.konyang.ac.kr›cop
+                  - generic [ref=f17e407]: 새 창 열림
+                - button "옵션 메뉴 열기" [ref=f17e409] [cursor=pointer]
+              - generic [ref=f17e414]:
+                - link "[일본-HUSS 해외 인턴십 프로그램 일정 및 참여 학생 모집 안내] - [ 공지사항 > 커뮤니티 > ] 새 창 열림" [ref=f17e416] [cursor=pointer]:
+                  - /url: https://www.konyang.ac.kr/cop/bbs/BBSMSTR_000000000111/selectBoardArticle.do?nttId=282086
+                  - generic [ref=f17e417]:
+                    - text: "["
+                    - mark [ref=f17e418]: 일본
+                    - text: "-HUSS"
+                    - mark [ref=f17e419]: 해외 인턴십
+                    - text: 프로그램 일정 및 참여 학생 모집 안내] - [ 공지사항 > 커뮤니티 > ]
+                  - generic [ref=f17e420]: 새 창 열림
+                - 'link "2025.11.25.[일본-HUSS 해외 인턴십 프로그램 일정 및 참여 학생 모집 안내] ■ 방문국가 : 일본 후쿠오카 ■ 프로그램 개요 - 선발인원: 사회복지학과 6명(총 건양대 재학생 12명) * 촉박한... - 선발 기준 : HUSS 프로그램 참여도, 학과성적 등을 반영하여 선발 예정 - 기간 : 25.12.16(화)~20(토) / 4박 5일 - 주요 일정 1) 대학 탐방 및 양국 학생 간 교류 프로그램 2) 다문화... 새 창 열림" [ref=f17e422] [cursor=pointer]':
+                  - /url: https://www.konyang.ac.kr/cop/bbs/BBSMSTR_000000000111/selectBoardArticle.do?nttId=282086
+                  - generic [ref=f17e423]:
+                    - generic [ref=f17e424]: 2025.11.25.
+                    - generic [ref=f17e425]:
+                      - text: "["
+                      - mark [ref=f17e426]: 일본
+                      - text: "-HUSS"
+                      - mark [ref=f17e427]: 해외 인턴십
+                      - text: "프로그램 일정 및 참여 학생 모집 안내] ■ 방문국가 :"
+                      - mark [ref=f17e428]: 일본
+                      - text: "후쿠오카 ■ 프로그램 개요 - 선발인원: 사회복지학과 6명(총 건양대 재학생 12명) * 촉박한... - 선발 기준 : HUSS 프로그램 참여도, 학과성적 등을 반영하여 선발 예정 - 기간 : 25.12.16(화)~20(토) / 4박 5일 - 주요 일정 1)"
+                      - mark [ref=f17e429]: 대학
+                      - text: 탐방 및 양국 학생 간 교류 프로그램 2) 다문화...
+                  - generic [ref=f17e430]: 새 창 열림
+            - generic [ref=f17e436]:
+              - generic [ref=f17e437]:
+                - link "국립창원대학교 www.changwon.ac.kr›japan 새 창 열림" [ref=f17e438] [cursor=pointer]:
+                  - /url: https://www.changwon.ac.kr/japan/na/ntt/selectNttInfo.do?nttSn=1297877&mi=12890
+                  - generic [ref=f17e440]:
+                    - generic [ref=f17e444]: 국립창원대학교
+                    - generic [ref=f17e446]: www.changwon.ac.kr›japan
+                  - generic [ref=f17e450]: 새 창 열림
+                - button "옵션 메뉴 열기" [ref=f17e452] [cursor=pointer]
+              - generic [ref=f17e457]:
+                - link "2023년 국내 일본계기업 인턴십 프로그램 안내 - 취업정보 > 취업공고 >게시물 내용보기 - 일어일문.... 새 창 열림" [ref=f17e459] [cursor=pointer]:
+                  - /url: https://www.changwon.ac.kr/japan/na/ntt/selectNttInfo.do?nttSn=1297877&mi=12890
+                  - generic [ref=f17e460]:
+                    - text: 2023년 국내
+                    - mark [ref=f17e461]: 일본
+                    - text: 계기업
+                    - mark [ref=f17e462]: 인턴십
+                    - text: 프로그램 안내 - 취업정보 > 취업공고 >게시물 내용보기 - 일어일문....
+                  - generic [ref=f17e463]: 새 창 열림
+                - link "2023.05.15.능력 일본어 가능자 활동/경험 해당직무 인턴경력, 해외연수자, 해당직무 근무경험 자격/능력 컴퓨터활용능력 우수, 문서작성 우수자, 엑셀 고급능력자, CAD/CAM 능숙자... 국내 일본계 기업에서 1개월간 비즈니스 현장을 체험할 수 있는 교육형 인턴십 프로그램입니다. 지원자격 ㆍ국내 4년제 대학 재학생(3~4학년) 또는 졸업 1년 이내 ㆍ일본어 또는... 새 창 열림" [ref=f17e465] [cursor=pointer]:
+                  - /url: https://www.changwon.ac.kr/japan/na/ntt/selectNttInfo.do?nttSn=1297877&mi=12890
+                  - generic [ref=f17e466]:
+                    - generic [ref=f17e467]: 2023.05.15.
+                    - generic [ref=f17e468]:
+                      - text: 능력
+                      - mark [ref=f17e469]: 일본
+                      - text: 어 가능자 활동/경험 해당직무 인턴경력,
+                      - mark [ref=f17e470]: 해외
+                      - text: 연수자, 해당직무 근무경험 자격/능력 컴퓨터활용능력 우수, 문서작성 우수자, 엑셀 고급능력자, CAD/CAM 능숙자... 국내
+                      - mark [ref=f17e471]: 일본
+                      - text: 계 기업에서 1개월간 비즈니스 현장을 체험할 수 있는 교육형
+                      - mark [ref=f17e472]: 인턴십
+                      - text: 프로그램입니다. 지원자격 ㆍ국내 4년제
+                      - mark [ref=f17e473]: 대학
+                      - text: 재학생(3~4학년) 또는 졸업 1년 이내 ㆍ
+                      - mark [ref=f17e474]: 일본
+                      - text: 어 또는...
+                  - generic [ref=f17e475]: 새 창 열림
+            - generic [ref=f17e481]:
+              - generic [ref=f17e482]:
+                - link "sw.chosun.ac.kr›menu 새 창 열림" [ref=f17e483] [cursor=pointer]:
+                  - /url: https://sw.chosun.ac.kr/main/menu?gc=Program&do=sinform&eo=program&program_id=VKDAB37UbUMu&psin_id=VKDAB37ZwtN5
+                  - generic [ref=f17e484]: sw.chosun.ac.kr›menu
+                  - generic [ref=f17e506]: 새 창 열림
+                - button "옵션 메뉴 열기" [ref=f17e508] [cursor=pointer]
+              - generic [ref=f17e513]:
+                - link "조선<mark>대학</mark>교 소프트웨어중심<mark>대학</mark>사업단 - 지원프로그램의 이미지 새 창 열림" [ref=f17e514] [cursor=pointer]:
+                  - /url: https://sw.chosun.ac.kr/main/menu?gc=Program&do=sinform&eo=program&program_id=VKDAB37UbUMu&psin_id=VKDAB37ZwtN5
+                  - img "조선<mark>대학</mark>교 소프트웨어중심<mark>대학</mark>사업단 - 지원프로그램의 이미지" [ref=f17e516]
+                  - generic [ref=f17e518]: 새 창 열림
+                - link "조선대학교 소프트웨어중심대학사업단 - 지원프로그램 새 창 열림" [ref=f17e520] [cursor=pointer]:
+                  - /url: https://sw.chosun.ac.kr/main/menu?gc=Program&do=sinform&eo=program&program_id=VKDAB37UbUMu&psin_id=VKDAB37ZwtN5
+                  - generic [ref=f17e521]:
+                    - text: 조선
+                    - mark [ref=f17e522]: 대학
+                    - text: 교 소프트웨어중심
+                    - mark [ref=f17e523]: 대학
+                    - text: 사업단 - 지원프로그램
+                  - generic [ref=f17e524]: 새 창 열림
+                - 'link "진행기간 : 26.06.30(화) ~ 26.08.28(금), 신청기간 : 26.05.21(목) ~ 26.05.28(목), 교육장소 : 일본 현지, 대상 : SW중심대학사업 참여학과 3, 4학년 재학생, 정원 : 제한없음 새 창 열림" [ref=f17e526] [cursor=pointer]':
+                  - /url: https://sw.chosun.ac.kr/main/menu?gc=Program&do=sinform&eo=program&program_id=VKDAB37UbUMu&psin_id=VKDAB37ZwtN5
+                  - generic [ref=f17e527]:
+                    - text: "진행기간 : 26.06.30(화) ~ 26.08.28(금), 신청기간 : 26.05.21(목) ~ 26.05.28(목), 교육장소 :"
+                    - mark [ref=f17e528]: 일본
+                    - text: "현지, 대상 : SW중심"
+                    - mark [ref=f17e529]: 대학
+                    - text: "사업 참여학과 3, 4학년 재학생, 정원 : 제한없음"
+                  - generic [ref=f17e530]: 새 창 열림
+            - generic [ref=f17e536]:
+              - generic [ref=f17e537]:
+                - generic [ref=f17e538]:
+                  - link "새 창 열림" [ref=f17e540] [cursor=pointer]:
+                    - /url: https://blog.naver.com/gmumi
+                  - link ". 새 창 열림" [ref=f17e546] [cursor=pointer]:
+                    - /url: https://blog.naver.com/gmumi
+                    - generic [ref=f17e547]: .
+                    - generic [ref=f17e548]: 새 창 열림
+                  - generic [ref=f17e549]: 2024.12.19.
+                - button "옵션 메뉴 열기" [ref=f17e553] [cursor=pointer]
+              - generic [ref=f17e559]:
+                - generic [ref=f17e560]:
+                  - 'link "일본 해외연수 : 한국 토박이의 4개월 도쿄 살이 도전기 새 창 열림" [ref=f17e561] [cursor=pointer]':
+                    - /url: https://blog.naver.com/gmumi/223698669180
+                    - generic [ref=f17e562]:
+                      - mark [ref=f17e563]: 일본
+                      - mark [ref=f17e564]: 해외
+                      - text: "연수 : 한국 토박이의 4개월 도쿄 살이 도전기"
+                    - generic [ref=f17e565]: 새 창 열림
+                  - link "개강한 대학생... 오늘도 평화롭게 구미대학교를 다니던 어느날, 기회는 언제나 예고 없이 온다고 했던가요 일본 인턴십... 일본 인턴십 해외 직무연수 ⛩ 기간 2023. 09. 04 ~ 2023. 12. 23 제가 현재 다니고 있는 학과는 구미대학교 비주얼게임컨텐츠스... 있는 게임 회사로 인턴을 하게 됩니다. ip를 가져와 그와 관련된 게임을 만드는 회사였는데, 유명한 애니메이션의 게임을... 새 창 열림" [ref=f17e567] [cursor=pointer]:
+                    - /url: https://blog.naver.com/gmumi/223698669180
+                    - generic [ref=f17e568]:
+                      - text: 개강한
+                      - mark [ref=f17e569]: 대학생
+                      - text: ... 오늘도 평화롭게 구미
+                      - mark [ref=f17e570]: 대학
+                      - text: 교를 다니던 어느날, 기회는 언제나 예고 없이 온다고 했던가요
+                      - mark [ref=f17e571]: 일본
+                      - mark [ref=f17e572]: 인턴십
+                      - text: ...
+                      - mark [ref=f17e573]: 일본
+                      - mark [ref=f17e574]: 인턴십
+                      - mark [ref=f17e575]: 해외
+                      - text: 직무연수 ⛩ 기간 2023. 09. 04 ~ 2023. 12. 23 제가 현재 다니고 있는 학과는 구미
+                      - mark [ref=f17e576]: 대학
+                      - text: 교 비주얼
+                      - mark [ref=f17e577]: 게임
+                      - text: 컨텐츠스... 있는
+                      - mark [ref=f17e578]: 게임 회사
+                      - text: 로 인턴을 하게 됩니다. ip를 가져와 그와 관련된
+                      - mark [ref=f17e579]: 게임
+                      - text: 을 만드는
+                      - mark [ref=f17e580]: 회사
+                      - text: 였는데, 유명한 애니메이션의
+                      - mark [ref=f17e581]: 게임
+                      - text: 을...
+                    - generic [ref=f17e582]: 새 창 열림
+                - link "28 새 창 열림" [ref=f17e583] [cursor=pointer]:
+                  - /url: https://blog.naver.com/gmumi/223698669180
+                  - generic [ref=f17e584]: "28"
+                  - generic [ref=f17e591]: 새 창 열림
+            - generic [ref=f17e597]:
+              - generic [ref=f17e598]:
+                - generic [ref=f17e599]:
+                  - link "새 창 열림" [ref=f17e601] [cursor=pointer]:
+                    - /url: https://in.naver.com/albatross_001
+                  - link "비젼 새 창 열림" [ref=f17e607] [cursor=pointer]:
+                    - /url: https://in.naver.com/albatross_001
+                    - generic [ref=f17e608]: 비젼
+                    - generic [ref=f17e609]: 새 창 열림
+                  - generic [ref=f17e610]: 2025.08.03.
+                - button "옵션 메뉴 열기" [ref=f17e614] [cursor=pointer]
+              - generic [ref=f17e620]:
+                - generic [ref=f17e621]:
+                  - link "일본 마케팅 인턴십 주요 기업과 자격 요건 및 선발 기준·지원 방법 새 창 열림" [ref=f17e622] [cursor=pointer]:
+                    - /url: https://blog.naver.com/albatross_01/223936006886
+                    - generic [ref=f17e623]:
+                      - mark [ref=f17e624]: 일본
+                      - text: 마케팅
+                      - mark [ref=f17e625]: 인턴십
+                      - text: 주요 기업과 자격 요건 및 선발 기준·지원 방법
+                    - generic [ref=f17e626]: 새 창 열림
+                  - link "지원 방법 ⦁ Wanted Japan, CareerCross, Work Japan 등 일본 취업 플랫폼 ⦁ 일본 대학 교환학생/교류 프로그램 중 인턴 연결 ⦁ JETRO 또는 JASSO 장학재단 산하 인턴십도 존재 ⦁ 일본 기업에서 직접 한국 대학생 대상 단기 인턴십 (2~3개월) 모집도 자주 진행 여기를 눌러 팬이 되어 주세요, 저에게 큰 힘이 됩니다. 열심히 하겠습니다 4. 장점 ⦁ 글로벌 일본... 새 창 열림" [ref=f17e628] [cursor=pointer]:
+                    - /url: https://blog.naver.com/albatross_01/223936006886
+                    - generic [ref=f17e629]:
+                      - text: 지원 방법 ⦁ Wanted Japan, CareerCross, Work Japan 등
+                      - mark [ref=f17e630]: 일본
+                      - text: 취업 플랫폼 ⦁
+                      - mark [ref=f17e631]: 일본
+                      - mark [ref=f17e632]: 대학
+                      - text: 교환학생/교류 프로그램 중 인턴 연결 ⦁ JETRO 또는 JASSO 장학재단 산하
+                      - mark [ref=f17e633]: 인턴십
+                      - text: 도 존재 ⦁
+                      - mark [ref=f17e634]: 일본
+                      - text: 기업에서 직접 한국
+                      - mark [ref=f17e635]: 대학생
+                      - text: 대상 단기
+                      - mark [ref=f17e636]: 인턴십
+                      - text: (2~3개월) 모집도 자주 진행 여기를 눌러 팬이 되어 주세요, 저에게 큰 힘이 됩니다. 열심히 하겠습니다 4. 장점 ⦁ 글로벌
+                      - mark [ref=f17e637]: 일본
+                      - text: ...
+                    - generic [ref=f17e638]: 새 창 열림
+                - link "4 새 창 열림" [ref=f17e639] [cursor=pointer]:
+                  - /url: https://blog.naver.com/albatross_01/223936006886
+                  - generic [ref=f17e640]: "4"
+                  - generic [ref=f17e647]: 새 창 열림
+            - generic [ref=f17e652]:
+              - generic [ref=f17e653]:
+                - generic [ref=f17e654]:
+                  - link "매일경제 www.mk.co.kr›news 새 창 열림" [ref=f17e655] [cursor=pointer]:
+                    - /url: https://www.mk.co.kr/news/society/8508194
+                    - generic [ref=f17e657]:
+                      - generic [ref=f17e661]: 매일경제
+                      - generic [ref=f17e663]: www.mk.co.kr›news
+                    - generic [ref=f17e667]: 새 창 열림
+                  - button "옵션 메뉴 열기" [ref=f17e669] [cursor=pointer]
+                - generic [ref=f17e674]:
+                  - link "<mark>일본</mark><mark>대학생</mark>들이 취업하고 싶어하는 <mark>일본</mark><mark>회사</mark> 6~10위(2/4)의 이미지 새 창 열림" [ref=f17e675] [cursor=pointer]:
+                    - /url: https://www.mk.co.kr/news/society/8508194
+                    - img "<mark>일본</mark><mark>대학생</mark>들이 취업하고 싶어하는 <mark>일본</mark><mark>회사</mark> 6~10위(2/4)의 이미지" [ref=f17e677]
+                    - generic [ref=f17e679]: 새 창 열림
+                  - link "일본대학생들이 취업하고 싶어하는 일본회사 6~10위(2/4) 새 창 열림" [ref=f17e681] [cursor=pointer]:
+                    - /url: https://www.mk.co.kr/news/society/8508194
+                    - generic [ref=f17e682]:
+                      - mark [ref=f17e683]: 일본
+                      - mark [ref=f17e684]: 대학생
+                      - text: 들이 취업하고 싶어하는
+                      - mark [ref=f17e685]: 일본
+                      - mark [ref=f17e686]: 회사
+                      - text: 6~10위(2/4)
+                    - generic [ref=f17e687]: 새 창 열림
+                  - link "2018.10.11.취업을 준비하는 대학생의 입장에서 인턴십은 원하는 회사에 취직하기 위한 관문이기도 하고 유력한 스펙쌓기의 수단이기도 하다. 현재로서는 후자에 해당하는 경우의 수가 많다. 그런데, 지난 칼럼을 통해 소개한 일본 취업활동규칙의... sc=51500113&year=2018&no=485106))이 지난 3개월간 대학교 3년생 3,185명을 대상으로 실시한 인턴십 희망회사 결과 TOP20위에 랭킹된... 새 창 열림" [ref=f17e689] [cursor=pointer]:
+                    - /url: https://www.mk.co.kr/news/society/8508194
+                    - generic [ref=f17e690]:
+                      - generic [ref=f17e691]: 2018.10.11.
+                      - generic [ref=f17e692]:
+                        - text: 취업을 준비하는
+                        - mark [ref=f17e693]: 대학생
+                        - text: 의 입장에서
+                        - mark [ref=f17e694]: 인턴십
+                        - text: 은 원하는
+                        - mark [ref=f17e695]: 회사
+                        - text: 에 취직하기 위한 관문이기도 하고 유력한 스펙쌓기의 수단이기도 하다. 현재로서는 후자에 해당하는 경우의 수가 많다. 그런데, 지난 칼럼을 통해 소개한
+                        - mark [ref=f17e696]: 일본
+                        - text: 취업활동규칙의... sc=51500113&year=2018&no=485106))이 지난 3개월간
+                        - mark [ref=f17e697]: 대학
+                        - text: 교 3년생 3,185명을 대상으로 실시한
+                        - mark [ref=f17e698]: 인턴십
+                        - text: 희망
+                        - mark [ref=f17e699]: 회사
+                        - text: 결과 TOP20위에 랭킹된...
+                    - generic [ref=f17e700]: 새 창 열림
+              - generic [ref=f17e701]:
+                - generic [ref=f17e703]:
+                  - link "<mark>일본</mark>학생들이 선택하는 <mark>일본</mark><mark>회사</mark>1~5위(1/4)의 이미지 새 창 열림" [ref=f17e704] [cursor=pointer]:
+                    - /url: https://www.mk.co.kr/news/society/8495958
+                    - img "<mark>일본</mark>학생들이 선택하는 <mark>일본</mark><mark>회사</mark>1~5위(1/4)의 이미지" [ref=f17e706]
+                    - generic [ref=f17e708]: 새 창 열림
+                  - link "일본학생들이 선택하는 일본회사1~5위(1/4) 새 창 열림" [ref=f17e709] [cursor=pointer]:
+                    - /url: https://www.mk.co.kr/news/society/8495958
+                    - generic [ref=f17e710]:
+                      - mark [ref=f17e711]: 일본
+                      - text: 학생들이 선택하는
+                      - mark [ref=f17e712]: 일본
+                      - mark [ref=f17e713]: 회사
+                      - text: 1~5위(1/4)
+                    - generic [ref=f17e714]: 새 창 열림
+                  - generic [ref=f17e716]:
+                    - text: 취업과
+                    - mark [ref=f17e717]: 인턴십
+                    - text: 에는 어떤 관계가 있을까? 취업을 준비하는
+                    - mark [ref=f17e718]: 대학생
+                    - text: 의 입장에서
+                    - mark [ref=f17e719]: 인턴십
+                    - text: 은 원하는
+                    - mark [ref=f17e720]: 회사
+                    - text: 에 취직하기 위한... 이에, 취업정보제공형 커뮤니티 사이트 <라쿠텐 모두의 취업>이 지난 3개월간
+                    - mark [ref=f17e721]: 대학
+                    - text: 교 3년생 3,185명을 대상으로 실시한
+                    - mark [ref=f17e722]: 인턴십
+                    - text: 희망
+                    - mark [ref=f17e723]: 회사
+                    - text: 결과 TOP20위에 랭킹된 기업들을 4회에 소개하고자 한다. 1위. 전
+                    - mark [ref=f17e724]: 일본
+                    - text: 공수 (ANA) - 항공운수업 국내 학생들도...
+                - link "관련문서 더보기" [ref=f17e726] [cursor=pointer]:
+                  - /url: "?page=2&query=%EC%9D%BC%EB%B3%B8+%EA%B2%8C%EC%9E%84%ED%9A%8C%EC%82%AC+%ED%95%B4%EC%99%B8%EC%9D%B8%ED%84%B4%EC%8B%AD+%EB%8C%80%ED%95%99%EC%83%9D+site%3Awww.mk.co.kr&qvt=0&ssc=tab.ur.all"
+            - generic [ref=f17e735]:
+              - generic [ref=f17e736]:
+                - generic [ref=f17e737]:
+                  - link "새 창 열림" [ref=f17e739] [cursor=pointer]:
+                    - /url: https://blog.naver.com/u_hakseang
+                  - link "일본유학 월간지! 월간 유학생 새 창 열림" [ref=f17e745] [cursor=pointer]:
+                    - /url: https://blog.naver.com/u_hakseang
+                    - generic [ref=f17e746]: 일본유학 월간지! 월간 유학생
+                    - generic [ref=f17e747]: 새 창 열림
+                  - generic [ref=f17e748]: 2025.05.27.
+                - button "옵션 메뉴 열기" [ref=f17e752] [cursor=pointer]
+              - generic [ref=f17e758]:
+                - generic [ref=f17e759]:
+                  - link "일본 게임회사 취업 성공법 일본전자전문학교 후기 새 창 열림" [ref=f17e760] [cursor=pointer]:
+                    - /url: https://blog.naver.com/u_hakseang/223879683040
+                    - generic [ref=f17e761]:
+                      - mark [ref=f17e762]: 일본 게임회사
+                      - text: 취업 성공법
+                      - mark [ref=f17e763]: 일본
+                      - text: 전자전문학교 후기
+                    - generic [ref=f17e764]: 새 창 열림
+                  - link "일본에서 게임을 직업으로 만든 학교 일본전자전문학교 좋아하는 것만으로 괜찮을까? 게임을 '일'로 만드는 방법, 일본전자전문학교에서 찾다 '게임이 좋아요' 그 말만으로 충분할까요?... ▶모의 면접&실전 트레이닝 실제 게임 회사 면접을 재현한 모의 면접과 피드백도 꼼꼼해서 '떨지 않는 나'로 성장할 수 있어요. ▶기업과의 연계 프로그램 학교는 매년 3월, 4월, 7월... 새 창 열림" [ref=f17e766] [cursor=pointer]:
+                    - /url: https://blog.naver.com/u_hakseang/223879683040
+                    - generic [ref=f17e767]:
+                      - mark [ref=f17e768]: 일본
+                      - text: 에서
+                      - mark [ref=f17e769]: 게임
+                      - text: 을 직업으로 만든 학교
+                      - mark [ref=f17e770]: 일본
+                      - text: 전자전문학교 좋아하는 것만으로 괜찮을까?
+                      - mark [ref=f17e771]: 게임
+                      - text: 을 '일'로 만드는 방법,
+                      - mark [ref=f17e772]: 일본
+                      - text: 전자전문학교에서 찾다 '
+                      - mark [ref=f17e773]: 게임
+                      - text: 이 좋아요' 그 말만으로 충분할까요?... ▶모의 면접&실전 트레이닝 실제
+                      - mark [ref=f17e774]: 게임 회사
+                      - text: 면접을 재현한 모의 면접과 피드백도 꼼꼼해서 '떨지 않는 나'로 성장할 수 있어요. ▶기업과의 연계 프로그램 학교는 매년 3월, 4월, 7월...
+                    - generic [ref=f17e775]: 새 창 열림
+                - link "13 새 창 열림" [ref=f17e776] [cursor=pointer]:
+                  - /url: https://blog.naver.com/u_hakseang/223879683040
+                  - generic [ref=f17e777]: "13"
+                  - generic [ref=f17e784]: 새 창 열림
+            - generic [ref=f17e790]:
+              - generic [ref=f17e791]:
+                - generic [ref=f17e792]:
+                  - link "새 창 열림" [ref=f17e794] [cursor=pointer]:
+                    - /url: https://blog.naver.com/worldvridge
+                  - link "TIU Tokyo Int'l Univ. (동경국제대학) 새 창 열림" [ref=f17e800] [cursor=pointer]:
+                    - /url: https://blog.naver.com/worldvridge
+                    - generic [ref=f17e801]: TIU Tokyo Int'l Univ. (동경국제대학)
+                    - generic [ref=f17e802]: 새 창 열림
+                  - generic [ref=f17e803]: 2025.10.09.
+                - button "옵션 메뉴 열기" [ref=f17e807] [cursor=pointer]
+              - generic [ref=f17e813]:
+                - generic [ref=f17e814]:
+                  - link "일본 유학생을 위한 인턴십 새 창 열림" [ref=f17e815] [cursor=pointer]:
+                    - /url: https://blog.naver.com/worldvridge/224035915021
+                    - generic [ref=f17e816]:
+                      - mark [ref=f17e817]: 일본
+                      - text: 유학생을 위한
+                      - mark [ref=f17e818]: 인턴십
+                    - generic [ref=f17e819]: 새 창 열림
+                  - 'link "■ 일본 국외 대학생의 인턴십 재류 자격 일본 외 대학에 재학 중인 학생이 일본 기업에서 인턴십을 하는 경우, 보수 유무 및 체재 기간에 따라 아래 중 하나의 재류 자격이... 특정활동 문화활동 단기체재 ■ 인턴십 관련 공식 기관 ▶ 경제산업성 국제화 촉진 인턴십 사업 대상: 해외 대학생 및 기졸자 내용: 일본 중소기업에서의 인턴십 프로그램 제공... 새 창 열림" [ref=f17e821] [cursor=pointer]':
+                    - /url: https://blog.naver.com/worldvridge/224035915021
+                    - generic [ref=f17e822]:
+                      - text: ■
+                      - mark [ref=f17e823]: 일본
+                      - text: 국외
+                      - mark [ref=f17e824]: 대학생
+                      - text: 의
+                      - mark [ref=f17e825]: 인턴십
+                      - text: 재류 자격
+                      - mark [ref=f17e826]: 일본
+                      - text: 외
+                      - mark [ref=f17e827]: 대학
+                      - text: 에 재학 중인 학생이
+                      - mark [ref=f17e828]: 일본
+                      - text: 기업에서
+                      - mark [ref=f17e829]: 인턴십
+                      - text: 을 하는 경우, 보수 유무 및 체재 기간에 따라 아래 중 하나의 재류 자격이... 특정활동 문화활동 단기체재 ■
+                      - mark [ref=f17e830]: 인턴십
+                      - text: 관련 공식 기관 ▶ 경제산업성 국제화 촉진
+                      - mark [ref=f17e831]: 인턴십
+                      - text: "사업 대상:"
+                      - mark [ref=f17e832]: 해외
+                      - mark [ref=f17e833]: 대학생
+                      - text: "및 기졸자 내용:"
+                      - mark [ref=f17e834]: 일본
+                      - text: 중소기업에서의
+                      - mark [ref=f17e835]: 인턴십
+                      - text: 프로그램 제공...
+                    - generic [ref=f17e836]: 새 창 열림
+                - link "새 창 열림" [ref=f17e837] [cursor=pointer]:
+                  - /url: https://blog.naver.com/worldvridge/224035915021
+            - generic [ref=f17e848]:
+              - generic [ref=f17e849]:
+                - link "대한경제 www.dnews.co.kr›uhtml 새 창 열림" [ref=f17e850] [cursor=pointer]:
+                  - /url: https://www.dnews.co.kr/uhtml/view.jsp?idxno=202607011746064530603
+                  - generic [ref=f17e852]:
+                    - generic [ref=f17e856]: 대한경제
+                    - generic [ref=f17e858]: www.dnews.co.kr›uhtml
+                  - generic [ref=f17e862]: 새 창 열림
+                - button "옵션 메뉴 열기" [ref=f17e864] [cursor=pointer]
+              - generic [ref=f17e869]:
+                - link "[부산ㆍ경남 <mark>대학</mark> 브리핑 모음(7월2일)] 동의대 대외협력원, 중국 시화대 미술 및 디자인<mark>대학</mark>과 협....의 이미지 새 창 열림" [ref=f17e870] [cursor=pointer]:
+                  - /url: https://www.dnews.co.kr/uhtml/view.jsp?idxno=202607011746064530603
+                  - img "[부산ㆍ경남 <mark>대학</mark> 브리핑 모음(7월2일)] 동의대 대외협력원, 중국 시화대 미술 및 디자인<mark>대학</mark>과 협....의 이미지" [ref=f17e872]
+                  - generic [ref=f17e874]: 새 창 열림
+                - link "[부산ㆍ경남 대학 브리핑 모음(7월2일)] 동의대 대외협력원, 중국 시화대 미술 및 디자인대학과 협.... 새 창 열림" [ref=f17e876] [cursor=pointer]:
+                  - /url: https://www.dnews.co.kr/uhtml/view.jsp?idxno=202607011746064530603
+                  - generic [ref=f17e877]:
+                    - text: "[부산ㆍ경남"
+                    - mark [ref=f17e878]: 대학
+                    - text: 브리핑 모음(7월2일)] 동의대 대외협력원, 중국 시화대 미술 및 디자인
+                    - mark [ref=f17e879]: 대학
+                    - text: 과 협....
+                  - generic [ref=f17e880]: 새 창 열림
+                - 'link "2주 전유한회사(이사장 왕위안팡) 등과 대학생 인턴십과 해외파견, 유학생 유치, 상호 교류 등에 대한 협약을 체결했다. / 사진 : 동의대학교 제공 동의대학교 대외협력원 김치용 원장(게임공학과 교수)은 지난달 26일 중국 청두를 방문하여 시화대학교 미술 및 디자인대학(원장 멍카이닝)과 청두 시이 산업디자인 유한회사(이사장 푸차오화), 청두 보눠 문화창의... 새 창 열림" [ref=f17e882] [cursor=pointer]':
+                  - /url: https://www.dnews.co.kr/uhtml/view.jsp?idxno=202607011746064530603
+                  - generic [ref=f17e883]:
+                    - generic [ref=f17e884]: 2주 전
+                    - generic [ref=f17e885]:
+                      - text: 유한
+                      - mark [ref=f17e886]: 회사
+                      - text: (이사장 왕위안팡) 등과
+                      - mark [ref=f17e887]: 대학생
+                      - mark [ref=f17e888]: 인턴십
+                      - text: 과
+                      - mark [ref=f17e889]: 해외
+                      - text: "파견, 유학생 유치, 상호 교류 등에 대한 협약을 체결했다. / 사진 : 동의"
+                      - mark [ref=f17e890]: 대학
+                      - text: 교 제공 동의
+                      - mark [ref=f17e891]: 대학
+                      - text: 교 대외협력원 김치용 원장(
+                      - mark [ref=f17e892]: 게임
+                      - text: 공학과 교수)은 지난달 26일 중국 청두를 방문하여 시화
+                      - mark [ref=f17e893]: 대학
+                      - text: 교 미술 및 디자인
+                      - mark [ref=f17e894]: 대학
+                      - text: (원장 멍카이닝)과 청두 시이 산업디자인 유한
+                      - mark [ref=f17e895]: 회사
+                      - text: (이사장 푸차오화), 청두 보눠 문화창의...
+                  - generic [ref=f17e896]: 새 창 열림
+            - generic [ref=f17e902]:
+              - generic [ref=f17e903]:
+                - link "호서대학교 www.hoseo.ac.kr›Home 새 창 열림" [ref=f17e904] [cursor=pointer]:
+                  - /url: https://www.hoseo.ac.kr/Home/BBSView.mbz?action=MAPP_1708240139&schIdx=79468
+                  - generic [ref=f17e906]:
+                    - generic [ref=f17e924]: 호서대학교
+                    - generic [ref=f17e926]: www.hoseo.ac.kr›Home
+                  - generic [ref=f17e930]: 새 창 열림
+                - button "옵션 메뉴 열기" [ref=f17e932] [cursor=pointer]
+              - generic [ref=f17e937]:
+                - link "[K-Move] 2024년 해외취업 연수생 모집 - IT 개발자 일본 취업 새 창 열림" [ref=f17e939] [cursor=pointer]:
+                  - /url: https://www.hoseo.ac.kr/Home/BBSView.mbz?action=MAPP_1708240139&schIdx=79468
+                  - generic [ref=f17e940]:
+                    - text: "[K-Move] 2024년"
+                    - mark [ref=f17e941]: 해외
+                    - text: 취업 연수생 모집 - IT 개발자
+                    - mark [ref=f17e942]: 일본
+                    - text: 취업
+                  - generic [ref=f17e943]: 새 창 열림
+                - link "2024.03.19. 호서소개 입학안내 대학ㆍ대학원 학사종합 대학생활 호서광장 CanDo시스템 QUICK MENU 공지사항 셔틀/통학버스 캠퍼스맵 조기취업형 계약학과 TOP 호서광장 호서광장 공지사항 공지사항 공지사항 ICAN+학기제 융합교육공지 학사공지 교직/평생교육사 장학공지 사회봉사 외부공지 취업공지 - [K-Move] 2024년 해외취업 연수생 모집 - IT 개발자 일본 취업 취업팀 2024-03-19 View 246 PRINT 내용 1 새 창 열림" [ref=f17e945] [cursor=pointer]:
+                  - /url: https://www.hoseo.ac.kr/Home/BBSView.mbz?action=MAPP_1708240139&schIdx=79468
+                  - generic [ref=f17e946]:
+                    - generic [ref=f17e947]: 2024.03.19.
+                    - generic [ref=f17e948]:
+                      - text: 호서소개 입학안내
+                      - mark [ref=f17e949]: 대학
+                      - text: ㆍ
+                      - mark [ref=f17e950]: 대학
+                      - text: 원 학사종합
+                      - mark [ref=f17e951]: 대학생
+                      - text: 활 호서광장 CanDo시스템 QUICK MENU 공지사항 셔틀/통학버스 캠퍼스맵 조기취업형 계약학과 TOP 호서광장 호서광장 공지사항 공지사항 공지사항 ICAN+학기제 융합교육공지 학사공지 교직/평생교육사 장학공지 사회봉사 외부공지 취업공지 - [K-Move] 2024년
+                      - mark [ref=f17e952]: 해외
+                      - text: 취업 연수생 모집 - IT 개발자
+                      - mark [ref=f17e953]: 일본
+                      - text: 취업 취업팀 2024-03-19 View 246 PRINT 내용 1
+                  - generic [ref=f17e954]: 새 창 열림
+            - generic [ref=f17e960]:
+              - generic [ref=f17e961]:
+                - generic [ref=f17e962]:
+                  - link "새 창 열림" [ref=f17e964] [cursor=pointer]:
+                    - /url: https://blog.naver.com/japan4u123
+                  - link "일본유학쉽게가기 나의소확행 새 창 열림" [ref=f17e970] [cursor=pointer]:
+                    - /url: https://blog.naver.com/japan4u123
+                    - generic [ref=f17e971]: 일본유학쉽게가기 나의소확행
+                    - generic [ref=f17e972]: 새 창 열림
+                  - generic [ref=f17e973]: 2026.03.31.
+                - button "옵션 메뉴 열기" [ref=f17e977] [cursor=pointer]
+              - generic [ref=f17e983]:
+                - generic [ref=f17e984]:
+                  - link "일본게임유학의특징 일본취업일본게임회사 일본유명게임전문학교 새 창 열림" [ref=f17e985] [cursor=pointer]:
+                    - /url: https://blog.naver.com/japan4u123/224227010946
+                    - generic [ref=f17e986]:
+                      - mark [ref=f17e987]: 일본게임
+                      - text: 유학의특징
+                      - mark [ref=f17e988]: 일본
+                      - text: 취업
+                      - mark [ref=f17e989]: 일본게임회사
+                      - mark [ref=f17e990]: 일본
+                      - text: 유명
+                      - mark [ref=f17e991]: 게임
+                      - text: 전문학교
+                    - generic [ref=f17e992]: 새 창 열림
+                  - 'link "특히 VR·AI·메타버스 등 차세대 기술을 접목한 교육 과정과 일본 게임 기업과의 인턴십 기회가 확대되면서, 한국을... 영어·일본어 병행 가능 소니 인터랙티브 엔터테인먼트 (Sony Interactive Entertainment) 플레이스테이션 플랫폼 운영 해외... 일본게임회사 #일본게임회사취업 #일본게임전문학교 #일본게임대학 #일본게임취업 #일본공학원 #일본공학원전문학교 새 창 열림" [ref=f17e994] [cursor=pointer]':
+                    - /url: https://blog.naver.com/japan4u123/224227010946
+                    - generic [ref=f17e995]:
+                      - text: 특히 VR·AI·메타버스 등 차세대 기술을 접목한 교육 과정과
+                      - mark [ref=f17e996]: 일본 게임
+                      - text: 기업과의
+                      - mark [ref=f17e997]: 인턴십
+                      - text: 기회가 확대되면서, 한국을... 영어·
+                      - mark [ref=f17e998]: 일본
+                      - text: 어 병행 가능 소니 인터랙티브 엔터테인먼트 (Sony Interactive Entertainment) 플레이스테이션 플랫폼 운영
+                      - mark [ref=f17e999]: 해외
+                      - text: ...
+                      - mark [ref=f17e1000]: 일본게임회사
+                      - text: "#"
+                      - mark [ref=f17e1001]: 일본게임회사
+                      - text: "취업 #"
+                      - mark [ref=f17e1002]: 일본게임
+                      - text: "전문학교 #"
+                      - mark [ref=f17e1003]: 일본게임
+                      - mark [ref=f17e1004]: 대학
+                      - text: "#"
+                      - mark [ref=f17e1005]: 일본게임
+                      - text: "취업 #"
+                      - mark [ref=f17e1006]: 일본
+                      - text: "공학원 #"
+                      - mark [ref=f17e1007]: 일본
+                      - text: 공학원전문학교
+                    - generic [ref=f17e1008]: 새 창 열림
+                - link "새 창 열림" [ref=f17e1009] [cursor=pointer]:
+                  - /url: https://blog.naver.com/japan4u123/224227010946
+            - generic [ref=f17e1020]:
+              - generic [ref=f17e1021]:
+                - generic [ref=f17e1022]:
+                  - link "새 창 열림" [ref=f17e1024] [cursor=pointer]:
+                    - /url: https://blog.naver.com/j__abroad
+                  - link "교토첨단과학대학 한국사무소 새 창 열림" [ref=f17e1030] [cursor=pointer]:
+                    - /url: https://blog.naver.com/j__abroad
+                    - generic [ref=f17e1031]: 교토첨단과학대학 한국사무소
+                    - generic [ref=f17e1032]: 새 창 열림
+                  - generic [ref=f17e1033]: 2025.10.29.
+                - button "옵션 메뉴 열기" [ref=f17e1037] [cursor=pointer]
+              - generic [ref=f17e1043]:
+                - generic [ref=f17e1044]:
+                  - link "[취업 인터뷰] 일본 대학 졸업후진로 / CyberAgent 사이버에이전트 근무 (공학부 기계전기시스템공학.... 새 창 열림" [ref=f17e1045] [cursor=pointer]:
+                    - /url: https://blog.naver.com/j__abroad/224057737300
+                    - generic [ref=f17e1046]:
+                      - text: "[취업 인터뷰]"
+                      - mark [ref=f17e1047]: 일본
+                      - mark [ref=f17e1048]: 대학
+                      - text: 졸업후진로 / CyberAgent 사이버에이전트 근무 (공학부 기계전기시스템공학....
+                    - generic [ref=f17e1049]: 새 창 열림
+                  - link "이번에는 대학 시절 앱 개발의 매력에 빠져, 지금은 사이버에이전트와 Tapple에서 엔지니어로 활약하고 있는 타나카 다이세이 학생의 이야기를 전해드릴게요. 그전에 사이버에이전트 라는 회사는? 사이버에이전트는 일본을 대표하는 IT기업인데요 1998년에 설립되어 인터넷광고, 미디어, 게임 등 다양한 디지털 사업을 전개하고 있어요 특히, 동영상 플랫폼 아메바 TV... 새 창 열림" [ref=f17e1051] [cursor=pointer]:
+                    - /url: https://blog.naver.com/j__abroad/224057737300
+                    - generic [ref=f17e1052]:
+                      - text: 이번에는
+                      - mark [ref=f17e1053]: 대학
+                      - text: 시절 앱 개발의 매력에 빠져, 지금은 사이버에이전트와 Tapple에서 엔지니어로 활약하고 있는 타나카 다이세이 학생의 이야기를 전해드릴게요. 그전에 사이버에이전트 라는
+                      - mark [ref=f17e1054]: 회사
+                      - text: 는? 사이버에이전트는
+                      - mark [ref=f17e1055]: 일본
+                      - text: 을 대표하는 IT기업인데요 1998년에 설립되어 인터넷광고, 미디어,
+                      - mark [ref=f17e1056]: 게임
+                      - text: 등 다양한 디지털 사업을 전개하고 있어요 특히, 동영상 플랫폼 아메바 TV...
+                    - generic [ref=f17e1057]: 새 창 열림
+                - link "4 새 창 열림" [ref=f17e1058] [cursor=pointer]:
+                  - /url: https://blog.naver.com/j__abroad/224057737300
+                  - generic [ref=f17e1059]: "4"
+                  - generic [ref=f17e1066]: 새 창 열림
+            - generic [ref=f17e1072]:
+              - generic [ref=f17e1073]:
+                - generic [ref=f17e1074]:
+                  - link "새 창 열림" [ref=f17e1076] [cursor=pointer]:
+                    - /url: https://blog.naver.com/karuena502
+                  - link "소년이여, 신화가 되어라. 새 창 열림" [ref=f17e1082] [cursor=pointer]:
+                    - /url: https://blog.naver.com/karuena502
+                    - generic [ref=f17e1083]: 소년이여, 신화가 되어라.
+                    - generic [ref=f17e1084]: 새 창 열림
+                  - generic [ref=f17e1085]: 2025.12.09.
+                - button "옵션 메뉴 열기" [ref=f17e1089] [cursor=pointer]
+              - generic [ref=f17e1095]:
+                - generic [ref=f17e1096]:
+                  - link "일본게임회사취업 – 신입·경력 모두에게 기회가 열려 있습니다 새 창 열림" [ref=f17e1097] [cursor=pointer]:
+                    - /url: https://blog.naver.com/karuena502/224103833062
+                    - generic [ref=f17e1098]:
+                      - mark [ref=f17e1099]: 일본게임회사
+                      - text: 취업 – 신입·경력 모두에게 기회가 열려 있습니다
+                    - generic [ref=f17e1100]: 새 창 열림
+                  - link "일본게임회사취업 루트는 크게 네 가지입니다 1) 직접 지원(신입·경력) 각 회사 공식 사이트에서 상시 채용을 진행합니다. 2) 일본 취업 박람회 매년 여러 게임사가 한국에 와서 면접을 진행합니다. 합격률이 높은 루트입니다. 3) 해외 인재 스카우팅 경력자 또는 작품력이 좋은 신입이 대상입니다. 4) IT·게임 전문 에이전트 활용 일본 취업 전문 에이전트는... 새 창 열림" [ref=f17e1102] [cursor=pointer]:
+                    - /url: https://blog.naver.com/karuena502/224103833062
+                    - generic [ref=f17e1103]:
+                      - mark [ref=f17e1104]: 일본게임회사
+                      - text: 취업 루트는 크게 네 가지입니다 1) 직접 지원(신입·경력) 각
+                      - mark [ref=f17e1105]: 회사
+                      - text: 공식 사이트에서 상시 채용을 진행합니다. 2)
+                      - mark [ref=f17e1106]: 일본
+                      - text: 취업 박람회 매년 여러
+                      - mark [ref=f17e1107]: 게임
+                      - text: 사가 한국에 와서 면접을 진행합니다. 합격률이 높은 루트입니다. 3)
+                      - mark [ref=f17e1108]: 해외
+                      - text: 인재 스카우팅 경력자 또는 작품력이 좋은 신입이 대상입니다. 4) IT·
+                      - mark [ref=f17e1109]: 게임
+                      - text: 전문 에이전트 활용
+                      - mark [ref=f17e1110]: 일본
+                      - text: 취업 전문 에이전트는...
+                    - generic [ref=f17e1111]: 새 창 열림
+                - link "7 새 창 열림" [ref=f17e1112] [cursor=pointer]:
+                  - /url: https://blog.naver.com/karuena502/224103833062
+                  - generic [ref=f17e1113]: "7"
+                  - generic [ref=f17e1120]: 새 창 열림
+          - generic [ref=f17e1122]:
+            - button "이전" [disabled] [ref=f17e1123]
+            - generic [ref=f17e1125]:
+              - button "1" [pressed] [ref=f17e1126] [cursor=pointer]
+              - button "2" [ref=f17e1127] [cursor=pointer]
+              - button "3" [ref=f17e1128] [cursor=pointer]
+              - button "4" [ref=f17e1129] [cursor=pointer]
+              - button "5" [ref=f17e1130] [cursor=pointer]
+              - button "6" [ref=f17e1131] [cursor=pointer]
+              - button "7" [ref=f17e1132] [cursor=pointer]
+              - button "8" [ref=f17e1133] [cursor=pointer]
+              - button "9" [ref=f17e1134] [cursor=pointer]
+              - button "10" [ref=f17e1135] [cursor=pointer]
+            - button "다음" [ref=f17e1136] [cursor=pointer]
+        - generic [ref=f17e1141]:
+          - link [ref=f17e1142] [cursor=pointer]:
+            - /url: https://mkt.naver.com/p1/atrb?channel_id=naver_pcsearchmktbanner&campaign_id=2603-naverclip-001&target=https%3A%2F%2Fclipcreators.naver.com%2Fpromotion%2Ftoday%3Fdtm_source%3Dnaver_pcsearchmktbanner%26dtm_medium%3Dmktatrb_etc%26dtm_campaign%3D2603-naverclip-001
+            - generic [ref=f17e1144]:
+              - strong [ref=f17e1145]: 오늘의 경험, 클립으로 연결해요
+              - paragraph [ref=f17e1146]: 클립 올리면 매월 포인트 최대 12만원
+          - link [ref=f17e1147] [cursor=pointer]:
+            - /url: https://mkt.naver.com/p1/atrb?channel_id=naver_pcsearchmktbanner&campaign_id=2512-shopping-024&material=M&target=https%3A%2F%2Fmkt.naver.com%2Fstore_discovery%3Fdtm_detail%3DM%26dtm_source%3Dnaver_pcsearchmktbanner%26dtm_medium%3Dmktatrb_etc%26dtm_campaign%3D2512-shopping-024
+            - generic [ref=f17e1149]:
+              - strong [ref=f17e1150]: 여름에 가장 맛있는
+              - paragraph [ref=f17e1151]: 제철 스토어 랭킹 공개
+          - link [ref=f17e1152] [cursor=pointer]:
+            - /url: https://mkt.naver.com/p1/atrb?channel_id=naver_pcsearchmktbanner&campaign_id=2606-knockit-001&target=https%3A%2F%2Fshopping.naver.com%2Fknockit%2Fhome%3Fdtm_source%3Dnaver_pcsearchmktbanner%26dtm_medium%3Dmktatrb_etc%26dtm_campaign%3D2606-knockit-001
+            - generic [ref=f17e1154]:
+              - strong [ref=f17e1155]: 여름 준비는 노크잇에서!
+              - paragraph [ref=f17e1156]: 장마철 필수 아이템부터 바캉스룩까지
+          - link [ref=f17e1157] [cursor=pointer]:
+            - /url: https://mkt.naver.com/p1/atrb?channel_id=naver_pcsearchmktbanner&campaign_id=2607-naverAI-001&target=https%3A%2F%2Fmkt.naver.com%2Faitab%3Fdtm_source%3Dnaver_pcsearchmktbanner%26dtm_medium%3Dmktatrb_etc%26dtm_campaign%3D2607-naverAI-001
+            - generic [ref=f17e1159]:
+              - strong [ref=f17e1160]: 끝까지 끝내주는 AI, 네이버 AI탭
+              - paragraph [ref=f17e1161]: 검색이 대화가 되다
+    - generic [ref=f17e1162]:
+      - link "맨위로" [ref=f17e1164] [cursor=pointer]:
+        - /url: "#"
+      - generic [ref=f17e1167]:
+        - link "전체서비스" [ref=f17e1169] [cursor=pointer]:
+          - /url: https://www.naver.com/more.html
+        - link "이용약관" [ref=f17e1171] [cursor=pointer]:
+          - /url: https://policy.naver.com/policy/service.html
+        - link [ref=f17e1173] [cursor=pointer]:
+          - /url: https://policy.naver.com/policy/privacy.html
+          - strong [ref=f17e1174]: 개인정보처리방침
+        - link "검색 고객센터" [ref=f17e1176] [cursor=pointer]:
+          - /url: https://help.naver.com/alias/search/integration/main.naver
+        - link "© NAVER Corp." [ref=f17e1178] [cursor=pointer]:
+          - /url: https://www.navercorp.com/

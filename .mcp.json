@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "sequential-thinking": {
+      "command": "node",
+      "args": ["C:\\Users\\cy060\\Desktop\\test\\servers\\src\\sequentialthinking\\dist\\index.js"]
+    },
+    "context7": {
+      "url": "https://mcp.context7.com/mcp"
+    }
+  }
+}

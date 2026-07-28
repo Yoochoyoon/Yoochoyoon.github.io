@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>할일 관리 앱</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            width: 100%;
+            max-width: 500px;
+            padding: 30px;
+        }
+
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+            text-align: center;
+            font-size: 28px;
+        }
+
+        .input-group {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        #todoInput {
+            flex: 1;
+            padding: 12px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+
+        #todoInput:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        #addBtn {
+            padding: 12px 25px;
+            background: #667eea;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.1s;
+        }
+
+        #addBtn:hover {
+            background: #5568d3;
+        }
+
+        #addBtn:active {
+            transform: scale(0.98);
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 10px;
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f5f5f5;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .stat {
+            font-size: 12px;
+            color: #666;
+        }
+
+        .stat-number {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .todo-list {
+            list-style: none;
+        }
+
+        .todo-item {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            padding: 15px;
+            background: #f9f9f9;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            border-left: 4px solid #667eea;
+            transition: all 0.3s;
+        }
+
+        .todo-item.completed {
+            opacity: 0.6;
+            background: #f0f0f0;
+            border-left-color: #90caf9;
+        }
+
+        .todo-item.completed .todo-text {
+            text-decoration: line-through;
+            color: #999;
+        }
+
+        .todo-checkbox {
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+            flex-shrink: 0;
+        }
+
+        .todo-text {
+            flex: 1;
+            color: #333;
+            font-size: 14px;
+            word-break: break-word;
+        }
+
+        .todo-actions {
+            display: flex;
+            gap: 8px;
+            flex-shrink: 0;
+        }
+
+        .btn-edit, .btn-delete {
+            padding: 6px 12px;
+            border: none;
+            border-radius: 6px;
+            font-size: 12px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s;
+        }
+
+        .btn-edit {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .btn-edit:hover {
+            background: #ffe69c;
+        }
+
+        .btn-delete {
+            background: #f8d7da;
+            color: #721c24;
+        }
+
+        .btn-delete:hover {
+            background: #f5c6cb;
+        }
+
+        .empty-state {
+            text-align: center;
+            padding: 40px 20px;
+            color: #999;
+        }
+
+        .empty-state-icon {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            width: 90%;
+            max-width: 400px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .modal-content h2 {
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .modal-input {
+            width: 100%;
+            padding: 12px 15px;
+            border: 2px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 14px;
+            margin-bottom: 20px;
+            font-family: inherit;
+        }
+
+        .modal-input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .modal-buttons {
+            display: flex;
+            gap: 10px;
+        }
+
+        .modal-buttons button {
+            flex: 1;
+            padding: 12px;
+            border: none;
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s;
+        }
+
+        .btn-save {
+            background: #667eea;
+            color: white;
+        }
+
+        .btn-save:hover {
+            background: #5568d3;
+        }
+
+        .btn-cancel {
+            background: #e0e0e0;
+            color: #333;
+        }
+
+        .btn-cancel:hover {
+            background: #d0d0d0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📝 할일 관리</h1>
+
+        <div class="input-group">
+            <input
+                type="text"
+                id="todoInput"
+                placeholder="새로운 할일을 입력하세요..."
+                autocomplete="off"
+            >
+            <button id="addBtn">추가</button>
+        </div>
+
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-number" id="totalCount">0</div>
+                <div>전체</div>
+            </div>
+            <div class="stat">
+                <div class="stat-number" id="completedCount">0</div>
+                <div>완료</div>
+            </div>
+        </div>
+
+        <ul id="todoList" class="todo-list"></ul>
+
+        <div id="emptyState" class="empty-state">
+            <div class="empty-state-icon">📭</div>
+            <p>아직 할일이 없습니다.</p>
+        </div>
+    </div>
+
+    <div id="editModal" class="modal">
+        <div class="modal-content">
+            <h2>할일 수정</h2>
+            <input type="text" id="editInput" class="modal-input" placeholder="할일을 입력하세요...">
+            <div class="modal-buttons">
+                <button class="btn-save" id="saveBtn">저장</button>
+                <button class="btn-cancel" id="cancelBtn">취소</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // LocalStorage에서 할일 로드
+        const getTodos = () => JSON.parse(localStorage.getItem('todos')) || [];
+        const saveTodos = (todos) => localStorage.setItem('todos', JSON.stringify(todos));
+
+        // DOM 요소
+        const todoInput = document.getElementById('todoInput');
+        const addBtn = document.getElementById('addBtn');
+        const todoList = document.getElementById('todoList');
+        const emptyState = document.getElementById('emptyState');
+        const totalCount = document.getElementById('totalCount');
+        const completedCount = document.getElementById('completedCount');
+        const editModal = document.getElementById('editModal');
+        const editInput = document.getElementById('editInput');
+        const saveBtn = document.getElementById('saveBtn');
+        const cancelBtn = document.getElementById('cancelBtn');
+
+        let editingId = null;
+
+        // 할일 추가
+        const addTodo = () => {
+            const text = todoInput.value.trim();
+            if (!text) {
+                alert('할일을 입력해주세요.');
+                return;
+            }
+
+            const todos = getTodos();
+            const newTodo = {
+                id: Date.now(),
+                text,
+                completed: false,
+                createdAt: new Date().toISOString()
+            };
+
+            todos.push(newTodo);
+            saveTodos(todos);
+            todoInput.value = '';
+            todoInput.focus();
+            render();
+        };
+
+        // 할일 완료 처리
+        const toggleTodo = (id) => {
+            const todos = getTodos();
+            const todo = todos.find(t => t.id === id);
+            if (todo) {
+                todo.completed = !todo.completed;
+                saveTodos(todos);
+                render();
+            }
+        };
+
+        // 할일 수정 모달 열기
+        const openEditModal = (id) => {
+            editingId = id;
+            const todos = getTodos();
+            const todo = todos.find(t => t.id === id);
+            if (todo) {
+                editInput.value = todo.text;
+                editModal.classList.add('active');
+                editInput.focus();
+            }
+        };
+
+        // 할일 수정
+        const saveTodoEdit = () => {
+            const text = editInput.value.trim();
+            if (!text) {
+                alert('할일을 입력해주세요.');
+                return;
+            }
+
+            const todos = getTodos();
+            const todo = todos.find(t => t.id === editingId);
+            if (todo) {
+                todo.text = text;
+                saveTodos(todos);
+                closeEditModal();
+                render();
+            }
+        };
+
+        // 할일 삭제
+        const deleteTodo = (id) => {
+            if (confirm('정말 삭제하시겠습니까?')) {
+                const todos = getTodos().filter(t => t.id !== id);
+                saveTodos(todos);
+                render();
+            }
+        };
+
+        // 모달 닫기
+        const closeEditModal = () => {
+            editModal.classList.remove('active');
+            editingId = null;
+            editInput.value = '';
+        };
+
+        // 통계 업데이트
+        const updateStats = () => {
+            const todos = getTodos();
+            totalCount.textContent = todos.length;
+            completedCount.textContent = todos.filter(t => t.completed).length;
+        };
+
+        // 화면 렌더링
+        const render = () => {
+            const todos = getTodos();
+
+            // 빈 상태 표시
+            if (todos.length === 0) {
+                todoList.innerHTML = '';
+                emptyState.style.display = 'block';
+                updateStats();
+                return;
+            }
+
+            emptyState.style.display = 'none';
+
+            // 할일 목록 렌더링
+            todoList.innerHTML = todos.map(todo => `
+                <li class="todo-item ${todo.completed ? 'completed' : ''}">
+                    <input
+                        type="checkbox"
+                        class="todo-checkbox"
+                        ${todo.completed ? 'checked' : ''}
+                        onchange="toggleTodo(${todo.id})"
+                    >
+                    <span class="todo-text">${escapeHtml(todo.text)}</span>
+                    <div class="todo-actions">
+                        <button class="btn-edit" onclick="openEditModal(${todo.id})">수정</button>
+                        <button class="btn-delete" onclick="deleteTodo(${todo.id})">삭제</button>
+                    </div>
+                </li>
+            `).join('');
+
+            updateStats();
+        };
+
+        // XSS 방지
+        const escapeHtml = (text) => {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        };
+
+        // 이벤트 리스너
+        addBtn.addEventListener('click', addTodo);
+        todoInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') addTodo();
+        });
+        saveBtn.addEventListener('click', saveTodoEdit);
+        cancelBtn.addEventListener('click', closeEditModal);
+        editInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter') saveTodoEdit();
+        });
+
+        // 모달 외부 클릭으로 닫기
+        editModal.addEventListener('click', (e) => {
+            if (e.target === editModal) closeEditModal();
+        });
+
+        // 초기 렌더링
+        render();
+    </script>
+</body>
+</html>

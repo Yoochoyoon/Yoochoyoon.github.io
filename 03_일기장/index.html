@@ -1126,6 +1126,56 @@
         }
 
         // ============================================
+        // Task 4: Calendar Month Navigation
+        // ============================================
+
+        // Navigate to previous month
+        function goToPreviousMonth() {
+            currentDate.setMonth(currentDate.getMonth() - 1);
+            renderCalendar();
+            updateStats();
+        }
+
+        // Navigate to next month
+        function goToNextMonth() {
+            currentDate.setMonth(currentDate.getMonth() + 1);
+            renderCalendar();
+            updateStats();
+        }
+
+        // Navigate to today
+        function goToToday() {
+            currentDate = new Date();
+            renderCalendar();
+            updateStats();
+        }
+
+        // Initialize event listeners for calendar navigation
+        function initializeEventListeners() {
+            const prevMonthBtn = document.getElementById('prevMonth');
+            const nextMonthBtn = document.getElementById('nextMonth');
+            const todayBtn = document.getElementById('todayBtn');
+
+            if (prevMonthBtn) {
+                prevMonthBtn.addEventListener('click', goToPreviousMonth);
+            }
+
+            if (nextMonthBtn) {
+                nextMonthBtn.addEventListener('click', goToNextMonth);
+            }
+
+            if (todayBtn) {
+                todayBtn.addEventListener('click', goToToday);
+            }
+        }
+
+        // Placeholder for updateStats (Task 7)
+        function updateStats() {
+            // Task 7: Will implement statistics calculation
+            console.log('updateStats() called');
+        }
+
+        // ============================================
         // Test Functions
         // ============================================
 
@@ -1308,6 +1358,7 @@
             console.log('Run testCalendarFunctions() to test calendar rendering.');
             console.log('Run testDataFunctions() to test data management.');
             renderCalendar();
+            initializeEventListeners();
         });
     </script>
 </body>

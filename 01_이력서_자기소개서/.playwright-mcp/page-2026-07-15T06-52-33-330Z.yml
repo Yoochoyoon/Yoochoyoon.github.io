@@ -1,0 +1,947 @@
+- generic [active] [ref=f13e1]:
+  - link "Skip to main content" [ref=f13e2] [cursor=pointer]:
+    - /url: "#main"
+  - generic [ref=f13e3]:
+    - banner [ref=f13e4]:
+      - generic [ref=f13e7]:
+        - generic [ref=f13e8]:
+          - generic [ref=f13e9]:
+            - heading [level=1] [ref=f13e10]:
+              - link [ref=f13e11] [cursor=pointer]:
+                - /url: https://www.jobkorea.co.kr
+                - img "JOBKOREA" [ref=f13e12]
+            - generic [ref=f13e16]:
+              - combobox "JOB 검색" [ref=f13e18]: 웹 프론트엔드 인턴
+              - button [ref=f13e20] [cursor=pointer]
+          - generic [ref=f13e23]:
+            - button "전체 메뉴" [ref=f13e24] [cursor=pointer]
+            - generic [ref=f13e27]:
+              - link "회원가입/로그인" [ref=f13e28] [cursor=pointer]:
+                - /url: https://www.jobkorea.co.kr/Login/Login_Tot.asp?rDBName=GG&re_url=%2FSearch%2F%3Fstext%3D%25EC%259B%25B9%2520%25ED%2594%2584%25EB%25A1%25A0%25ED%258A%25B8%25EC%2597%2594%25EB%2593%259C%2520%25EC%259D%25B8%25ED%2584%25B4
+              - button "기업 서비스" [ref=f13e31] [cursor=pointer]
+        - tablist [ref=f13e39]:
+          - tab "채용정보" [selected] [ref=f13e40] [cursor=pointer]
+          - tab "기업정보" [ref=f13e41] [cursor=pointer]
+      - separator [ref=f13e42]
+    - generic [ref=f13e45]:
+      - generic [ref=f13e46]:
+        - button "직무 " [ref=f13e47] [cursor=pointer]:
+          - paragraph [ref=f13e48]: 직무
+          - generic [ref=f13e49]: 
+        - button "지역 " [ref=f13e50] [cursor=pointer]:
+          - paragraph [ref=f13e51]: 지역
+          - generic [ref=f13e52]: 
+        - button "경력 " [ref=f13e53] [cursor=pointer]:
+          - paragraph [ref=f13e54]: 경력
+          - generic [ref=f13e55]: 
+        - button "기업형태 " [ref=f13e56] [cursor=pointer]:
+          - paragraph [ref=f13e57]: 기업형태
+          - generic [ref=f13e58]: 
+        - button "학력 " [ref=f13e59] [cursor=pointer]:
+          - paragraph [ref=f13e60]: 학력
+          - generic [ref=f13e61]: 
+        - button "고용형태 " [ref=f13e62] [cursor=pointer]:
+          - paragraph [ref=f13e63]: 고용형태
+          - generic [ref=f13e64]: 
+        - button " 조건추가" [ref=f13e65] [cursor=pointer]:
+          - generic [ref=f13e66]:
+            - generic [ref=f13e67]: 
+            - paragraph [ref=f13e68]: 조건추가
+      - button " My 검색" [ref=f13e69] [cursor=pointer]:
+        - generic [ref=f13e70]:
+          - generic [ref=f13e71]: 
+          - generic [ref=f13e72]: My 검색
+  - generic [ref=f13e73]:
+    - generic [ref=f13e74]:
+      - main [ref=f13e75]:
+        - tabpanel [ref=f13e79]:
+          - generic [ref=f13e80]:
+            - generic [ref=f13e81]:
+              - generic [ref=f13e83]:
+                - generic [ref=f13e84]: 지금 주목할 만한 공고
+                - button "AD " [ref=f13e86] [cursor=pointer]:
+                  - generic [ref=f13e87]:
+                    - generic [ref=f13e88]: AD
+                    - generic [ref=f13e89]: 
+              - generic [ref=f13e90]:
+                - generic [ref=f13e94] [cursor=pointer]:
+                  - link [ref=f13e95]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49585086?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=1&sc=552
+                    - img "㈜스피링크 로고" [ref=f13e97]
+                  - generic [ref=f13e98]:
+                    - generic [ref=f13e99]:
+                      - generic [ref=f13e100]: 오늘 뜬 따끈한 공고
+                      - button " 스크랩" [ref=f13e103]:
+                        - generic [ref=f13e104]: 
+                        - generic [ref=f13e105]: 스크랩
+                    - link "AICC 프론트엔드 개발자(JAVA 경험자 우대)" [ref=f13e107]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49585086?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=1&sc=552
+                    - link "㈜스피링크" [ref=f13e110]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49585086?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=1&sc=552
+                    - generic [ref=f13e111]:
+                      - generic [ref=f13e112]:
+                        - generic [ref=f13e113]:
+                          - generic [ref=f13e114]: 서울 영등포구
+                          - generic [ref=f13e118]: IT컨설팅, 프론트엔드개발자
+                        - button "즉시 지원" [ref=f13e123]
+                      - generic [ref=f13e124]:
+                        - generic [ref=f13e125]: 경력5년↑
+                        - generic [ref=f13e127]:
+                          - generic [ref=f13e128]: 5시간 전 등록
+                          - generic [ref=f13e129]: •
+                          - generic [ref=f13e130]: 08/14(금) 마감
+                - generic [ref=f13e134] [cursor=pointer]:
+                  - link [ref=f13e135]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49572243?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=2&sc=552
+                    - img "㈜휴먼교육센터 로고" [ref=f13e137]
+                  - generic [ref=f13e138]:
+                    - generic [ref=f13e139]:
+                      - generic [ref=f13e140]: 신입 지원 가능
+                      - button " 스크랩" [ref=f13e143]:
+                        - generic [ref=f13e144]: 
+                        - generic [ref=f13e145]: 스크랩
+                    - link "[국비최대무료/취업연계/기숙사제공]AI인공지능/빅데이터/풀스택/부트캠프" [ref=f13e147]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49572243?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=2&sc=552
+                    - link "㈜휴먼교육센터" [ref=f13e150]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49572243?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=2&sc=552
+                    - generic [ref=f13e151]:
+                      - generic [ref=f13e152]:
+                        - generic [ref=f13e153]:
+                          - generic [ref=f13e154]: 충남 천안시 외 14
+                          - generic [ref=f13e158]: 학원·어학원·교육원, 백엔드개발자, 프론트엔드개발자, 웹개발자
+                        - button "즉시 지원" [ref=f13e163]
+                      - generic [ref=f13e164]:
+                        - generic [ref=f13e165]:
+                          - generic [ref=f13e166]: 신입·경력
+                          - generic [ref=f13e167]: •
+                          - generic [ref=f13e168]: 기숙사 지원
+                        - generic [ref=f13e169]:
+                          - generic [ref=f13e170]: 07/13(월) 등록
+                          - generic [ref=f13e171]: •
+                          - generic [ref=f13e172]: 08/12(수) 마감
+                - generic [ref=f13e176] [cursor=pointer]:
+                  - link [ref=f13e177]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49503065?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=3&sc=552
+                    - img "동국시스템즈㈜ 로고" [ref=f13e179]
+                  - generic [ref=f13e180]:
+                    - button " 스크랩" [ref=f13e182]:
+                      - generic [ref=f13e183]: 
+                      - generic [ref=f13e184]: 스크랩
+                    - link "[동국시스템즈] SAP MM(구매모듈) 담당 경력직 채용" [ref=f13e186]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49503065?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=3&sc=552
+                    - link "동국시스템즈㈜동국제강그룹" [ref=f13e189]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49503065?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=3&sc=552
+                    - generic [ref=f13e190]:
+                      - generic [ref=f13e191]:
+                        - generic [ref=f13e192]:
+                          - generic [ref=f13e193]: 서울 중구
+                          - generic [ref=f13e197]: 솔루션·SI·CRM·ERP, 시스템엔지니어, 네트워크엔지니어
+                        - button "즉시 지원" [ref=f13e202]
+                      - generic [ref=f13e203]:
+                        - generic [ref=f13e204]: 경력4년↑
+                        - generic [ref=f13e206]:
+                          - generic [ref=f13e207]: 07/02(목) 등록
+                          - generic [ref=f13e208]: •
+                          - generic [ref=f13e209]: 내일마감
+                - generic [ref=f13e213] [cursor=pointer]:
+                  - link [ref=f13e214]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49480707?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=4&sc=552
+                    - img "㈜쉴드원 로고" [ref=f13e216]
+                  - generic [ref=f13e217]:
+                    - button " 스크랩" [ref=f13e219]:
+                      - generic [ref=f13e220]: 
+                      - generic [ref=f13e221]: 스크랩
+                    - link "보안 솔루션 엔지니어 채용(Security Platform Team, 사전인터뷰 필수)" [ref=f13e223]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49480707?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=4&sc=552
+                    - link "㈜쉴드원" [ref=f13e226]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49480707?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=4&sc=552
+                    - generic [ref=f13e227]:
+                      - generic [ref=f13e228]:
+                        - generic [ref=f13e229]:
+                          - generic [ref=f13e230]: 서울 강남구 외 2
+                          - generic [ref=f13e234]: 정보보안, 보안엔지니어
+                        - button "즉시 지원" [ref=f13e239]
+                      - generic [ref=f13e240]:
+                        - generic [ref=f13e241]: 경력1년↑
+                        - generic [ref=f13e243]:
+                          - generic [ref=f13e244]: 06/30(화) 등록
+                          - generic [ref=f13e245]: •
+                          - generic [ref=f13e246]: 07/30(목) 마감
+                - generic [ref=f13e250] [cursor=pointer]:
+                  - link [ref=f13e251]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49353243?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=5&sc=552
+                    - img "다고테크 로고" [ref=f13e253]
+                  - generic [ref=f13e254]:
+                    - button " 스크랩" [ref=f13e256]:
+                      - generic [ref=f13e257]: 
+                      - generic [ref=f13e258]: 스크랩
+                    - link "다고테크 - IT Helpdesk 엔지니어 채용 (용인,이천)" [ref=f13e260]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49353243?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=5&sc=552
+                    - link "다고테크" [ref=f13e263]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49353243?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=5&sc=552
+                    - generic [ref=f13e264]:
+                      - generic [ref=f13e265]:
+                        - generic [ref=f13e266]:
+                          - generic [ref=f13e267]: 경기 용인시 외 1
+                          - generic [ref=f13e271]: 컴퓨터·하드웨어·장비, 시스템엔지니어, 네트워크엔지니어
+                          - generic [ref=f13e275]: 연봉 3,000~4,000만원
+                        - button "즉시 지원" [ref=f13e280]
+                      - generic [ref=f13e281]:
+                        - generic [ref=f13e282]:
+                          - generic [ref=f13e283]: 경력2년↑
+                          - generic [ref=f13e284]: •
+                          - generic [ref=f13e285]: 연차제도, 휴가제도
+                        - generic [ref=f13e286]:
+                          - generic [ref=f13e287]: 06/11(목) 등록
+                          - generic [ref=f13e288]: •
+                          - generic [ref=f13e289]: 08/10(월) 마감
+            - generic [ref=f13e290]:
+              - generic [ref=f13e291]:
+                - generic [ref=f13e292]: 총 22건
+                - generic [ref=f13e293]:
+                  - button " 합격축하금만 보기" [ref=f13e294] [cursor=pointer]:
+                    - generic [ref=f13e295]: 
+                    - generic [ref=f13e296]: 합격축하금만 보기
+                  - combobox "정렬" [ref=f13e298] [cursor=pointer]:
+                    - generic: 관련도순
+                    - generic [ref=f13e299]: 
+              - generic [ref=f13e300]:
+                - generic [ref=f13e304] [cursor=pointer]:
+                  - link [ref=f13e305]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49324924?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=1&sc=630
+                    - generic [ref=f13e306]:
+                      - img "넛지헬스케어㈜ 로고"
+                  - generic [ref=f13e307]:
+                    - generic [ref=f13e308]:
+                      - generic [ref=f13e309]: 유연근무제 시행중
+                      - button " 스크랩" [ref=f13e312]:
+                        - generic [ref=f13e313]: 
+                        - generic [ref=f13e314]: 스크랩
+                    - link "[캐시워크] 프론트엔드개발 채용전환형 인턴" [ref=f13e316]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49324924?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=1&sc=630
+                    - link "넛지헬스케어㈜" [ref=f13e319]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49324924?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=1&sc=630
+                    - generic [ref=f13e320]:
+                      - generic [ref=f13e321]:
+                        - generic [ref=f13e322]:
+                          - generic [ref=f13e323]: 서울 강남구
+                          - generic [ref=f13e327]: 모바일·APP, 프론트엔드개발자, 웹개발자, 웹퍼블리셔
+                        - button "홈페이지 지원" [ref=f13e332]
+                      - generic [ref=f13e333]:
+                        - generic [ref=f13e334]:
+                          - generic [ref=f13e335]: 경력무관
+                          - generic [ref=f13e336]: •
+                          - generic [ref=f13e337]: 경조사 지원, 유연근무, 복지포인트, 장기근속 포상제도, 장비 지원, 리프레시 휴가, 연차제도, 반차제도, 휴가제도, 식사 지원, 자율복장, 야근 없음, 카페테리아, 쾌적한 업무공간
+                        - generic [ref=f13e338]:
+                          - generic [ref=f13e339]: 06/08(월) 등록
+                          - generic [ref=f13e340]: •
+                          - generic [ref=f13e341]: 상시채용
+                - generic [ref=f13e345] [cursor=pointer]:
+                  - link [ref=f13e346]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49504275?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=2&sc=630
+                    - generic [ref=f13e347]:
+                      - img "㈜넥슨 로고"
+                  - generic [ref=f13e348]:
+                    - generic [ref=f13e349]:
+                      - generic [ref=f13e350]: 인턴 채용 진행중
+                      - button " 스크랩" [ref=f13e353]:
+                        - generic [ref=f13e354]: 
+                        - generic [ref=f13e355]: 스크랩
+                    - link "[AI본부] 웹 프론트엔드 엔지니어 (인턴)" [ref=f13e357]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49504275?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=2&sc=630
+                    - link "㈜넥슨" [ref=f13e360]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49504275?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=2&sc=630
+                    - generic [ref=f13e361]:
+                      - generic [ref=f13e362]:
+                        - generic [ref=f13e363]:
+                          - generic [ref=f13e364]: 경기 성남시
+                          - generic [ref=f13e368]: 게임·애니메이션, 프론트엔드개발자
+                        - button "홈페이지 지원" [ref=f13e373]
+                      - generic [ref=f13e374]:
+                        - generic [ref=f13e375]: 신입
+                        - generic [ref=f13e377]:
+                          - generic [ref=f13e378]: 07/02(목) 등록
+                          - generic [ref=f13e379]: •
+                          - generic [ref=f13e380]: 상시채용
+                - generic [ref=f13e384] [cursor=pointer]:
+                  - link [ref=f13e385]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49585086?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=1&sc=808
+                    - img "㈜스피링크 로고" [ref=f13e387]
+                  - generic [ref=f13e388]:
+                    - generic [ref=f13e389]:
+                      - generic [ref=f13e390]: 오늘 뜬 따끈한 공고
+                      - button " 스크랩" [ref=f13e393]:
+                        - generic [ref=f13e394]: 
+                        - generic [ref=f13e395]: 스크랩
+                    - link "AICC 프론트엔드 개발자(JAVA 경험자 우대)" [ref=f13e397]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49585086?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=1&sc=808
+                    - link "㈜스피링크" [ref=f13e400]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49585086?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=1&sc=808
+                    - generic [ref=f13e401]:
+                      - generic [ref=f13e402]:
+                        - generic [ref=f13e403]:
+                          - generic [ref=f13e404]: 서울 영등포구
+                          - generic [ref=f13e408]: IT컨설팅, 프론트엔드개발자
+                        - button "즉시 지원" [ref=f13e413]
+                      - generic [ref=f13e414]:
+                        - generic [ref=f13e415]:
+                          - generic [ref=f13e416]: AD
+                          - generic [ref=f13e417]: 경력5년↑
+                        - generic [ref=f13e418]:
+                          - generic [ref=f13e419]: 5시간 전 등록
+                          - generic [ref=f13e420]: •
+                          - generic [ref=f13e421]: 08/14(금) 마감
+                - generic [ref=f13e425] [cursor=pointer]:
+                  - link [ref=f13e426]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49552889?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=3&sc=630
+                    - generic [ref=f13e427]:
+                      - img "㈜넥스트그라운드 로고"
+                  - generic [ref=f13e428]:
+                    - button " 스크랩" [ref=f13e430]:
+                      - generic [ref=f13e431]: 
+                      - generic [ref=f13e432]: 스크랩
+                    - link "프론트엔드 개발자 (전환형 인턴)" [ref=f13e434]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49552889?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=3&sc=630
+                    - link "㈜넥스트그라운드" [ref=f13e437]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49552889?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=3&sc=630
+                    - generic [ref=f13e438]:
+                      - generic [ref=f13e439]:
+                        - generic [ref=f13e440]:
+                          - generic [ref=f13e441]: 서울 강남구
+                          - generic [ref=f13e445]: 모바일·APP, 프론트엔드개발자
+                        - button "홈페이지 지원" [ref=f13e450]
+                      - generic [ref=f13e451]:
+                        - generic [ref=f13e452]:
+                          - generic [ref=f13e453]: 경력무관
+                          - generic [ref=f13e454]: •
+                          - generic [ref=f13e455]: 음료/간식 지원, 연차제도, 도서 구입비 지원
+                        - generic [ref=f13e456]:
+                          - generic [ref=f13e457]: 07/10(금) 등록
+                          - generic [ref=f13e458]: •
+                          - generic [ref=f13e459]: 07/24(금) 마감
+                - generic [ref=f13e463] [cursor=pointer]:
+                  - link [ref=f13e464]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49337611?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=4&sc=630
+                    - generic [ref=f13e465]:
+                      - img "이노드리븐㈜ 로고"
+                  - generic [ref=f13e466]:
+                    - button " 스크랩" [ref=f13e468]:
+                      - generic [ref=f13e469]: 
+                      - generic [ref=f13e470]: 스크랩
+                    - link "Vue, Angular, React , Nexacro, 프런트엔드 퍼블리셔" [ref=f13e472]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49337611?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=4&sc=630
+                    - link "이노드리븐㈜" [ref=f13e475]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49337611?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=4&sc=630
+                    - generic [ref=f13e476]:
+                      - generic [ref=f13e477]:
+                        - generic [ref=f13e478]:
+                          - generic [ref=f13e479]: 서울 서초구
+                          - generic [ref=f13e483]: IT컨설팅, 웹퍼블리셔
+                        - button "즉시 지원" [ref=f13e488]
+                      - generic [ref=f13e489]:
+                        - generic [ref=f13e490]: 경력3년↑
+                        - generic [ref=f13e492]:
+                          - generic [ref=f13e493]: 06/09(화) 등록
+                          - generic [ref=f13e494]: •
+                          - generic [ref=f13e495]: 상시채용
+                - generic [ref=f13e499] [cursor=pointer]:
+                  - link [ref=f13e500]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49424440?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=5&sc=630
+                    - generic [ref=f13e501]:
+                      - img "이앤비솔루션 로고"
+                  - generic [ref=f13e502]:
+                    - generic [ref=f13e503]:
+                      - generic [ref=f13e504]: 신입 지원 가능
+                      - button " 스크랩" [ref=f13e507]:
+                        - generic [ref=f13e508]: 
+                        - generic [ref=f13e509]: 스크랩
+                    - link "Web 개발 신입/경력직 모집" [ref=f13e511]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49424440?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=5&sc=630
+                    - link "이앤비솔루션" [ref=f13e514]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49424440?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=5&sc=630
+                    - generic [ref=f13e515]:
+                      - generic [ref=f13e516]:
+                        - generic [ref=f13e517]:
+                          - generic [ref=f13e518]: 경기 용인시
+                          - generic [ref=f13e522]: 솔루션·SI·CRM·ERP, 백엔드개발자, 프론트엔드개발자, 웹개발자
+                        - button "즉시 지원" [ref=f13e527]
+                      - generic [ref=f13e528]:
+                        - generic [ref=f13e529]: 신입·경력2년↑
+                        - generic [ref=f13e531]:
+                          - generic [ref=f13e532]: 06/22(월) 등록
+                          - generic [ref=f13e533]: •
+                          - generic [ref=f13e534]: 07/22(수) 마감
+                - generic [ref=f13e538] [cursor=pointer]:
+                  - link [ref=f13e539]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49572243?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=2&sc=808
+                    - img "㈜휴먼교육센터 로고" [ref=f13e541]
+                  - generic [ref=f13e542]:
+                    - generic [ref=f13e543]:
+                      - generic [ref=f13e544]: 신입 지원 가능
+                      - button " 스크랩" [ref=f13e547]:
+                        - generic [ref=f13e548]: 
+                        - generic [ref=f13e549]: 스크랩
+                    - link "[국비최대무료/취업연계/기숙사제공]AI인공지능/빅데이터/풀스택/부트캠프" [ref=f13e551]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49572243?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=2&sc=808
+                    - link "㈜휴먼교육센터" [ref=f13e554]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49572243?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=2&sc=808
+                    - generic [ref=f13e555]:
+                      - generic [ref=f13e556]:
+                        - generic [ref=f13e557]:
+                          - generic [ref=f13e558]: 충남 천안시 외 14
+                          - generic [ref=f13e562]: 학원·어학원·교육원, 백엔드개발자, 프론트엔드개발자, 웹개발자
+                        - button "즉시 지원" [ref=f13e567]
+                      - generic [ref=f13e568]:
+                        - generic [ref=f13e569]:
+                          - generic [ref=f13e570]: AD
+                          - generic [ref=f13e571]: 신입·경력
+                          - generic [ref=f13e572]: •
+                          - generic [ref=f13e573]: 기숙사 지원
+                        - generic [ref=f13e574]:
+                          - generic [ref=f13e575]: 07/13(월) 등록
+                          - generic [ref=f13e576]: •
+                          - generic [ref=f13e577]: 08/12(수) 마감
+                - generic [ref=f13e581] [cursor=pointer]:
+                  - link [ref=f13e582]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49566380?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=6&sc=630
+                    - generic [ref=f13e583]:
+                      - img "㈜엠제이인스텍 로고"
+                  - generic [ref=f13e584]:
+                    - button " 스크랩" [ref=f13e586]:
+                      - generic [ref=f13e587]: 
+                      - generic [ref=f13e588]: 스크랩
+                    - link "퍼블리셔 개발자(고급) 채용" [ref=f13e590]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49566380?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=6&sc=630
+                    - link "㈜엠제이인스텍" [ref=f13e593]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49566380?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=6&sc=630
+                    - generic [ref=f13e594]:
+                      - generic [ref=f13e595]:
+                        - generic [ref=f13e596]:
+                          - generic [ref=f13e597]: 경기 성남시
+                          - generic [ref=f13e601]: 컴퓨터·하드웨어·장비, 웹퍼블리셔
+                          - generic [ref=f13e605]: 월급 560~580만원
+                        - button "즉시 지원" [ref=f13e610]
+                      - generic [ref=f13e611]:
+                        - generic [ref=f13e612]: 경력10년↑
+                        - generic [ref=f13e614]:
+                          - generic [ref=f13e615]: 07/13(월) 등록
+                          - generic [ref=f13e616]: •
+                          - generic [ref=f13e617]: 08/12(수) 마감
+                - generic [ref=f13e621] [cursor=pointer]:
+                  - link [ref=f13e622]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49465898?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=7&sc=630
+                    - generic [ref=f13e623]:
+                      - img "㈜엘핀 로고"
+                  - generic [ref=f13e624]:
+                    - button " 스크랩" [ref=f13e626]:
+                      - generic [ref=f13e627]: 
+                      - generic [ref=f13e628]: 스크랩
+                    - link "풀스택 개발자(React, React Native, Go, Spring Boot, 1년이상 경력 우대)" [ref=f13e630]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49465898?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=7&sc=630
+                    - link "㈜엘핀" [ref=f13e633]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49465898?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=7&sc=630
+                    - generic [ref=f13e634]:
+                      - generic [ref=f13e635]:
+                        - generic [ref=f13e636]:
+                          - generic [ref=f13e637]: 서울 강서구
+                          - generic [ref=f13e641]: 솔루션·SI·CRM·ERP, 백엔드개발자, 프론트엔드개발자, 소프트웨어개발자
+                        - button "즉시 지원" [ref=f13e646]
+                      - generic [ref=f13e647]:
+                        - generic [ref=f13e648]:
+                          - generic [ref=f13e649]: 경력1년↑
+                          - generic [ref=f13e650]: •
+                          - generic [ref=f13e651]: 연차제도
+                        - generic [ref=f13e652]:
+                          - generic [ref=f13e653]: 06/27(토) 등록
+                          - generic [ref=f13e654]: •
+                          - generic [ref=f13e655]: 08/26(수) 마감
+                - generic [ref=f13e659] [cursor=pointer]:
+                  - link [ref=f13e660]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49271396?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=8&sc=630
+                    - generic [ref=f13e661]:
+                      - img "㈜링커리어 로고"
+                  - generic [ref=f13e662]:
+                    - generic [ref=f13e663]:
+                      - generic [ref=f13e664]: 유연근무제 시행중
+                      - button " 스크랩" [ref=f13e667]:
+                        - generic [ref=f13e668]: 
+                        - generic [ref=f13e669]: 스크랩
+                    - link "[링커리어] 프론트엔드개발자" [ref=f13e671]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49271396?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=8&sc=630
+                    - link "㈜링커리어" [ref=f13e674]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49271396?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=8&sc=630
+                    - generic [ref=f13e675]:
+                      - generic [ref=f13e676]:
+                        - generic [ref=f13e677]:
+                          - generic [ref=f13e678]: 서울 강남구
+                          - generic [ref=f13e682]: 포털·컨텐츠·커뮤니티, 프론트엔드개발자
+                        - button "홈페이지 지원" [ref=f13e687]
+                      - generic [ref=f13e688]:
+                        - generic [ref=f13e689]:
+                          - generic [ref=f13e690]: 경력1년↑
+                          - generic [ref=f13e691]: •
+                          - generic [ref=f13e692]: 경조사 지원, 유연근무, 임직원 할인, 복지포인트, 장기근속 포상제도, 리프레시 휴가, 연차제도, 반차제도, 휴가제도, 식사 지원, 자율복장, 야근 없음
+                        - generic [ref=f13e693]:
+                          - generic [ref=f13e694]: 06/01(월) 등록
+                          - generic [ref=f13e695]: •
+                          - generic [ref=f13e696]: 07/28(화) 마감
+                - generic [ref=f13e700] [cursor=pointer]:
+                  - link [ref=f13e701]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49570524?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=3&sc=808
+                    - img "헬스앤바이오㈜ 로고" [ref=f13e703]
+                  - generic [ref=f13e704]:
+                    - generic [ref=f13e705]:
+                      - generic [ref=f13e706]: 상여금/인센티브 지급
+                      - button " 스크랩" [ref=f13e709]:
+                        - generic [ref=f13e710]: 
+                        - generic [ref=f13e711]: 스크랩
+                    - link "스텝모터 제어 및 자동화장비 제어 펌웨어 개발 경력직" [ref=f13e713]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49570524?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=3&sc=808
+                    - link "헬스앤바이오㈜" [ref=f13e716]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49570524?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=3&sc=808
+                    - generic [ref=f13e717]:
+                      - generic [ref=f13e718]:
+                        - generic [ref=f13e719]:
+                          - generic [ref=f13e720]: 서울 강남구
+                          - generic [ref=f13e724]: 쇼핑몰·오픈마켓·소셜커머스, 소프트웨어개발자, 하드웨어개발자, 하드웨어엔지니어
+                        - button "즉시 지원" [ref=f13e729]
+                      - generic [ref=f13e730]:
+                        - generic [ref=f13e731]:
+                          - generic [ref=f13e732]: AD
+                          - generic [ref=f13e733]: 경력5년↑
+                          - generic [ref=f13e734]: •
+                          - generic [ref=f13e735]: 경조사 지원, 생일 이벤트, 임직원 할인, 육아휴직, 인센티브 제도, 자기개발비, 연차제도, 자율복장, 회식비 지원
+                        - generic [ref=f13e736]:
+                          - generic [ref=f13e737]: 07/13(월) 등록
+                          - generic [ref=f13e738]: •
+                          - generic [ref=f13e739]: 08/12(수) 마감
+                - generic [ref=f13e743] [cursor=pointer]:
+                  - link [ref=f13e744]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49485281?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=9&sc=630
+                    - generic [ref=f13e745]:
+                      - img "㈜카라아이엔씨 로고"
+                  - generic [ref=f13e746]:
+                    - button " 스크랩" [ref=f13e748]:
+                      - generic [ref=f13e749]: 
+                      - generic [ref=f13e750]: 스크랩
+                    - link "UI 및 UX 기획/디자이너 하반기 채용" [ref=f13e752]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49485281?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=9&sc=630
+                    - link "㈜카라아이엔씨" [ref=f13e755]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49485281?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=9&sc=630
+                    - generic [ref=f13e756]:
+                      - generic [ref=f13e757]:
+                        - generic [ref=f13e758]:
+                          - generic [ref=f13e759]: 서울 동대문구
+                          - generic [ref=f13e763]: 솔루션·SI·CRM·ERP, UI·UX디자이너
+                          - generic [ref=f13e767]: 연봉 3,000~3,200만원
+                        - button "즉시 지원" [ref=f13e772]
+                      - generic [ref=f13e773]:
+                        - generic [ref=f13e774]: 경력
+                        - generic [ref=f13e776]:
+                          - generic [ref=f13e777]: 06/30(화) 등록
+                          - generic [ref=f13e778]: •
+                          - generic [ref=f13e779]: 07/30(목) 마감
+                - generic [ref=f13e783] [cursor=pointer]:
+                  - link [ref=f13e784]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49587191?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=10&sc=630
+                    - generic [ref=f13e785]:
+                      - img "㈜클래스어라운드 로고"
+                  - generic [ref=f13e786]:
+                    - generic [ref=f13e787]:
+                      - generic [ref=f13e788]: 오늘 뜬 따끈한 공고
+                      - button " 스크랩" [ref=f13e791]:
+                        - generic [ref=f13e792]: 
+                        - generic [ref=f13e793]: 스크랩
+                    - link "B2B SaaS 풀스택 개발자 채용(경력직)" [ref=f13e795]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49587191?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=10&sc=630
+                    - link "㈜클래스어라운드" [ref=f13e798]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49587191?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=10&sc=630
+                    - generic [ref=f13e799]:
+                      - generic [ref=f13e800]:
+                        - generic [ref=f13e801]:
+                          - generic [ref=f13e802]: 서울 강남구
+                          - generic [ref=f13e806]: 포털·컨텐츠·커뮤니티, 백엔드개발자, 프론트엔드개발자
+                        - button "홈페이지 지원" [ref=f13e811]
+                      - generic [ref=f13e812]:
+                        - generic [ref=f13e813]: 경력3년↑
+                        - generic [ref=f13e815]:
+                          - generic [ref=f13e816]: 3시간 전 등록
+                          - generic [ref=f13e817]: •
+                          - generic [ref=f13e818]: 07/26(일) 마감
+                - generic [ref=f13e822] [cursor=pointer]:
+                  - link [ref=f13e823]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49523300?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=11&sc=630
+                    - generic [ref=f13e824]:
+                      - img "㈜시스템노바 로고"
+                  - generic [ref=f13e825]:
+                    - generic [ref=f13e826]:
+                      - generic [ref=f13e827]: 유연근무제 시행중
+                      - button " 스크랩" [ref=f13e830]:
+                        - generic [ref=f13e831]: 
+                        - generic [ref=f13e832]: 스크랩
+                    - link "프론트엔드 개발자 채용(경력직)" [ref=f13e834]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49523300?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=11&sc=630
+                    - link "㈜시스템노바" [ref=f13e837]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49523300?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=11&sc=630
+                    - generic [ref=f13e838]:
+                      - generic [ref=f13e839]:
+                        - generic [ref=f13e840]:
+                          - generic [ref=f13e841]: 서울 강남구
+                          - generic [ref=f13e845]: 포털·컨텐츠·커뮤니티, 프론트엔드개발자
+                        - button "홈페이지 지원" [ref=f13e850]
+                      - generic [ref=f13e851]:
+                        - generic [ref=f13e852]:
+                          - generic [ref=f13e853]: 경력2년↑
+                          - generic [ref=f13e854]: •
+                          - generic [ref=f13e855]: 경조사 지원, 유연근무, 생일 이벤트, 점심 식사 지원, 장비 지원, 자기개발비, 연차제도, 4대보험, 반차제도, 휴가제도, 자율복장, 국민연금, 회식비 지원, 웰컴키트
+                        - generic [ref=f13e856]:
+                          - generic [ref=f13e857]: 07/06(월) 등록
+                          - generic [ref=f13e858]: •
+                          - generic [ref=f13e859]: 07/26(일) 마감
+                - generic [ref=f13e863] [cursor=pointer]:
+                  - link [ref=f13e864]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49501688?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=4&sc=808
+                    - generic [ref=f13e865]:
+                      - img "㈜팜소프트 로고"
+                  - generic [ref=f13e866]:
+                    - button " 스크랩" [ref=f13e868]:
+                      - generic [ref=f13e869]: 
+                      - generic [ref=f13e870]: 스크랩
+                    - link "[팜소프트] 기술연구소 AI 데이터 엔지니어 경력직 채용 (5년 이상/정규직)" [ref=f13e872]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49501688?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=4&sc=808
+                    - link "㈜팜소프트" [ref=f13e875]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49501688?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=4&sc=808
+                    - generic [ref=f13e876]:
+                      - generic [ref=f13e877]:
+                        - generic [ref=f13e878]:
+                          - generic [ref=f13e879]: 경기 광명시
+                          - generic [ref=f13e883]: 솔루션·SI·CRM·ERP, 데이터엔지니어, AI/ML엔지니어
+                        - button "즉시 지원" [ref=f13e888]
+                      - generic [ref=f13e889]:
+                        - generic [ref=f13e890]:
+                          - generic [ref=f13e891]: AD
+                          - generic [ref=f13e892]: 경력5년↑
+                        - generic [ref=f13e893]:
+                          - generic [ref=f13e894]: 07/06(월) 등록
+                          - generic [ref=f13e895]: •
+                          - generic [ref=f13e896]: 08/01(토) 마감
+                - generic [ref=f13e900] [cursor=pointer]:
+                  - link [ref=f13e901]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49364191?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=12&sc=630
+                    - generic [ref=f13e902]:
+                      - img "㈜실리콘투 로고"
+                  - generic [ref=f13e903]:
+                    - generic [ref=f13e904]:
+                      - generic [ref=f13e905]: 탄탄한 중견기업
+                      - button " 스크랩" [ref=f13e908]:
+                        - generic [ref=f13e909]: 
+                        - generic [ref=f13e910]: 스크랩
+                    - link "[실리콘투] 글로벌 이커머스 플랫폼 프론트엔드 개발담당 채용" [ref=f13e912]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49364191?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=12&sc=630
+                    - link "㈜실리콘투" [ref=f13e915]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49364191?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=12&sc=630
+                    - generic [ref=f13e916]:
+                      - generic [ref=f13e917]:
+                        - generic [ref=f13e918]:
+                          - generic [ref=f13e919]: 경기 성남시
+                          - generic [ref=f13e923]: 무역·상사, 프론트엔드개발자, 웹개발자
+                        - button "즉시 지원" [ref=f13e928]
+                      - generic [ref=f13e929]:
+                        - generic [ref=f13e930]:
+                          - generic [ref=f13e931]: 경력1년↑
+                          - generic [ref=f13e932]: •
+                          - generic [ref=f13e933]: 쾌적한 업무공간
+                        - generic [ref=f13e934]:
+                          - generic [ref=f13e935]: 06/12(금) 등록
+                          - generic [ref=f13e936]: •
+                          - generic [ref=f13e937]: 상시채용
+                - generic [ref=f13e941] [cursor=pointer]:
+                  - link [ref=f13e942]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49523324?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=13&sc=630
+                    - generic [ref=f13e943]:
+                      - img "㈜시스템노바 로고"
+                  - generic [ref=f13e944]:
+                    - generic [ref=f13e945]:
+                      - generic [ref=f13e946]: 유연근무제 시행중
+                      - button " 스크랩" [ref=f13e949]:
+                        - generic [ref=f13e950]: 
+                        - generic [ref=f13e951]: 스크랩
+                    - link "Design Engineer (UX/UI 퍼블리셔) 채용(경력직)" [ref=f13e953]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49523324?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=13&sc=630
+                    - link "㈜시스템노바" [ref=f13e956]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49523324?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=13&sc=630
+                    - generic [ref=f13e957]:
+                      - generic [ref=f13e958]:
+                        - generic [ref=f13e959]:
+                          - generic [ref=f13e960]: 서울 강남구
+                          - generic [ref=f13e964]: 포털·컨텐츠·커뮤니티, UI·UX디자이너
+                        - button "홈페이지 지원" [ref=f13e969]
+                      - generic [ref=f13e970]:
+                        - generic [ref=f13e971]:
+                          - generic [ref=f13e972]: 경력3년↑
+                          - generic [ref=f13e973]: •
+                          - generic [ref=f13e974]: 경조사 지원, 유연근무, 생일 이벤트, 점심 식사 지원, 장비 지원, 자기개발비, 연차제도, 4대보험, 반차제도, 휴가제도, 자율복장, 국민연금, 회식비 지원, 웰컴키트
+                        - generic [ref=f13e975]:
+                          - generic [ref=f13e976]: 07/06(월) 등록
+                          - generic [ref=f13e977]: •
+                          - generic [ref=f13e978]: 07/19(일) 마감
+                - generic [ref=f13e982] [cursor=pointer]:
+                  - link [ref=f13e983]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49326262?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=14&sc=630
+                    - generic [ref=f13e984]:
+                      - img "넛지헬스케어㈜ 로고"
+                  - generic [ref=f13e985]:
+                    - generic [ref=f13e986]:
+                      - generic [ref=f13e987]: 신입 지원 가능
+                      - button " 스크랩" [ref=f13e990]:
+                        - generic [ref=f13e991]: 
+                        - generic [ref=f13e992]: 스크랩
+                    - link "[캐시워크] 데이터분석 담당 채용전환형 인턴" [ref=f13e994]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49326262?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=14&sc=630
+                    - link "넛지헬스케어㈜" [ref=f13e997]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49326262?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=14&sc=630
+                    - generic [ref=f13e998]:
+                      - generic [ref=f13e999]:
+                        - generic [ref=f13e1000]:
+                          - generic [ref=f13e1001]: 서울 강남구
+                          - generic [ref=f13e1005]: 모바일·APP, DBA, 데이터엔지니어, 데이터사이언티스트
+                        - button "홈페이지 지원" [ref=f13e1010]
+                      - generic [ref=f13e1011]:
+                        - generic [ref=f13e1012]:
+                          - generic [ref=f13e1013]: 신입
+                          - generic [ref=f13e1014]: •
+                          - generic [ref=f13e1015]: 경조사 지원, 유연근무, 복지포인트, 장기근속 포상제도, 장비 지원, 리프레시 휴가, 연차제도, 반차제도, 휴가제도, 식사 지원, 자율복장, 야근 없음, 카페테리아, 쾌적한 업무공간
+                        - generic [ref=f13e1016]:
+                          - generic [ref=f13e1017]: 06/08(월) 등록
+                          - generic [ref=f13e1018]: •
+                          - generic [ref=f13e1019]: 상시채용
+                - generic [ref=f13e1023] [cursor=pointer]:
+                  - link [ref=f13e1024]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49503065?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=5&sc=808
+                    - img "동국시스템즈㈜ 로고" [ref=f13e1026]
+                  - generic [ref=f13e1027]:
+                    - button " 스크랩" [ref=f13e1029]:
+                      - generic [ref=f13e1030]: 
+                      - generic [ref=f13e1031]: 스크랩
+                    - link "[동국시스템즈] SAP MM(구매모듈) 담당 경력직 채용" [ref=f13e1033]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49503065?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=5&sc=808
+                    - link "동국시스템즈㈜동국제강그룹" [ref=f13e1036]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49503065?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=5&sc=808
+                    - generic [ref=f13e1037]:
+                      - generic [ref=f13e1038]:
+                        - generic [ref=f13e1039]:
+                          - generic [ref=f13e1040]: 서울 중구
+                          - generic [ref=f13e1044]: 솔루션·SI·CRM·ERP, 시스템엔지니어, 네트워크엔지니어
+                        - button "즉시 지원" [ref=f13e1049]
+                      - generic [ref=f13e1050]:
+                        - generic [ref=f13e1051]:
+                          - generic [ref=f13e1052]: AD
+                          - generic [ref=f13e1053]: 경력4년↑
+                        - generic [ref=f13e1054]:
+                          - generic [ref=f13e1055]: 07/02(목) 등록
+                          - generic [ref=f13e1056]: •
+                          - generic [ref=f13e1057]: 내일마감
+                - generic [ref=f13e1061] [cursor=pointer]:
+                  - link [ref=f13e1062]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49323917?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=15&sc=630
+                    - generic [ref=f13e1063]:
+                      - img "넛지헬스케어㈜ 로고"
+                  - generic [ref=f13e1064]:
+                    - generic [ref=f13e1065]:
+                      - generic [ref=f13e1066]: 유연근무제 시행중
+                      - button " 스크랩" [ref=f13e1069]:
+                        - generic [ref=f13e1070]: 
+                        - generic [ref=f13e1071]: 스크랩
+                    - link "[캐시워크] iOS개발 채용전환형 인턴" [ref=f13e1073]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49323917?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=15&sc=630
+                    - link "넛지헬스케어㈜" [ref=f13e1076]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49323917?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=15&sc=630
+                    - generic [ref=f13e1077]:
+                      - generic [ref=f13e1078]:
+                        - generic [ref=f13e1079]:
+                          - generic [ref=f13e1080]: 서울 강남구
+                          - generic [ref=f13e1084]: 모바일·APP, 앱개발자
+                        - button "홈페이지 지원" [ref=f13e1089]
+                      - generic [ref=f13e1090]:
+                        - generic [ref=f13e1091]:
+                          - generic [ref=f13e1092]: 경력무관
+                          - generic [ref=f13e1093]: •
+                          - generic [ref=f13e1094]: 경조사 지원, 유연근무, 복지포인트, 장기근속 포상제도, 장비 지원, 리프레시 휴가, 연차제도, 반차제도, 휴가제도, 식사 지원, 자율복장, 야근 없음, 카페테리아, 쾌적한 업무공간
+                        - generic [ref=f13e1095]:
+                          - generic [ref=f13e1096]: 06/08(월) 등록
+                          - generic [ref=f13e1097]: •
+                          - generic [ref=f13e1098]: 상시채용
+                - generic [ref=f13e1102] [cursor=pointer]:
+                  - link [ref=f13e1103]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49585001?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=16&sc=630
+                    - generic [ref=f13e1104]:
+                      - img "대전대학교 로고"
+                  - generic [ref=f13e1105]:
+                    - generic [ref=f13e1106]:
+                      - generic [ref=f13e1107]: 오늘 뜬 따끈한 공고
+                      - button " 스크랩" [ref=f13e1110]:
+                        - generic [ref=f13e1111]: 
+                        - generic [ref=f13e1112]: 스크랩
+                    - link "대전대학교 행정직원 신규채용 공고[전산직]" [ref=f13e1114]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49585001?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=16&sc=630
+                    - link "대전대학교" [ref=f13e1117]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49585001?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=16&sc=630
+                    - generic [ref=f13e1118]:
+                      - generic [ref=f13e1119]:
+                        - generic [ref=f13e1120]:
+                          - generic [ref=f13e1121]: 대전 동구
+                          - generic [ref=f13e1125]: 학교(초·중·고·대학·특수), 백엔드개발자, 교직원·조교
+                        - button "즉시 지원" [ref=f13e1130]
+                      - generic [ref=f13e1131]:
+                        - generic [ref=f13e1132]: 경력2년↑
+                        - generic [ref=f13e1134]:
+                          - generic [ref=f13e1135]: 6시간 전 등록
+                          - generic [ref=f13e1136]: •
+                          - generic [ref=f13e1137]: 07/24(금) 마감
+                - generic [ref=f13e1141] [cursor=pointer]:
+                  - link [ref=f13e1142]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49523311?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=17&sc=630
+                    - generic [ref=f13e1143]:
+                      - img "㈜시스템노바 로고"
+                  - generic [ref=f13e1144]:
+                    - generic [ref=f13e1145]:
+                      - generic [ref=f13e1146]: 유연근무제 시행중
+                      - button " 스크랩" [ref=f13e1149]:
+                        - generic [ref=f13e1150]: 
+                        - generic [ref=f13e1151]: 스크랩
+                    - link "프로덕트 매니저(PM) 채용(경력직)" [ref=f13e1153]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49523311?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=17&sc=630
+                    - link "㈜시스템노바" [ref=f13e1156]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49523311?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=17&sc=630
+                    - generic [ref=f13e1157]:
+                      - generic [ref=f13e1158]:
+                        - generic [ref=f13e1159]:
+                          - generic [ref=f13e1160]: 서울 강남구
+                          - generic [ref=f13e1164]: 포털·컨텐츠·커뮤니티, PL·PM·PO
+                        - button "홈페이지 지원" [ref=f13e1169]
+                      - generic [ref=f13e1170]:
+                        - generic [ref=f13e1171]:
+                          - generic [ref=f13e1172]: 경력3년↑
+                          - generic [ref=f13e1173]: •
+                          - generic [ref=f13e1174]: 경조사 지원, 유연근무, 생일 이벤트, 점심 식사 지원, 장비 지원, 자기개발비, 연차제도, 4대보험, 반차제도, 휴가제도, 자율복장, 국민연금, 회식비 지원, 웰컴키트
+                        - generic [ref=f13e1175]:
+                          - generic [ref=f13e1176]: 07/06(월) 등록
+                          - generic [ref=f13e1177]: •
+                          - generic [ref=f13e1178]: 07/19(일) 마감
+                - generic [ref=f13e1183] [cursor=pointer]:
+                  - generic [ref=f13e1184]:
+                    - generic [ref=f13e1185]: 신입 지원 가능
+                    - button " 스크랩" [ref=f13e1188]:
+                      - generic [ref=f13e1189]: 
+                      - generic [ref=f13e1190]: 스크랩
+                  - link "전시 마케팅 기획자, 전시 서비스 운영자, 풀스택 개발자 채용" [ref=f13e1192]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49546610?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=18&sc=630
+                  - link "㈜메세어소시에이츠" [ref=f13e1195]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49546610?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=18&sc=630
+                  - generic [ref=f13e1196]:
+                    - generic [ref=f13e1197]:
+                      - generic [ref=f13e1198]:
+                        - generic [ref=f13e1199]: 서울 강남구
+                        - generic [ref=f13e1203]: 광고·홍보·전시, 웹기획
+                      - button "즉시 지원" [ref=f13e1208]
+                    - generic [ref=f13e1209]:
+                      - generic [ref=f13e1210]:
+                        - generic [ref=f13e1211]: 신입·경력1년↑
+                        - generic [ref=f13e1212]: •
+                        - generic [ref=f13e1213]: 각종 교육비 지원, 연차제도, 4대보험, 반차제도
+                      - generic [ref=f13e1214]:
+                        - generic [ref=f13e1215]: 07/09(목) 등록
+                        - generic [ref=f13e1216]: •
+                        - generic [ref=f13e1217]: 08/08(토) 마감
+                - generic [ref=f13e1221] [cursor=pointer]:
+                  - link [ref=f13e1222]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49326244?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=19&sc=630
+                    - generic [ref=f13e1223]:
+                      - img "넛지헬스케어㈜ 로고"
+                  - generic [ref=f13e1224]:
+                    - generic [ref=f13e1225]:
+                      - generic [ref=f13e1226]: 신입 지원 가능
+                      - button " 스크랩" [ref=f13e1229]:
+                        - generic [ref=f13e1230]: 
+                        - generic [ref=f13e1231]: 스크랩
+                    - link "[캐시워크] 데이터엔지니어 채용전환형 인턴" [ref=f13e1233]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49326244?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=19&sc=630
+                    - link "넛지헬스케어㈜" [ref=f13e1236]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49326244?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=19&sc=630
+                    - generic [ref=f13e1237]:
+                      - generic [ref=f13e1238]:
+                        - generic [ref=f13e1239]:
+                          - generic [ref=f13e1240]: 서울 강남구
+                          - generic [ref=f13e1244]: 모바일·APP, DBA, 데이터엔지니어, 데이터사이언티스트
+                        - button "홈페이지 지원" [ref=f13e1249]
+                      - generic [ref=f13e1250]:
+                        - generic [ref=f13e1251]:
+                          - generic [ref=f13e1252]: 신입
+                          - generic [ref=f13e1253]: •
+                          - generic [ref=f13e1254]: 경조사 지원, 유연근무, 복지포인트, 장기근속 포상제도, 장비 지원, 리프레시 휴가, 연차제도, 반차제도, 휴가제도, 식사 지원, 자율복장, 야근 없음, 카페테리아, 쾌적한 업무공간
+                        - generic [ref=f13e1255]:
+                          - generic [ref=f13e1256]: 06/08(월) 등록
+                          - generic [ref=f13e1257]: •
+                          - generic [ref=f13e1258]: 상시채용
+                - generic [ref=f13e1262] [cursor=pointer]:
+                  - link [ref=f13e1263]:
+                    - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49324978?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=20&sc=630
+                    - generic [ref=f13e1264]:
+                      - img "넛지헬스케어㈜ 로고"
+                  - generic [ref=f13e1265]:
+                    - generic [ref=f13e1266]:
+                      - generic [ref=f13e1267]: 유연근무제 시행중
+                      - button " 스크랩" [ref=f13e1270]:
+                        - generic [ref=f13e1271]: 
+                        - generic [ref=f13e1272]: 스크랩
+                    - link "[캐시워크] 안드로이드개발 채용전환형 인턴" [ref=f13e1274]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49324978?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=20&sc=630
+                    - link "넛지헬스케어㈜" [ref=f13e1277]:
+                      - /url: https://www.jobkorea.co.kr/Recruit/GI_Read/49324978?Oem_Code=C1&logpath=1&stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&listno=20&sc=630
+                    - generic [ref=f13e1278]:
+                      - generic [ref=f13e1279]:
+                        - generic [ref=f13e1280]:
+                          - generic [ref=f13e1281]: 서울 강남구
+                          - generic [ref=f13e1285]: 모바일·APP, 앱개발자
+                        - button "홈페이지 지원" [ref=f13e1290]
+                      - generic [ref=f13e1291]:
+                        - generic [ref=f13e1292]:
+                          - generic [ref=f13e1293]: 경력무관
+                          - generic [ref=f13e1294]: •
+                          - generic [ref=f13e1295]: 경조사 지원, 유연근무, 복지포인트, 장기근속 포상제도, 장비 지원, 리프레시 휴가, 연차제도, 반차제도, 휴가제도, 식사 지원, 자율복장, 야근 없음, 카페테리아, 쾌적한 업무공간
+                        - generic [ref=f13e1296]:
+                          - generic [ref=f13e1297]: 06/08(월) 등록
+                          - generic [ref=f13e1298]: •
+                          - generic [ref=f13e1299]: 상시채용
+              - generic [ref=f13e1301]:
+                - link "1" [ref=f13e1303] [cursor=pointer]:
+                  - /url: /Search?stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&tabType=recruit&Page_No=1
+                - link "2" [ref=f13e1306] [cursor=pointer]:
+                  - /url: /Search?stext=%EC%9B%B9+%ED%94%84%EB%A1%A0%ED%8A%B8%EC%97%94%EB%93%9C+%EC%9D%B8%ED%84%B4&tabType=recruit&Page_No=2
+      - complementary [ref=f13e1308]:
+        - generic [ref=f13e1310]:
+          - generic [ref=f13e1311]:
+            - generic [ref=f13e1312]: 전문채용관
+            - link "전체보기 " [ref=f13e1313] [cursor=pointer]:
+              - /url: https://www.jobkorea.co.kr/Theme/Main
+              - text: 전체보기
+              - generic [ref=f13e1314]: 
+          - link [ref=f13e1315] [cursor=pointer]:
+            - /url: https://www.jobkorea.co.kr/Theme/ffsb
+            - img "가족친화인증기업 채용관" [ref=f13e1317]
+            - generic [ref=f13e1318]:
+              - paragraph [ref=f13e1319]: 가족친화인증기업 채용관
+              - paragraph [ref=f13e1320]: 일하기 좋은 기업의 새로운 기준, 트렌디한 인재들의 선택
+        - generic [ref=f13e1323]:
+          - generic [ref=f13e1324]: 최근 검색어
+          - generic [ref=f13e1325]:
+            - button "웹 프론트엔드 인턴 ✕" [ref=f13e1326] [cursor=pointer]:
+              - generic [ref=f13e1327]: 웹 프론트엔드 인턴
+              - generic [ref=f13e1328]: ✕
+            - button "게임 개발 인턴 ✕" [ref=f13e1329] [cursor=pointer]:
+              - generic [ref=f13e1330]: 게임 개발 인턴
+              - generic [ref=f13e1331]: ✕
+    - button "맨 위로" [ref=f13e1333] [cursor=pointer]
+    - link "Ⓒ Worxphere LLC. All rights reserved." [ref=f13e1338] [cursor=pointer]:
+      - /url: https://www.worxphere.ai
+  - alert [ref=f13e1339]
