@@ -1118,8 +1118,10 @@
                 cell.addEventListener('click', function() {
                     const dateString = this.getAttribute('data-date');
                     if (dateString) {
-                        // Event handler will be added in Task 5
-                        console.log(`Clicked on date: ${dateString}`);
+                        // Check if diary exists for this date
+                        const diary = getDiaryByDate(dateString);
+                        const mode = diary ? 'edit' : 'new';
+                        openModal(dateString, mode);
                     }
                 });
             });
@@ -1150,6 +1152,223 @@
             updateStats();
         }
 
+        // ============================================
+        // Task 5: Modal Control Functions
+        // ============================================
+
+        // Global state for modal editing
+        let modalMode = 'new'; // 'new' or 'edit'
+        let currentEditingDate = null; // Date string (YYYY-MM-DD)
+
+        // Open modal for creating new or editing existing diary
+        function openModal(dateString, mode = 'new') {
+            const modal = document.getElementById('modal');
+            const modalTitle = document.getElementById('modalTitle');
+            const deleteBtn = document.getElementById('deleteBtn');
+
+            modalMode = mode;
+            currentEditingDate = dateString;
+
+            if (mode === 'new') {
+                modalTitle.textContent = '새 일기 작성';
+                deleteBtn.style.display = 'none';
+                resetForm();
+                document.getElementById('diaryDate').value = dateString;
+            } else {
+                // Edit mode: Load existing diary data
+                modalTitle.textContent = '일기 수정';
+                deleteBtn.style.display = 'block';
+                const diary = getDiaryByDate(dateString);
+                if (diary) {
+                    populateFormWithDiary(diary);
+                }
+            }
+
+            modal.classList.add('active');
+        }
+
+        // Close modal
+        function closeModal() {
+            const modal = document.getElementById('modal');
+            modal.classList.remove('active');
+            resetForm();
+            modalMode = 'new';
+            currentEditingDate = null;
+        }
+
+        // Reset form to initial state
+        function resetForm() {
+            const form = document.getElementById('diaryForm');
+            form.reset();
+
+            // Reset mood selector
+            const moodOptions = document.querySelectorAll('.mood-option');
+            moodOptions.forEach(option => {
+                option.classList.remove('selected');
+            });
+
+            // Clear tags
+            const tagInput = document.getElementById('tagInput');
+            tagInput.value = '';
+            const tagItems = document.querySelectorAll('.tag-item');
+            tagItems.forEach(item => item.remove());
+
+            // Reset date to today
+            const today = new Date();
+            const dateString = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
+            document.getElementById('diaryDate').value = dateString;
+        }
+
+        // Populate form with existing diary data
+        function populateFormWithDiary(diary) {
+            document.getElementById('diaryDate').value = diary.id;
+            document.getElementById('diaryTitle').value = diary.title;
+            document.getElementById('diaryContent').value = diary.content;
+
+            // Set mood
+            const moodOptions = document.querySelectorAll('.mood-option');
+            moodOptions.forEach(option => {
+                option.classList.remove('selected');
+                if (option.getAttribute('data-mood') === diary.mood) {
+                    option.classList.add('selected');
+                }
+            });
+
+            // Set tags
+            const tagInputWrapper = document.getElementById('tagInputWrapper');
+            const tagItems = document.querySelectorAll('.tag-item');
+            tagItems.forEach(item => item.remove());
+
+            if (diary.tags && diary.tags.length > 0) {
+                diary.tags.forEach(tag => {
+                    addTagToForm(tag);
+                });
+            }
+        }
+
+        // Add tag to form display
+        function addTagToForm(tagText) {
+            const tagInputWrapper = document.getElementById('tagInputWrapper');
+            const tagInput = document.getElementById('tagInput');
+
+            const tagItem = document.createElement('div');
+            tagItem.className = 'tag-item';
+            tagItem.innerHTML = `${escapeHtml(tagText)}<span class="tag-remove">×</span>`;
+
+            const removeBtn = tagItem.querySelector('.tag-remove');
+            removeBtn.addEventListener('click', function() {
+                tagItem.remove();
+            });
+
+            tagInputWrapper.insertBefore(tagItem, tagInput);
+        }
+
+        // ============================================
+        // Task 6: CRUD Operations
+        // ============================================
+
+        // Handle form submission - save diary
+        function handleFormSubmit(event) {
+            event.preventDefault();
+
+            const dateString = document.getElementById('diaryDate').value;
+            const title = document.getElementById('diaryTitle').value.trim();
+            const content = document.getElementById('diaryContent').value.trim();
+            const moodOption = document.querySelector('.mood-option.selected');
+
+            // Validation
+            if (!title || !content) {
+                alert('제목과 내용을 입력해주세요.');
+                return;
+            }
+
+            if (!moodOption) {
+                alert('분위기를 선택해주세요.');
+                return;
+            }
+
+            // Collect tags
+            const tags = [];
+            document.querySelectorAll('.tag-item').forEach(tagItem => {
+                const tagText = tagItem.textContent.replace('×', '').trim();
+                if (tagText) {
+                    tags.push(tagText);
+                }
+            });
+
+            // Create diary object
+            const now = new Date().toISOString();
+            const diary = {
+                id: dateString,
+                title: title,
+                content: content,
+                mood: moodOption.getAttribute('data-mood'),
+                tags: tags,
+                createdAt: modalMode === 'new' ? now : (getDiaryByDate(dateString)?.createdAt || now),
+                updatedAt: now
+            };
+
+            // Save diary
+            const success = saveDiary(diary);
+            if (success) {
+                console.log(`일기 ${modalMode === 'new' ? '저장' : '수정'} 성공: ${dateString}`);
+                renderCalendar();
+                updateStats();
+                closeModal();
+            } else {
+                alert('일기 저장에 실패했습니다.');
+            }
+        }
+
+        // Handle diary deletion
+        function handleDeleteDiary() {
+            if (!currentEditingDate) return;
+
+            if (confirm('정말로 이 일기를 삭제하시겠습니까?')) {
+                const success = deleteDiary(currentEditingDate);
+                if (success) {
+                    console.log(`일기 삭제 성공: ${currentEditingDate}`);
+                    renderCalendar();
+                    updateStats();
+                    closeModal();
+                } else {
+                    alert('일기 삭제에 실패했습니다.');
+                }
+            }
+        }
+
+        // Handle mood selection
+        function handleMoodSelect(event) {
+            if (event.target.classList.contains('mood-option')) {
+                const moodOptions = document.querySelectorAll('.mood-option');
+                moodOptions.forEach(option => {
+                    option.classList.remove('selected');
+                });
+                event.target.classList.add('selected');
+            }
+        }
+
+        // Handle tag input - add tag on Enter key
+        function handleTagInput(event) {
+            if (event.key === 'Enter') {
+                event.preventDefault();
+                const tagText = event.target.value.trim();
+
+                if (tagText && tagText.length > 0) {
+                    // Check if tag already exists
+                    const existingTags = Array.from(document.querySelectorAll('.tag-item'))
+                        .map(item => item.textContent.replace('×', '').trim());
+
+                    if (!existingTags.includes(tagText)) {
+                        addTagToForm(tagText);
+                        event.target.value = '';
+                    } else {
+                        alert('이미 추가된 태그입니다.');
+                    }
+                }
+            }
+        }
+
         // Initialize event listeners for calendar navigation
         function initializeEventListeners() {
             const prevMonthBtn = document.getElementById('prevMonth');
@@ -1167,6 +1386,69 @@
             if (todayBtn) {
                 todayBtn.addEventListener('click', goToToday);
             }
+
+            // Task 5-6: Modal and CRUD event listeners
+            initializeModalEventListeners();
+        }
+
+        // Initialize modal event listeners
+        function initializeModalEventListeners() {
+            const modal = document.getElementById('modal');
+            const closeModalBtn = document.getElementById('closeModalBtn');
+            const cancelBtn = document.getElementById('cancelBtn');
+            const deleteBtn = document.getElementById('deleteBtn');
+            const diaryForm = document.getElementById('diaryForm');
+            const moodSelector = document.getElementById('moodSelector');
+            const tagInput = document.getElementById('tagInput');
+            const newEntryBtn = document.getElementById('newEntryBtn');
+
+            // Close modal button
+            if (closeModalBtn) {
+                closeModalBtn.addEventListener('click', closeModal);
+            }
+
+            // Cancel button
+            if (cancelBtn) {
+                cancelBtn.addEventListener('click', closeModal);
+            }
+
+            // Delete button
+            if (deleteBtn) {
+                deleteBtn.addEventListener('click', handleDeleteDiary);
+            }
+
+            // Form submit
+            if (diaryForm) {
+                diaryForm.addEventListener('submit', handleFormSubmit);
+            }
+
+            // Mood selector
+            if (moodSelector) {
+                moodSelector.addEventListener('click', handleMoodSelect);
+            }
+
+            // Tag input
+            if (tagInput) {
+                tagInput.addEventListener('keypress', handleTagInput);
+            }
+
+            // New entry button - open modal for new diary with today's date
+            if (newEntryBtn) {
+                newEntryBtn.addEventListener('click', function() {
+                    const today = new Date();
+                    const dateString = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
+                    openModal(dateString, 'new');
+                });
+            }
+
+            // Modal backdrop click - close modal
+            if (modal) {
+                modal.addEventListener('click', function(event) {
+                    if (event.target === modal) {
+                        closeModal();
+                    }
+                });
+            }
         }
 
         // Placeholder for updateStats (Task 7)
@@ -1178,6 +1460,220 @@
         // ============================================
         // Test Functions
         // ============================================
+
+        function testModalAndCRUD() {
+            let passedCount = 0;
+            let testNumber = 1;
+
+            console.log('\n=== 모달 및 CRUD 함수 테스트 시작 ===\n');
+
+            // Clear all data before tests
+            localStorage.removeItem('diaries');
+            renderCalendar();
+
+            // Test 1: openModal() sets modal to active state
+            try {
+                const modal = document.getElementById('modal');
+                openModal('2024-12-20', 'new');
+                console.assert(modal.classList.contains('active'),
+                    'openModal should add active class to modal');
+                console.log(`✓ Test ${testNumber} passed: openModal() sets modal to active state`);
+                passedCount++;
+                closeModal();
+            } catch (error) {
+                console.log(`✗ Test ${testNumber} failed: ${error.message}`);
+            }
+            testNumber++;
+
+            // Test 2: openModal() title changes based on mode
+            try {
+                const modalTitle = document.getElementById('modalTitle');
+                openModal('2024-12-20', 'new');
+                const newTitle = modalTitle.textContent;
+                closeModal();
+                openModal('2024-12-20', 'edit');
+                const editTitle = modalTitle.textContent;
+                console.assert(newTitle === '새 일기 작성' && editTitle === '일기 수정',
+                    'openModal should set correct title for each mode');
+                console.log(`✓ Test ${testNumber} passed: openModal() title changes based on mode`);
+                passedCount++;
+                closeModal();
+            } catch (error) {
+                console.log(`✗ Test ${testNumber} failed: ${error.message}`);
+            }
+            testNumber++;
+
+            // Test 3: closeModal() removes active class
+            try {
+                const modal = document.getElementById('modal');
+                openModal('2024-12-20', 'new');
+                closeModal();
+                console.assert(!modal.classList.contains('active'),
+                    'closeModal should remove active class');
+                console.log(`✓ Test ${testNumber} passed: closeModal() removes active class`);
+                passedCount++;
+            } catch (error) {
+                console.log(`✗ Test ${testNumber} failed: ${error.message}`);
+            }
+            testNumber++;
+
+            // Test 4: resetForm() clears form inputs
+            try {
+                openModal('2024-12-20', 'new');
+                document.getElementById('diaryTitle').value = 'Test Title';
+                document.getElementById('diaryContent').value = 'Test Content';
+                resetForm();
+                const titleEmpty = document.getElementById('diaryTitle').value === '';
+                const contentEmpty = document.getElementById('diaryContent').value === '';
+                console.assert(titleEmpty && contentEmpty,
+                    'resetForm should clear form inputs');
+                console.log(`✓ Test ${testNumber} passed: resetForm() clears form inputs`);
+                passedCount++;
+                closeModal();
+            } catch (error) {
+                console.log(`✗ Test ${testNumber} failed: ${error.message}`);
+            }
+            testNumber++;
+
+            // Test 5: saveDiary() with mood selection
+            try {
+                openModal('2024-12-25', 'new');
+                document.getElementById('diaryTitle').value = '크리스마스 일기';
+                document.getElementById('diaryContent').value = '즐거운 크리스마스 되세요';
+                const moodOption = document.querySelector('[data-mood="😄"]');
+                moodOption.click();
+
+                // Simulate form submission
+                const form = document.getElementById('diaryForm');
+                const submitEvent = new Event('submit');
+                submitEvent.preventDefault = () => {};
+                handleFormSubmit(submitEvent);
+
+                const savedDiary = getDiaryByDate('2024-12-25');
+                console.assert(savedDiary !== null && savedDiary.title === '크리스마스 일기',
+                    'saveDiary should save new diary');
+                console.log(`✓ Test ${testNumber} passed: saveDiary() creates new diary with form data`);
+                passedCount++;
+            } catch (error) {
+                console.log(`✗ Test ${testNumber} failed: ${error.message}`);
+            }
+            testNumber++;
+
+            // Test 6: populateFormWithDiary() loads existing diary data
+            try {
+                const diary = getDiaryByDate('2024-12-25');
+                if (diary) {
+                    openModal('2024-12-25', 'edit');
+                    populateFormWithDiary(diary);
+                    const titleValue = document.getElementById('diaryTitle').value;
+                    const contentValue = document.getElementById('diaryContent').value;
+                    console.assert(titleValue === '크리스마스 일기' && contentValue === '즐거운 크리스마스 되세요',
+                        'populateFormWithDiary should load diary data into form');
+                    console.log(`✓ Test ${testNumber} passed: populateFormWithDiary() loads existing diary data`);
+                    passedCount++;
+                    closeModal();
+                } else {
+                    throw new Error('Diary not found for population test');
+                }
+            } catch (error) {
+                console.log(`✗ Test ${testNumber} failed: ${error.message}`);
+            }
+            testNumber++;
+
+            // Test 7: handleMoodSelect() toggles mood selection
+            try {
+                openModal('2024-12-26', 'new');
+                const moodOptions = document.querySelectorAll('.mood-option');
+                const firstMood = moodOptions[0];
+                const secondMood = moodOptions[1];
+
+                firstMood.click();
+                console.assert(firstMood.classList.contains('selected'),
+                    'Clicked mood should be selected');
+
+                secondMood.click();
+                console.assert(!firstMood.classList.contains('selected') && secondMood.classList.contains('selected'),
+                    'Only one mood should be selected at a time');
+                console.log(`✓ Test ${testNumber} passed: handleMoodSelect() toggles mood selection`);
+                passedCount++;
+                closeModal();
+            } catch (error) {
+                console.log(`✗ Test ${testNumber} failed: ${error.message}`);
+            }
+            testNumber++;
+
+            // Test 8: addTagToForm() adds and displays tags
+            try {
+                openModal('2024-12-27', 'new');
+                addTagToForm('테스트태그1');
+                addTagToForm('테스트태그2');
+                const tags = document.querySelectorAll('.tag-item');
+                console.assert(tags.length === 2,
+                    'addTagToForm should add tags to form');
+                console.log(`✓ Test ${testNumber} passed: addTagToForm() adds and displays tags`);
+                passedCount++;
+                closeModal();
+            } catch (error) {
+                console.log(`✗ Test ${testNumber} failed: ${error.message}`);
+            }
+            testNumber++;
+
+            // Test 9: Tag removal functionality
+            try {
+                openModal('2024-12-28', 'new');
+                addTagToForm('테스트태그1');
+                const tagItem = document.querySelector('.tag-item');
+                const removeBtn = tagItem.querySelector('.tag-remove');
+                removeBtn.click();
+                const tagsAfterRemove = document.querySelectorAll('.tag-item');
+                console.assert(tagsAfterRemove.length === 0,
+                    'Tag removal should delete tag from form');
+                console.log(`✓ Test ${testNumber} passed: Tag removal functionality works`);
+                passedCount++;
+                closeModal();
+            } catch (error) {
+                console.log(`✗ Test ${testNumber} failed: ${error.message}`);
+            }
+            testNumber++;
+
+            // Test 10: Modal mode detection (new vs edit)
+            try {
+                const today = new Date();
+                const todayString = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, '0')}-${String(today.getDate()).padStart(2, '0')}`;
+
+                openModal(todayString, 'new');
+                const newModeTitle = document.getElementById('modalTitle').textContent;
+                closeModal();
+
+                // Save a diary first
+                openModal('2025-01-15', 'new');
+                document.getElementById('diaryTitle').value = '테스트';
+                document.getElementById('diaryContent').value = '테스트';
+                document.querySelector('[data-mood="😄"]').click();
+                const submitEvent = new Event('submit');
+                submitEvent.preventDefault = () => {};
+                handleFormSubmit(submitEvent);
+
+                // Check if edit mode works
+                openModal('2025-01-15', 'edit');
+                const editModeTitle = document.getElementById('modalTitle').textContent;
+                const deleteBtn = document.getElementById('deleteBtn');
+                const isDeletable = deleteBtn.style.display !== 'none';
+
+                console.assert(newModeTitle === '새 일기 작성' && editModeTitle === '일기 수정' && isDeletable,
+                    'Mode should determine title and delete button visibility');
+                console.log(`✓ Test ${testNumber} passed: Modal mode detection (new vs edit)`);
+                passedCount++;
+                closeModal();
+            } catch (error) {
+                console.log(`✗ Test ${testNumber} failed: ${error.message}`);
+            }
+
+            console.log(`\n=== 테스트 결과: ${passedCount}/10 통과 ===\n`);
+            if (passedCount === 10) {
+                console.log('=== 모든 모달 및 CRUD 테스트 통과 ===\n');
+            }
+        }
 
         function testCalendarFunctions() {
             let passedCount = 0;
@@ -1354,9 +1850,10 @@
 
         // Initialize calendar on page load
         window.addEventListener('DOMContentLoaded', function() {
-            console.log('Diary app loaded. Data management and calendar functions ready.');
+            console.log('Diary app loaded. Data management, calendar, and CRUD functions ready.');
             console.log('Run testCalendarFunctions() to test calendar rendering.');
             console.log('Run testDataFunctions() to test data management.');
+            console.log('Run testModalAndCRUD() to test modal and CRUD operations.');
             renderCalendar();
             initializeEventListeners();
         });
