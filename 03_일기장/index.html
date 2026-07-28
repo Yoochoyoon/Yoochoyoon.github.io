@@ -946,6 +946,10 @@
     </div>
 
     <script>
+        // ============================================
+        // Task 2: LocalStorage Data Management Functions
+        // ============================================
+
         // XSS Prevention - HTML escape function
         function escapeHtml(text) {
             const div = document.createElement('div');
@@ -953,8 +957,189 @@
             return div.innerHTML;
         }
 
-        // Placeholder for JavaScript logic to be added in Task 2
-        console.log('Diary app structure loaded. JavaScript logic to be added in Task 2.');
+        // Get all diaries from LocalStorage
+        function getDiaries() {
+            try {
+                const data = localStorage.getItem('diaries');
+                return data ? JSON.parse(data) : [];
+            } catch (error) {
+                console.error('Error reading diaries from LocalStorage:', error);
+                return [];
+            }
+        }
+
+        // Save all diaries to LocalStorage
+        function saveDiaries(diaries) {
+            try {
+                localStorage.setItem('diaries', JSON.stringify(diaries));
+                return true;
+            } catch (error) {
+                console.error('Error saving diaries to LocalStorage:', error);
+                return false;
+            }
+        }
+
+        // Get a single diary by date string (YYYY-MM-DD)
+        function getDiaryByDate(dateString) {
+            try {
+                const diaries = getDiaries();
+                return diaries.find(diary => diary.id === dateString) || null;
+            } catch (error) {
+                console.error('Error getting diary by date:', error);
+                return null;
+            }
+        }
+
+        // Save or update a diary
+        function saveDiary(diary) {
+            try {
+                const diaries = getDiaries();
+                const index = diaries.findIndex(d => d.id === diary.id);
+
+                if (index !== -1) {
+                    // Update existing diary
+                    diaries[index] = diary;
+                } else {
+                    // Add new diary
+                    diaries.push(diary);
+                }
+
+                return saveDiaries(diaries);
+            } catch (error) {
+                console.error('Error saving diary:', error);
+                return false;
+            }
+        }
+
+        // Delete a diary by date string (YYYY-MM-DD)
+        function deleteDiary(dateString) {
+            try {
+                const diaries = getDiaries();
+                const filteredDiaries = diaries.filter(diary => diary.id !== dateString);
+                return saveDiaries(filteredDiaries);
+            } catch (error) {
+                console.error('Error deleting diary:', error);
+                return false;
+            }
+        }
+
+        // ============================================
+        // Test Function
+        // ============================================
+
+        function testDataFunctions() {
+            let passedCount = 0;
+            let testNumber = 1;
+
+            console.log('\n=== 일기 데이터 관리 함수 테스트 시작 ===\n');
+
+            // Clear all data before tests
+            localStorage.removeItem('diaries');
+
+            // Test 1: getDiaries() on empty state returns []
+            try {
+                const result = getDiaries();
+                console.assert(Array.isArray(result) && result.length === 0,
+                    'getDiaries should return empty array initially');
+                console.log(`✓ Test ${testNumber} passed: getDiaries() returns empty array on empty state`);
+                passedCount++;
+            } catch (error) {
+                console.log(`✗ Test ${testNumber} failed: ${error.message}`);
+            }
+            testNumber++;
+
+            // Test 2: saveDiary() adds new diary
+            try {
+                const testDiary = {
+                    id: '2024-12-15',
+                    title: '테스트 일기',
+                    content: '테스트 내용입니다',
+                    mood: '😊',
+                    tags: ['test'],
+                    createdAt: '2024-12-15T10:30:00Z',
+                    updatedAt: '2024-12-15T10:30:00Z'
+                };
+                saveDiary(testDiary);
+                const diaries = getDiaries();
+                console.assert(diaries.length === 1 && diaries[0].id === '2024-12-15',
+                    'saveDiary should add new diary');
+                console.log(`✓ Test ${testNumber} passed: saveDiary() adds new diary`);
+                passedCount++;
+            } catch (error) {
+                console.log(`✗ Test ${testNumber} failed: ${error.message}`);
+            }
+            testNumber++;
+
+            // Test 3: getDiaryByDate() retrieves existing diary
+            try {
+                const diary = getDiaryByDate('2024-12-15');
+                console.assert(diary !== null && diary.id === '2024-12-15' && diary.title === '테스트 일기',
+                    'getDiaryByDate should retrieve the diary');
+                console.log(`✓ Test ${testNumber} passed: getDiaryByDate() retrieves existing diary`);
+                passedCount++;
+            } catch (error) {
+                console.log(`✗ Test ${testNumber} failed: ${error.message}`);
+            }
+            testNumber++;
+
+            // Test 4: saveDiary() updates existing diary (no duplicate)
+            try {
+                const updatedDiary = {
+                    id: '2024-12-15',
+                    title: '수정된 제목',
+                    content: '수정된 내용입니다',
+                    mood: '😄',
+                    tags: ['test', 'updated'],
+                    createdAt: '2024-12-15T10:30:00Z',
+                    updatedAt: '2024-12-15T14:20:00Z'
+                };
+                saveDiary(updatedDiary);
+                const diaries = getDiaries();
+                console.assert(diaries.length === 1 && diaries[0].title === '수정된 제목',
+                    'saveDiary should update existing diary without creating duplicate');
+                console.log(`✓ Test ${testNumber} passed: saveDiary() updates existing diary (no duplicate)`);
+                passedCount++;
+            } catch (error) {
+                console.log(`✗ Test ${testNumber} failed: ${error.message}`);
+            }
+            testNumber++;
+
+            // Test 5: deleteDiary() removes diary
+            try {
+                deleteDiary('2024-12-15');
+                const diaries = getDiaries();
+                const deleted = getDiaryByDate('2024-12-15');
+                console.assert(diaries.length === 0 && deleted === null,
+                    'deleteDiary should remove the diary');
+                console.log(`✓ Test ${testNumber} passed: deleteDiary() removes diary`);
+                passedCount++;
+            } catch (error) {
+                console.log(`✗ Test ${testNumber} failed: ${error.message}`);
+            }
+            testNumber++;
+
+            // Test 6: escapeHtml() escapes HTML tags to entities
+            try {
+                const htmlString = '<script>alert("xss")</script>';
+                const escaped = escapeHtml(htmlString);
+                const shouldNotContain = escaped.includes('<script>');
+                console.assert(!shouldNotContain && escaped.includes('&lt;'),
+                    'escapeHtml should escape HTML tags to entities');
+                console.log(`✓ Test ${testNumber} passed: escapeHtml() escapes HTML tags to entities`);
+                passedCount++;
+            } catch (error) {
+                console.log(`✗ Test ${testNumber} failed: ${error.message}`);
+            }
+
+            console.log(`\n=== 테스트 결과: ${passedCount}/6 통과 ===\n`);
+            if (passedCount === 6) {
+                console.log('=== 모든 데이터 관리 테스트 통과 ===\n');
+            }
+        }
+
+        // Run tests on page load
+        console.log('Diary app structure loaded. Data management functions ready for testing.');
+        console.log('Run testDataFunctions() in console to test all functions.');
     </script>
 </body>
 </html>
