@@ -1024,8 +1024,173 @@
         }
 
         // ============================================
-        // Test Function
+        // Task 3: Calendar Rendering Functions
         // ============================================
+
+        // Global state variable: tracks currently displayed month
+        let currentDate = new Date();
+
+        // Get Date object for first day of current month
+        function getCurrentMonth() {
+            return new Date(currentDate.getFullYear(), currentDate.getMonth(), 1);
+        }
+
+        // Get how many days are in the given month
+        function getDaysInMonth(date) {
+            return new Date(date.getFullYear(), date.getMonth() + 1, 0).getDate();
+        }
+
+        // Get what day of the week the first day of month is (0=Sunday, 6=Saturday)
+        function getFirstDayOfMonth(date) {
+            return new Date(date.getFullYear(), date.getMonth(), 1).getDay();
+        }
+
+        // Render the calendar for the current month
+        function renderCalendar() {
+            const calendarContainer = document.getElementById('calendar');
+            const monthDisplay = document.getElementById('currentMonth');
+
+            // Get calendar data
+            const firstDay = getCurrentMonth();
+            const daysInMonth = getDaysInMonth(firstDay);
+            const firstDayOfWeek = getFirstDayOfMonth(firstDay);
+
+            // Format month display (Korean: 2024년 12월)
+            const monthNames = ['1월', '2월', '3월', '4월', '5월', '6월',
+                               '7월', '8월', '9월', '10월', '11월', '12월'];
+            const year = firstDay.getFullYear();
+            const month = firstDay.getMonth();
+            monthDisplay.textContent = `${year}년 ${monthNames[month]}`;
+
+            // Build calendar HTML
+            let calendarHTML = '';
+
+            // Add empty cells for days before the first day of month
+            for (let i = 0; i < firstDayOfWeek; i++) {
+                calendarHTML += '<div class="calendar-cell other-month"></div>';
+            }
+
+            // Add cells for each day of the current month
+            for (let day = 1; day <= daysInMonth; day++) {
+                const dateString = `${year}-${String(month + 1).padStart(2, '0')}-${String(day).padStart(2, '0')}`;
+                const diary = getDiaryByDate(dateString);
+
+                let cellClass = 'calendar-cell';
+
+                // Check if this is today
+                const today = new Date();
+                if (today.getFullYear() === year &&
+                    today.getMonth() === month &&
+                    today.getDate() === day) {
+                    cellClass += ' today';
+                }
+
+                // Check if diary exists for this date
+                if (diary) {
+                    cellClass += ' has-entry';
+                }
+
+                calendarHTML += `<div class="${cellClass}" data-date="${dateString}">`;
+                calendarHTML += `<div class="cell-date">${day}</div>`;
+
+                if (diary) {
+                    calendarHTML += `<div class="cell-mood">${diary.mood}</div>`;
+                }
+
+                calendarHTML += '</div>';
+            }
+
+            // Add empty cells for days after the last day of month
+            const totalCells = firstDayOfWeek + daysInMonth;
+            const remainingCells = 7 - (totalCells % 7);
+            if (remainingCells !== 7) {
+                for (let i = 0; i < remainingCells; i++) {
+                    calendarHTML += '<div class="calendar-cell other-month"></div>';
+                }
+            }
+
+            // Insert HTML into calendar container
+            calendarContainer.innerHTML = calendarHTML;
+
+            // Add click handlers to calendar cells (for Task 5)
+            const calendarCells = document.querySelectorAll('.calendar-cell:not(.other-month)');
+            calendarCells.forEach(cell => {
+                cell.addEventListener('click', function() {
+                    const dateString = this.getAttribute('data-date');
+                    if (dateString) {
+                        // Event handler will be added in Task 5
+                        console.log(`Clicked on date: ${dateString}`);
+                    }
+                });
+            });
+        }
+
+        // ============================================
+        // Test Functions
+        // ============================================
+
+        function testCalendarFunctions() {
+            let passedCount = 0;
+            let testNumber = 1;
+
+            console.log('\n=== 달력 렌더링 함수 테스트 시작 ===\n');
+
+            // Test 1: getDaysInMonth(Dec 2024) === 31
+            try {
+                const decDate = new Date(2024, 11, 1); // December 2024
+                const result = getDaysInMonth(decDate);
+                console.assert(result === 31,
+                    'getDaysInMonth should return 31 for December 2024');
+                console.log(`✓ Test ${testNumber} passed: getDaysInMonth(Dec 2024) === 31`);
+                passedCount++;
+            } catch (error) {
+                console.log(`✗ Test ${testNumber} failed: ${error.message}`);
+            }
+            testNumber++;
+
+            // Test 2: getFirstDayOfMonth() returns 0-6
+            try {
+                const decDate = new Date(2024, 11, 1);
+                const result = getFirstDayOfMonth(decDate);
+                console.assert(typeof result === 'number' && result >= 0 && result <= 6,
+                    'getFirstDayOfMonth should return 0-6');
+                console.log(`✓ Test ${testNumber} passed: getFirstDayOfMonth() returns 0-6`);
+                passedCount++;
+            } catch (error) {
+                console.log(`✗ Test ${testNumber} failed: ${error.message}`);
+            }
+            testNumber++;
+
+            // Test 3: getCurrentMonth() returns Date object with date===1
+            try {
+                const result = getCurrentMonth();
+                console.assert(result instanceof Date && result.getDate() === 1,
+                    'getCurrentMonth should return Date object with date===1');
+                console.log(`✓ Test ${testNumber} passed: getCurrentMonth() returns Date object with date===1`);
+                passedCount++;
+            } catch (error) {
+                console.log(`✗ Test ${testNumber} failed: ${error.message}`);
+            }
+            testNumber++;
+
+            // Test 4: renderCalendar() generates calendar HTML
+            try {
+                renderCalendar();
+                const calendarContainer = document.getElementById('calendar');
+                const cells = calendarContainer.querySelectorAll('.calendar-cell');
+                console.assert(cells.length > 0 && cells.length >= 28 && cells.length <= 42,
+                    'renderCalendar should generate calendar with 28-42 cells');
+                console.log(`✓ Test ${testNumber} passed: renderCalendar() generates calendar HTML (${cells.length} cells)`);
+                passedCount++;
+            } catch (error) {
+                console.log(`✗ Test ${testNumber} failed: ${error.message}`);
+            }
+
+            console.log(`\n=== 테스트 결과: ${passedCount}/4 통과 ===\n`);
+            if (passedCount === 4) {
+                console.log('=== 모든 달력 렌더링 테스트 통과 ===\n');
+            }
+        }
 
         function testDataFunctions() {
             let passedCount = 0;
@@ -1137,9 +1302,13 @@
             }
         }
 
-        // Run tests on page load
-        console.log('Diary app structure loaded. Data management functions ready for testing.');
-        console.log('Run testDataFunctions() in console to test all functions.');
+        // Initialize calendar on page load
+        window.addEventListener('DOMContentLoaded', function() {
+            console.log('Diary app loaded. Data management and calendar functions ready.');
+            console.log('Run testCalendarFunctions() to test calendar rendering.');
+            console.log('Run testDataFunctions() to test data management.');
+            renderCalendar();
+        });
     </script>
 </body>
 </html>
