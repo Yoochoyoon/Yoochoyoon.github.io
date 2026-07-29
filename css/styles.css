@@ -662,9 +662,244 @@ button {
     }
 }
 
-/* Utility classes for common needs */
-section {
-    padding: var(--spacing-2xl) 0;
+/* ============================================================
+   SECTION 7: GAME & DESIGN PORTFOLIO SECTION (Task 6)
+   ============================================================ */
+
+#game-design {
+    background-color: var(--light);
+}
+
+.design-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--spacing-xl);
+    margin-top: var(--spacing-xl);
+}
+
+.design-card {
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: var(--white);
+    transition: var(--transition);
+    cursor: pointer;
+}
+
+.design-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px var(--shadow-card-hover);
+}
+
+.design-card-image {
+    width: 100%;
+    height: 250px;
+    background: linear-gradient(135deg, var(--primary) 0%, var(--accent) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    font-size: 3rem;
+    overflow: hidden;
+}
+
+.design-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.design-card-content {
+    padding: var(--spacing-lg);
+}
+
+.design-card-title {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--text);
+    margin-bottom: var(--spacing-sm);
+}
+
+.design-card-desc {
+    font-size: 0.95rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+    margin-bottom: var(--spacing-md);
+}
+
+.design-card-link {
+    display: inline-block;
+    color: var(--primary);
+    text-decoration: none;
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.design-card-link:hover {
+    color: var(--secondary);
+}
+
+/* ============================================================
+   SECTION 8: SKILLS SECTION (Task 7)
+   ============================================================ */
+
+#skills {
+    background-color: var(--white);
+}
+
+.skills-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: var(--spacing-2xl);
+    margin-top: var(--spacing-xl);
+}
+
+.skill-category {
+    background-color: var(--light);
+    padding: var(--spacing-lg);
+    border-radius: 8px;
+    border: 1px solid var(--border);
+}
+
+.skill-category-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--primary);
+    margin-bottom: var(--spacing-lg);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.skill-item {
+    margin-bottom: var(--spacing-md);
+}
+
+.skill-name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: var(--spacing-sm);
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.skill-level {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+}
+
+.skill-bar {
+    width: 100%;
+    height: 8px;
+    background-color: var(--border);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.skill-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--primary) 0%, var(--secondary) 100%);
+    border-radius: 4px;
+    transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+    width: 0%;
+}
+
+/* ============================================================
+   SECTION 9: CONTACT & FOOTER (Task 8)
+   ============================================================ */
+
+#contact {
+    background-color: var(--light);
+}
+
+.contact-container {
+    max-width: 600px;
+    margin: var(--spacing-2xl) auto;
+    text-align: center;
+}
+
+.contact-description {
+    font-size: 1rem;
+    color: var(--text-muted);
+    margin-bottom: var(--spacing-xl);
+    line-height: 1.6;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+    margin-top: var(--spacing-xl);
+}
+
+.form-group {
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-size: 0.95rem;
+    font-weight: 500;
+    margin-bottom: var(--spacing-sm);
+    color: var(--text);
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: var(--spacing-md);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    font-family: var(--font-main);
+    font-size: 0.95rem;
+    transition: var(--transition);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(30, 64, 175, 0.1);
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.contact-buttons {
+    display: flex;
+    gap: var(--spacing-md);
+    justify-content: center;
+    margin-top: var(--spacing-xl);
+}
+
+.contact-links {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-lg);
+    margin-top: var(--spacing-2xl);
+    flex-wrap: wrap;
+}
+
+.contact-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-md) var(--spacing-lg);
+    background-color: var(--white);
+    border: 2px solid var(--border);
+    border-radius: 6px;
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 500;
+    transition: var(--transition);
+}
+
+.contact-link:hover {
+    border-color: var(--primary);
+    background-color: var(--primary);
+    color: var(--white);
 }
 
 footer {
@@ -678,4 +913,30 @@ footer {
 footer p {
     margin: 0;
     opacity: 0.9;
+}
+
+/* Responsive footer */
+@media (max-width: 768px) {
+    .contact-buttons {
+        flex-direction: column;
+    }
+
+    .contact-buttons .btn {
+        width: 100%;
+    }
+
+    .contact-links {
+        flex-direction: column;
+        gap: var(--spacing-md);
+    }
+
+    .contact-link {
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+/* Utility classes for common needs */
+section {
+    padding: var(--spacing-2xl) 0;
 }
