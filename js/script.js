@@ -44,17 +44,25 @@ async function loadPortfolioData() {
 // RENDER FUNCTIONS
 // ============================================================
 
+const RIBBON_TINTS = ['sage', 'salmon', 'peach', 'lime', 'sky', 'steel', 'periwinkle', 'olive'];
+
 function renderProjects() {
     const container = document.getElementById('projects-container');
     if (!container || !portfolioData.webProjects) return;
 
-    container.innerHTML = portfolioData.webProjects.map(project => `
+    const projects = portfolioData.webProjects;
+    const latestDate = projects.reduce((max, p) => (p.date > max ? p.date : max), projects[0]?.date || '');
+
+    container.innerHTML = projects.map((project, index) => {
+        const tint = RIBBON_TINTS[index % RIBBON_TINTS.length];
+        const isNew = project.date === latestDate;
+        return `
         <div class="project-card">
-            <div class="project-image" style="background: linear-gradient(135deg, #1e40af 0%, #8b5cf6 100%); display: flex; align-items: center; justify-content: center; color: white; font-size: 2rem;">
-                <i class="fas fa-code"></i>
+            <div class="ribbon-card-title">
+                <span>${project.title}</span>
+                ${isNew ? '<span class="new-burst-sticker">NEW!</span>' : ''}
             </div>
-            <div class="project-content">
-                <h3 class="project-title">${project.title}</h3>
+            <div class="ribbon-card-body tint-${tint}">
                 <p class="project-date">${project.date}</p>
                 <p class="project-role">${project.role}</p>
                 <p class="project-description">${project.description}</p>
@@ -67,23 +75,26 @@ function renderProjects() {
                 </div>
             </div>
         </div>
-    `).join('');
+    `;
+    }).join('');
 }
 
 function renderDesignPortfolios() {
     const container = document.getElementById('design-container');
     if (!container || !portfolioData.designPortfolios) return;
 
-    container.innerHTML = portfolioData.designPortfolios.map(portfolio => `
+    const designTints = ['periwinkle', 'sky'];
+
+    container.innerHTML = portfolioData.designPortfolios.map((portfolio, index) => `
         <div class="design-card">
-            <div class="design-card-image" style="background: linear-gradient(135deg, #f97316 0%, #8b5cf6 100%); display: flex; align-items: center; justify-content: center; color: white; font-size: 3rem;">
+            <div class="design-card-image tint-${designTints[index % designTints.length]}">
                 <i class="fas fa-palette"></i>
             </div>
             <div class="design-card-content">
                 <h3 class="design-card-title">${portfolio.title}</h3>
                 <p class="design-card-desc">${portfolio.description}</p>
                 <a href="${portfolio.url}" target="_blank" class="design-card-link">
-                    View on Behance →
+                    View on Behance &rarr;
                 </a>
             </div>
         </div>
@@ -106,17 +117,19 @@ function renderSkills() {
         return `
             <div class="skill-category">
                 <h3 class="skill-category-title">${cat.title}</h3>
-                ${skillList.map(skill => `
-                    <div class="skill-item">
-                        <div class="skill-name">
-                            <span>${skill.name}</span>
-                            <span class="skill-level">${skill.level}%</span>
+                <div class="skill-category-body">
+                    ${skillList.map(skill => `
+                        <div class="skill-item">
+                            <div class="skill-name">
+                                <span>${skill.name}</span>
+                                <span class="skill-level">${skill.level}%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-level="${skill.level}"></div>
+                            </div>
                         </div>
-                        <div class="skill-bar">
-                            <div class="skill-fill" data-level="${skill.level}"></div>
-                        </div>
-                    </div>
-                `).join('')}
+                    `).join('')}
+                </div>
             </div>
         `;
     }).join('');
@@ -200,8 +213,8 @@ function initSmoothScroll() {
 // ============================================================
 
 document.addEventListener('DOMContentLoaded', () => {
-    const viewWorkBtn = document.querySelector('.btn-primary');
-    const contactBtn = document.querySelector('.btn-secondary');
+    const viewWorkBtn = document.querySelector('.button-primary');
+    const contactBtn = document.querySelector('.button-secondary');
 
     if (viewWorkBtn) {
         viewWorkBtn.addEventListener('click', () => {
