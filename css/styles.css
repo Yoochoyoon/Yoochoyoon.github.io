@@ -29,6 +29,12 @@
     --spacing-xl: 2rem;
     --spacing-2xl: 3rem;
 
+    /* Shadows */
+    --shadow-primary: rgba(30, 64, 175, 0.3);
+    --shadow-secondary: rgba(249, 115, 22, 0.3);
+    --shadow-light: rgba(0, 0, 0, 0.05);
+    --shadow-dark: rgba(0, 0, 0, 0.1);
+
     /* Transitions */
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -103,7 +109,7 @@ button {
 .btn-primary:hover {
     background-color: var(--primary-dark);
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(30, 64, 175, 0.3);
+    box-shadow: 0 4px 12px var(--shadow-primary);
 }
 
 .btn-secondary {
@@ -114,7 +120,7 @@ button {
 .btn-secondary:hover {
     background-color: var(--secondary-dark);
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(249, 115, 22, 0.3);
+    box-shadow: 0 4px 12px var(--shadow-secondary);
 }
 
 /* ============================================================
@@ -125,7 +131,7 @@ button {
     position: sticky;
     top: 0;
     background-color: var(--white);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px var(--shadow-dark);
     z-index: 100;
 }
 
@@ -173,7 +179,7 @@ button {
     width: 0;
     height: 2px;
     background-color: var(--primary);
-    transition: width 0.3s ease;
+    transition: width var(--transition);
 }
 
 .nav-links a:hover::after {
@@ -321,13 +327,13 @@ button {
     padding: var(--spacing-xl);
     background-color: var(--white);
     border-radius: 0.5rem;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 3px var(--shadow-light);
     transition: var(--transition);
 }
 
 .stat:hover {
     transform: translateY(-4px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 12px var(--shadow-dark);
 }
 
 .stat-number {
@@ -358,7 +364,7 @@ button {
         background-color: var(--white);
         gap: var(--spacing-md);
         padding: var(--spacing-lg);
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        box-shadow: 0 4px 8px var(--shadow-dark);
     }
 
     .nav-links.active {
