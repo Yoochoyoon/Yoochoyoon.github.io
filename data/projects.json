@@ -1,0 +1,137 @@
+{
+  "webProjects": [
+    {
+      "id": 1,
+      "title": "Questify",
+      "category": "Web Development",
+      "date": "2026-06",
+      "description": "AI를 활용한 게임처럼 즐기는 생산성 사이트. 팀장으로서 프론트엔드와 디자인을 주도했습니다.",
+      "role": "팀장 / Frontend / Design",
+      "technologies": ["HTML", "CSS", "JavaScript", "AI API"],
+      "image": "assets/projects/questify.png",
+      "links": {
+        "github": "https://github.com/Yoochoyoon/Questify"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Playlist School",
+      "category": "Web Development",
+      "date": "2025-09",
+      "description": "학교 프로젝트로 만든 플레이리스트 웹사이트. HTML과 CSS를 활용한 기초 웹 개발 학습 프로젝트입니다.",
+      "role": "Frontend",
+      "technologies": ["HTML", "CSS"],
+      "image": "assets/projects/playlist-school.png",
+      "links": {
+        "github": "https://github.com/Yoochoyoon/Playlist-school"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Magazine School",
+      "category": "Web Development",
+      "date": "2025-08",
+      "description": "학교 웹 프로젝트. 잡지 형식의 웹사이트로 HTML, CSS 스타일링을 연습했습니다.",
+      "role": "Frontend",
+      "technologies": ["HTML", "CSS"],
+      "image": "assets/projects/magazine-school.png",
+      "links": {
+        "github": "https://github.com/Yoochoyoon/MAGAZINE-SCHOOL"
+      }
+    },
+    {
+      "id": 4,
+      "title": "My Web",
+      "category": "Web Development",
+      "date": "2025-07",
+      "description": "개인 웹사이트 제작 프로젝트. HTML, CSS, JavaScript를 조합하여 인터랙티브한 사이트를 구현했습니다.",
+      "role": "Full Stack",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "image": "assets/projects/my-web.png",
+      "links": {
+        "github": "https://github.com/Yoochoyoon/myweb"
+      }
+    },
+    {
+      "id": 5,
+      "title": "BBS",
+      "category": "Web Development",
+      "date": "2025-06",
+      "description": "게시판 시스템 프로젝트. JavaScript와 백엔드 로직을 학습하며 완성한 프로젝트입니다.",
+      "role": "Backend / Frontend",
+      "technologies": ["JavaScript", "Node.js"],
+      "image": "assets/projects/bbs.png",
+      "links": {
+        "github": "https://github.com/Yoochoyoon/bbs"
+      }
+    }
+  ],
+  "designPortfolios": [
+    {
+      "id": 1,
+      "title": "Game UI/UX Portfolio",
+      "description": "게임 인터페이스와 사용자 경험 디자인에 특화된 포트폴리오입니다.",
+      "image": "assets/projects/game-uiux.png",
+      "url": "https://www.behance.net/gallery/225855353/game-uiux-portfolio"
+    },
+    {
+      "id": 2,
+      "title": "Casual Game Design Portfolio",
+      "description": "캐주얼 게임 디자인 작업물을 담은 포트폴리오입니다.",
+      "image": "assets/projects/casual-game-design.png",
+      "url": "https://www.behance.net/gallery/234317687/Casual-game-design-portfolio"
+    }
+  ],
+  "skills": {
+    "languages": [
+      {
+        "name": "HTML",
+        "level": 90
+      },
+      {
+        "name": "CSS",
+        "level": 90
+      },
+      {
+        "name": "JavaScript",
+        "level": 40
+      },
+      {
+        "name": "C#",
+        "level": 30
+      },
+      {
+        "name": "Java",
+        "level": 30
+      }
+    ],
+    "design": [
+      {
+        "name": "Figma",
+        "level": 85
+      },
+      {
+        "name": "Photoshop",
+        "level": 75
+      },
+      {
+        "name": "Illustrator",
+        "level": 70
+      }
+    ],
+    "tools": [
+      {
+        "name": "Git",
+        "level": 70
+      },
+      {
+        "name": "VS Code",
+        "level": 80
+      },
+      {
+        "name": "GitHub",
+        "level": 80
+      }
+    ]
+  }
+}
