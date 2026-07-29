@@ -34,6 +34,7 @@
     --shadow-secondary: rgba(249, 115, 22, 0.3);
     --shadow-light: rgba(0, 0, 0, 0.05);
     --shadow-dark: rgba(0, 0, 0, 0.1);
+    --shadow-card-hover: rgba(0, 0, 0, 0.15);
 
     /* Date/Meta Text Color */
     --text-meta: #888;
@@ -385,7 +386,7 @@ button {
 
 .project-card:hover {
     transform: translateY(-8px);
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 10px 30px var(--shadow-card-hover);
     border-color: var(--primary);
 }
 
