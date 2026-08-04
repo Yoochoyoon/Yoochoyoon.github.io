@@ -29,5 +29,5 @@
 이 프로젝트는 GitHub Pages를 통해 배포됩니다.
 
 ---
-
+https://yoochoyoon.github.io/
 **마지막 업데이트**: 2025년 7월 29일
