@@ -483,6 +483,13 @@ section {
     color: var(--ink);
     font-size: 2.5rem;
     border-bottom: 1px solid var(--frame-ink);
+    overflow: hidden;
+}
+
+.design-card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .design-card-content {

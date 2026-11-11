@@ -121,6 +121,24 @@
   ],
   "designPortfolios": [
     {
+      "id": 4,
+      "title": "책표지디자인 — 『별』",
+      "description": "황순원 단편소설 『별』을 다시 해석한 북커버 리디자인. 선정 이유·타이포그래피 스터디부터 최종 일러스트까지 전 과정을 작업했습니다.",
+      "image": "assets/projects/star-cover.png",
+      "hasImage": true,
+      "url": "assets/projects/star-cover.png",
+      "linkLabel": "View Full Cover"
+    },
+    {
+      "id": 3,
+      "title": "모션그래픽 — A Few Things I Like",
+      "description": "After Effects 중간고사 과제로 만든 2D 컷아웃 모션그래픽 영상. 알람이 울려 일어나는 아침 루틴을 표현했습니다.",
+      "image": "https://img.youtube.com/vi/z4rlFS1OWqs/hqdefault.jpg",
+      "hasImage": true,
+      "url": "https://www.youtube.com/watch?v=z4rlFS1OWqs",
+      "linkLabel": "Watch on YouTube"
+    },
+    {
       "id": 1,
       "title": "Game UI/UX Portfolio",
       "description": "게임 인터페이스와 사용자 경험 디자인에 특화된 포트폴리오입니다.",

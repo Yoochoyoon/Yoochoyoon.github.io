@@ -87,14 +87,16 @@ function renderDesignPortfolios() {
 
     container.innerHTML = portfolioData.designPortfolios.map((portfolio, index) => `
         <div class="design-card">
-            <div class="design-card-image tint-${designTints[index % designTints.length]}">
-                <i class="fas fa-palette"></i>
+            <div class="design-card-image ${portfolio.hasImage ? '' : 'tint-' + designTints[index % designTints.length]}">
+                ${portfolio.hasImage
+                    ? `<img src="${portfolio.image}" alt="${portfolio.title}">`
+                    : '<i class="fas fa-palette"></i>'}
             </div>
             <div class="design-card-content">
                 <h3 class="design-card-title">${portfolio.title}</h3>
                 <p class="design-card-desc">${portfolio.description}</p>
                 <a href="${portfolio.url}" target="_blank" class="design-card-link">
-                    View on Behance &rarr;
+                    ${portfolio.linkLabel || 'View on Behance'} &rarr;
                 </a>
             </div>
         </div>
