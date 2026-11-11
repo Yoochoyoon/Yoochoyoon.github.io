@@ -1,6 +1,59 @@
 {
   "webProjects": [
     {
+      "id": 9,
+      "title": "Arena Break",
+      "category": "Game Development",
+      "date": "2026-11",
+      "description": "명지전문대 'Claude Code × Unity' 수업 실습 프로젝트. 3D 1인칭 웨이브 방어 슈터를 AI와 협업하며 3주 모듈로 만들고 있습니다.",
+      "role": "Solo Dev",
+      "technologies": ["Unity", "C#", "Claude Code"],
+      "image": "assets/projects/arenabreak.png",
+      "links": {
+        "github": "https://github.com/Yoochoyoon/ArenaBreak"
+      }
+    },
+    {
+      "id": 8,
+      "title": "COOKER",
+      "category": "Game Development",
+      "date": "2026-11",
+      "description": "자취 초보가 일주일치 장바구니로 7일을 버티는 코믹 생존 요리 게임. AI:ON 2026 해커톤 출품작으로, 기획·조리 화면·UI·AI 연동·빌드를 맡았습니다.",
+      "role": "Planning / Gameplay / UI / AI Integration",
+      "technologies": ["Unity", "C#", "AI API"],
+      "image": "assets/projects/cooker.png",
+      "links": {
+        "github": "https://github.com/Yoochoyoon/COOKER"
+      }
+    },
+    {
+      "id": 7,
+      "title": "mypath",
+      "category": "Web Development",
+      "date": "2026-08",
+      "description": "원하는 기업·직군이 요구하는 역량과 내 프로필을 비교해, 학교 곳곳에 흩어진 비교과 프로그램 중 맞는 것을 추천하는 AI 서비스. 교내 AI 해커톤 경진대회 은상 수상작입니다.",
+      "role": "Team Project",
+      "technologies": ["Web", "AI API"],
+      "image": "assets/projects/mypath.png",
+      "links": {
+        "github": "https://github.com/scyscu153-byte/mypath"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Backstab(백스탭)",
+      "category": "Game Development",
+      "date": "2026-08",
+      "description": "6~10명이 스마트폰으로 즐기는 느와르 소셜 디덕션 파티 게임. 즉사 대신 HP 소모 방식과, 보스와 단둘이 남으면 이기는 '배신자' 네 번째 진영이 특징입니다.",
+      "role": "Solo Dev / Full Stack",
+      "technologies": ["Node.js", "TypeScript", "Socket.IO"],
+      "image": "assets/projects/backstab.png",
+      "links": {
+        "github": "https://github.com/Yoochoyoon/backstab",
+        "demo": "https://backstab-tu0e.onrender.com/host"
+      }
+    },
+    {
       "id": 1,
       "title": "Questify",
       "category": "Web Development",
